@@ -1,0 +1,2784 @@
+[   0,01s] 
+[   0,01s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[   0,02s] 
+[   0,02s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[   0,02s] 
+[   0,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[   0,02s] 
+[   0,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[   0,02s] 
+[   0,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[   0,02s] 
+[   0,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  reUART_115200
+[  29,09s] 
+[  29,09s] AC_ON
+[  29,09s] 01-2L-SM-10-20201028
+[  29,09s] B44
+[  29,10s] MIU0_DQS-OK
+[  29,11s] BIST0-OK
+[  29,20s] optee teeloader entry
+[  29,40s] CusConfig
+[  29,41s] eMMC_RPMB_Check_Program_Key
+[  29,41s] *ree_opt=0000007B
+[  29,42s] Auth reeloader...
+[  29,42s] Decrypt reeloader...
+[  29,42s] Check reeloader magic ID...
+[  29,43s] Version check on reeloader...
+[  29,43s] Auth CKB...
+[  29,43s] Decrypt CKB...
+[  29,43s] Check CKB magic ID...
+[  29,44s] reeloader_addr=20100000
+[  29,44s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[  29,45s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[  29,45s] INFO:    warmboot return address : 9dc01c00
+[  29,46s] INFO:    BL3-1: Initializing runtime services
+[  29,46s] NOTICE:  From args : boot_mbx = 20028084 
+[  29,46s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[  29,47s] INFO:    BL3-1: Initializing BL3-2
+[  29,63s] [Ramlog] ramlog_init init success
+[  29,64s] 
+[  29,65s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[  29,66s] INFO:    BL3-1: Next image address = 0x20100000
+[  29,66s] INFO:    BL3-1: Next image spsr = 0x1d3
+[  29,67s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[  29,67s] INFO:    R1 0
+[  29,67s] INFO:    R2 0
+[  29,68s] INFO:    R3 0
+[  29,68s] ree_entry
+[  29,71s] U
+[  29,71s] Relocation Offset is: 01700000
+[  29,79s] [AT][MB][start ub][715]
+[  29,79s] 
+[  29,79s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[  29,80s] 
+[  29,80s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[  29,81s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[  29,82s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[  29,83s] 
+[  29,83s] eMMC HS400 5.1 200MHz
+[  29,83s] eMMC 29.12 GB 
+[  29,83s] eMMC used life: 0~10%
+[  29,83s]  CID
+[  29,83s]   0xXXXXXXXX
+[  29,83s]   0xXXXXXXXX
+[  29,83s]   0xXXXXXXXX
+[  29,84s]   0xXXXXXXXX
+[  29,84s] 
+[  29,84s] uboot held at [282DDF60~29800000],size=015220A0
+[  29,85s] Now running in RAM - U-Boot at: 28B00000
+[  29,85s] DRAM : 2048MB
+[  29,85s] SAR5=ON
+[  29,85s] In:    serial
+[  29,85s] Out:   serial
+[  29,86s] Err:   serial
+[  29,86s] Net:   No ethernet found.
+[  29,86s] MAC:  <entfernt>
+[  29,86s] [AT][MBoot][Driver Init][788]
+[  29,86s] u32Size =65536 blk_cnt =128
+[  29,87s] u32Size =65536 blk_cnt =128
+[  29,87s] u32Size =512 blk_cnt =1
+[  29,88s] u32Size =512 blk_cnt =1
+[  29,88s] 
+[  29,88s]  hdmiDbg is close. 
+[  29,88s] End,speed type:1 
+[  29,88s] u32Size =512 blk_cnt =1
+[  29,89s] u32Size =512 blk_cnt =1
+[  29,89s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[  29,90s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[  29,91s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[  29,92s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[  29,93s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[  29,94s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[  29,94s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[  29,94s] Writing to MMC(0)... 128 blocks written: OK
+[  29,95s] 128 blocks written: OK
+[  29,95s] done
+[  29,95s] GpioRegister
+[  29,96s] GpioRegister m7642
+[  29,96s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[  29,96s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[  29,97s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[  29,98s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[  29,98s] u32Size =65536 blk_cnt =128
+[  29,99s] 
+[  29,99s] [fan][SetFanWorkMode][33] fan type :1 
+[  29,99s] 0:MCP_S_D3_2133_8G_4x
+[  29,99s] 1:MCP_S_D3_2133_8G_4x
+[  30,00s] DRAM Channel 0 Size = [2048MB]
+[  30,00s] 
+[  30,00s] Changelist:<09>24543697
+[  30,00s] ============= set bootargs ===============
+[  30,00s] Hit any key to stop autoboot:  0 
+[  30,01s] set xgimibootreason normal to bootargs OK
+[  30,01s] 128 blocks written: OK
+[  30,02s] 128 blocks written: OK
+[  30,02s] u32Size =512 blk_cnt =1
+[  30,02s] u32Size =512 blk_cnt =1
+[  30,02s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[  30,03s] Writing to MMC(0)... 128 blocks written: OK
+[  30,04s] 128 blocks written: OK
+[  30,04s] done
+[  30,04s] clearMusicModeFlag
+[  30,04s] 128 blocks written: OK
+[  30,05s] 128 blocks written: OK
+[  30,05s] u32Size =512 blk_cnt =1
+[  30,05s] u32Size =512 blk_cnt =1
+[  30,06s] get keypad_detect_mode = 2
+[  30,06s] u32Size =512 blk_cnt =1
+[  30,06s] u32Size =512 blk_cnt =1
+[  30,06s] get keypad_type = 7
+[  30,07s] GetKeypadInstall
+[  30,07s] key adc value:18
+[  30,12s] ########################################################################################################################sarKeyGetKeyCode key=160,hold=6000
+[  36,07s] processBootEvent:XGIMI_EN_BOOT_EVENT=2
+[  36,08s] End,speed type:3 
+[  36,08s] 
+[  36,08s] [fan][SetFanWorkMode][33] fan type :3 
+[  36,08s] 
+[  36,08s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0x4 
+[  36,09s] HW MDrv_IIC_InitPort9: OK
+[  36,09s] HW MDrv_IIC_InitPort9: OK
+[  36,11s] 
+[  36,11s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x6 
+[  36,12s] ota zip check Begin , usb init 
+[  36,12s] Check USB port[0]:
+[  36,13s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  36,13s] [USB] enable miu lower bound address subtraction
+[  36,45s] scanning bus for devices... New Device 0
+[  36,46s] 
+[  36,46s] [USB] interface[0] conf:1 value 9: 
+[  36,77s] Wait for hub reset....
+[  36,77s] checking hub ports...
+[  36,77s] checking hub ports...
+[  36,77s] 1 USB Device(s) found
+[  36,78s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  36,78s] Check USB port[1]:
+[  36,78s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  36,79s] [USB] enable miu lower bound address subtraction
+[  37,39s] Error, couldn't init Lowlevel part
+[  37,40s] Check USB port[2]:
+[  37,40s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  37,41s] [USB] enable miu lower bound address subtraction
+[  37,72s] scanning bus for devices... New Device 0
+[  37,73s] 
+[  37,74s] [USB] interface[0] conf:1 value E0: 
+[  37,94s] 1 USB Device(s) found
+[  37,95s] Found USB WIFI [MTK7668] in usb port 2
+[  37,95s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  37,95s] appInitUsbDisk Fail
+[  37,95s] 
+[  37,95s] 
+[  37,95s] Upgrade Version: 1.0
+[  37,95s] 
+[  37,95s] Writing to MMC(0)... 128 blocks written: OK
+[  37,97s] 128 blocks written: OK
+[  37,97s] done
+[  37,97s] Check USB port[0]:
+[  37,97s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  37,98s] [USB] enable miu lower bound address subtraction
+[  38,29s] scanning bus for devices... New Device 0
+[  38,31s] 
+[  38,31s] [USB] interface[0] conf:1 value 9: 
+[  38,61s] Wait for hub reset....
+[  38,62s] checking hub ports...
+[  38,62s] checking hub ports...
+[  38,62s] 1 USB Device(s) found
+[  38,62s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  38,63s] Check USB port[1]:
+[  38,63s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  38,64s] [USB] enable miu lower bound address subtraction
+[  39,24s] Error, couldn't init Lowlevel part
+[  39,25s] Check USB port[2]:
+[  39,25s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  39,26s] [USB] enable miu lower bound address subtraction
+[  39,57s] scanning bus for devices... New Device 0
+[  39,58s] 
+[  39,58s] [USB] interface[0] conf:1 value E0: 
+[  39,79s] 1 USB Device(s) found
+[  39,79s] Found USB WIFI [MTK7668] in usb port 2
+[  39,79s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  39,80s] (Re)start USB 0...
+[  39,80s] Check USB port[0]:
+[  39,81s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  39,81s] [USB] enable miu lower bound address subtraction
+[  40,13s] scanning bus for devices... New Device 0
+[  40,14s] 
+[  40,14s] [USB] interface[0] conf:1 value 9: 
+[  40,45s] Wait for hub reset....
+[  40,45s] checking hub ports...
+[  40,45s] checking hub ports...
+[  40,46s] 1 USB Device(s) found
+[  40,46s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  40,46s] [USB] search USB LAN driver for (VID: 0x5E3, PID: 0x608)...Not found
+[  40,57s] (Re)start USB 0...
+[  40,57s] Check USB port[0]:
+[  40,57s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  40,58s] [USB] enable miu lower bound address subtraction
+[  40,89s] scanning bus for devices... New Device 0
+[  40,91s] 
+[  40,91s] [USB] interface[0] conf:1 value 9: 
+[  41,21s] Wait for hub reset....
+[  41,22s] checking hub ports...
+[  41,22s] checking hub ports...
+[  41,22s] 1 USB Device(s) found
+[  41,22s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  41,23s] [USB] search USB LAN driver for (VID: 0x5E3, PID: 0x608)...Not found
+[  41,34s] (Re)start USB 0...
+[  41,34s] Check USB port[0]:
+[  41,34s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  41,34s] [USB] enable miu lower bound address subtraction
+[  41,66s] scanning bus for devices... New Device 0
+[  41,68s] 
+[  41,68s] [USB] interface[0] conf:1 value 9: 
+[  41,98s] Wait for hub reset....
+[  41,98s] checking hub ports...
+[  41,99s] checking hub ports...
+[  41,99s] 1 USB Device(s) found
+[  41,99s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  42,00s] [USB] search USB LAN driver for (VID: 0x5E3, PID: 0x608)...Not found
+[  42,10s] (Re)start USB 0...
+[  42,11s] Check USB port[0]:
+[  42,11s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  42,11s] [USB] enable miu lower bound address subtraction
+[  42,43s] scanning bus for devices... New Device 0
+[  42,45s] 
+[  42,45s] [USB] interface[0] conf:1 value 9: 
+[  42,75s] Wait for hub reset....
+[  42,75s] checking hub ports...
+[  42,75s] checking hub ports...
+[  42,76s] 1 USB Device(s) found
+[  42,76s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  42,77s] [USB] search USB LAN driver for (VID: 0x5E3, PID: 0x608)...Not found
+[  42,87s] (Re)start USB 0...
+[  42,88s] Check USB port[0]:
+[  42,88s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[  42,88s] [USB] enable miu lower bound address subtraction
+[  43,20s] scanning bus for devices... New Device 0
+[  43,21s] 
+[  43,21s] [USB] interface[0] conf:1 value 9: 
+[  43,52s] Wait for hub reset....
+[  43,52s] checking hub ports...
+[  43,52s] checking hub ports...
+[  43,53s] 1 USB Device(s) found
+[  43,53s]        scanning bus for storage devices... 0 Storage Device(s) found
+[  43,53s] [USB] search USB LAN driver for (VID: 0x5E3, PID: 0x608)...Not found
+[  43,64s] FAIL : can not init usb!! 
+[  43,65s] Writing to MMC(0)... 128 blocks written: OK
+[  43,65s] 128 blocks written: OK
+[  43,66s] done
+[  43,66s] u32Size =512 blk_cnt =1
+[  43,66s] u32Size =512 blk_cnt =1
+[  43,66s] The battery doesn't exist
+[  43,66s] ============= set bootargs ===============
+[  43,67s] [QHB] normal boot mode
+[  43,67s] Active Standby Mode FALSE =====
+[  43,68s] <1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_High 281<1B>[35m
+[  43,70s] 
+[  43,70s] MsDrv_PNL_Init:Bypass SetDivison 
+[  43,70s] MDrv_PNL_Init u32PnlRiuBaseAddr = tx
+[  43,71s] MDrv_PNL_Init u32PMRiuBaseAddr = tx
+[  43,71s] MDrv_PNL_Init g_ptr_XCExtendRiuBaseAddr = 1F600000
+[  43,72s] [MApi_XC_MLG_GetStatus, 3025]No instance existed, please get an instance by calling MApi_XC_Init() first
+[  43,73s] MHal_PNL_Check_VBY1_Handshake_Status FALSE[msReadEfuse][3730]u32Result=tx, after mask u32Result=tx
+[  43,74s] MHal_PNL_Check_VBY1_Handshake_Status FALSEEN_DEMURA_MULTI_NOT OK 
+[  43,75s] <1B>[0;31m[ERROR] MApi_Demura_Init:300: <1B>[0mmulti_vendor input is not valid, init fail
+[  43,76s] GM_DISP m_ePanelLinkType:24 
+[  43,76s] [AT][MB][panel_pre_init][14689]
+[  43,77s] Xgimi_ShowLogo[/xgimiconfig/AG222/logo/boot3.jpg]
+[  43,77s] mmc change mount : xgimiconfig
+[  43,79s] Size of file "AG222/logo/boot3.jpg" from mmc device 0 partition xgimiconfig: 70940 bytes
+[  43,80s] Loading file "AG222/logo/boot3.jpg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[  43,82s] 70940 bytes read
+[  43,84s] [AT][MB][JPD Decode][14770]
+[  43,85s] 
+[  43,85s] [UTOPIA INFO] close moduleNames[tu]: (`<04><B0>(<A0><04><B0>(<E0><04><B0>( <05><B0>(`<05><B0>(<E0><05><B0>(xV4<12>
+[  43,85s] 
+[  43,85s] [showLogo] GOP Boot Logo Index 2 
+[  43,86s] [Utopia][GE HAL]: [GE_Init][942]VCmdQSize = 0xtx < GE_VCMDQ_SIZE_MIN = 0xtx
+[  43,86s] [MApi_XC_GetMirrorModeTypeEx, 1723]No instance existed, please get an instance by calling MApi_XC_Init() first
+[  43,87s] [MApi_XC_GetStatus,13507]No instance existed, please get an instance by calling MApi_XC_Init() first
+[  43,90s] [MApi_XC_GetStatus,13507]No instance existed, please get an instance by calling MApi_XC_Init() first
+[  43,91s] [AT][MB][Show Logo][14839]
+[  43,91s] End,speed type:2 
+[  43,92s] 
+[  43,92s] [fan][SetFanWorkMode][33] fan type :2 
+[  43,92s] NO PanelOnTiming3 Delay .... 
+[  43,92s] 
+[  43,92s] ---MsDrv_PNL_BackLigth_On:1481 Set MsDrv_PNL_BackLigth_On DelayTask 31 
+[  43,96s] [QHB] normal boot mode
+[  43,96s] Active Standby Mode FALSE =====
+[  43,97s] displayInit begin
+[  43,97s] 
+[  43,97s]  [Ichips_Err]ICHIPS:fun:<kstAdjustInit> | line:30: --- PkstAdjustInfo->kstAdjustType:3
+[  43,97s] 
+[  43,97s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceID> | line:46: --- Ichips reset
+[  43,98s] get C382 spi cs kst type:3
+[  44,05s] HWSPI: Platform_HWSPI_Init not implement
+[  44,06s] HWSPI: init success
+[  44,07s] 
+[  44,07s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceIDC788> | line:4559: --- C788 u8IchipsID = 28
+[  44,07s] 
+[  44,07s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceID> | line:56: --- Ichips is C788
+[  44,07s] 
+[  44,07s]  [Ichips_Debug]ICHIPS:fun:<ichipsInit> | line:108: --- en_ichipsType = 0x1C en_panelType=1 en_signalType=2
+[  44,08s] 
+[  44,08s]  [Ichips_Debug]ICHIPS:fun:<ipc788ResetCoor> | line:4730: --- @#T hspc = 1920
+[  44,09s] 
+[  44,09s]  [Ichips_Debug]ICHIPS:fun:<ipc788ResetCoor> | line:4731: --- @#T vspc = 1080
+[  44,10s] ichips data crc check fail
+[  44,10s] 
+[  44,10s]  [Ichips_Debug]ICHIPS:fun:<loadKstData> | line:4513: --- ichips read env data finish
+[  44,13s] 
+[  44,13s]  [Ichips_Debug]ICHIPS:fun:<ichipsInitSignalLVDS_TTL> | line:3615: --- Signal is LVDS_TTL
+[  44,22s] 
+[  44,22s]  [Ichips_Debug]ICHIPS:fun:<ichipsInitPanelFHD> | line:3420: --- panel is ENUM_ICHIPS_PANEL_FHD
+[  44,31s] 
+[  44,31s]  [Ichips_Debug]ICHIPS:fun:<calcHomography> | line:4438: --- 
+[  44,31s] kst788 ------ ichips_788---------------->wplgct=35
+[  44,31s] 
+[  44,31s]  [Ichips_Debug]ICHIPS:fun:<calcHomography> | line:4438: --- 
+[  44,32s] kst788 ------ ichips_788---------------->wplgct=33
+[  44,34s] u32Size =512 blk_cnt =1
+[  44,35s] u32Size =512 blk_cnt =1
+[  44,35s] 
+[  44,35s]  [Dlp_Debug]DLP:fun:<RegisterDlp> | line:224: --- DLP DlpType:12
+[  44,47s] 
+[  44,47s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  44,58s] 
+[  44,58s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  44,71s] 
+[  44,71s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  44,83s] 
+[  44,83s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  44,94s] 
+[  44,94s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,05s] 
+[  45,05s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,16s] 
+[  45,16s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,28s] 
+[  45,28s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,39s] 
+[  45,39s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,51s] 
+[  45,51s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,63s] 
+[  45,63s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,74s] 
+[  45,74s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,86s] 
+[  45,86s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  45,97s] 
+[  45,97s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,09s] 
+[  46,09s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,20s] 
+[  46,20s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,32s] 
+[  46,32s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,44s] 
+[  46,44s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,55s] 
+[  46,55s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,67s] 
+[  46,67s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,78s] 
+[  46,78s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  46,90s] 
+[  46,90s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,06s] 
+[  47,06s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,16s] 
+[  47,16s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,25s] 
+[  47,25s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,36s] 
+[  47,36s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,48s] 
+[  47,48s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,59s] 
+[  47,59s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,71s] 
+[  47,71s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,83s] 
+[  47,83s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  47,94s] 
+[  47,94s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,06s] 
+[  48,06s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,17s] 
+[  48,17s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,29s] 
+[  48,29s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,41s] 
+[  48,41s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,52s] 
+[  48,52s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,64s] 
+[  48,64s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,75s] 
+[  48,75s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,87s] 
+[  48,87s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  48,98s] 
+[  48,98s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,10s] 
+[  49,10s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,22s] 
+[  49,22s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,36s] 
+[  49,36s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,45s] 
+[  49,45s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,56s] 
+[  49,56s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,68s] 
+[  49,68s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,79s] 
+[  49,79s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  49,91s] 
+[  49,91s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,03s] 
+[  50,03s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,14s] 
+[  50,14s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,26s] 
+[  50,26s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,26s] 
+[  50,26s]  [Dlp_Err]DLP:fun:<ReadDlpIIC> | line:1575: --- DLP IIC Read Failed
+[  50,48s] 
+[  50,48s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,59s] 
+[  50,59s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,71s] 
+[  50,71s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,83s] 
+[  50,83s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  50,94s] 
+[  50,94s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,06s] 
+[  51,06s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,17s] 
+[  51,17s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,29s] 
+[  51,29s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,41s] 
+[  51,41s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,52s] 
+[  51,52s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,64s] 
+[  51,64s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,75s] 
+[  51,75s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,87s] 
+[  51,87s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  51,98s] 
+[  51,98s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,10s] 
+[  52,10s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,22s] 
+[  52,22s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,33s] 
+[  52,33s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,45s] 
+[  52,45s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,56s] 
+[  52,56s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,68s] 
+[  52,68s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,80s] 
+[  52,80s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  52,91s] 
+[  52,91s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,03s] 
+[  53,03s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,14s] 
+[  53,14s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,26s] 
+[  53,26s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,37s] 
+[  53,37s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,49s] 
+[  53,49s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,61s] 
+[  53,61s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,78s] 
+[  53,78s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,85s] 
+[  53,85s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  53,95s] 
+[  53,95s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,07s] 
+[  54,07s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,19s] 
+[  54,19s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,30s] 
+[  54,30s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,42s] 
+[  54,42s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,53s] 
+[  54,53s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,65s] 
+[  54,65s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,76s] 
+[  54,76s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  54,88s] 
+[  54,88s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,00s] 
+[  55,00s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,11s] 
+[  55,11s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,23s] 
+[  55,23s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,34s] 
+[  55,34s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,46s] 
+[  55,46s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,57s] 
+[  55,57s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,69s] 
+[  55,69s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,81s] 
+[  55,81s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  55,92s] 
+[  55,92s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  56,04s] 
+[  56,04s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  56,16s] 
+[  56,16s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  56,27s] 
+[  56,27s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[  56,27s] 
+[  56,27s]  [Dlp_Err]DLP:fun:<ReadDlpIIC> | line:1575: --- DLP IIC Read Failed
+[  56,28s] 
+[  56,28s]  [Dlp_Err]DLP:fun:<GetDlpDeviceid> | line:1596: --- read flash vsersion fail
+[  56,29s] 
+[  56,29s]  [Dlp_Debug]DLP:fun:<RegisterDlp> | line:252: --- DLP deviceid:255
+[  56,29s] 
+[  56,29s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[  56,30s] 
+[  56,30s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[  56,30s] 
+[  56,30s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[  56,31s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[  61,34s] 
+[  61,34s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[  61,34s] Xgimi_Update_DevErrLog-StrConvert fail
+[  61,34s] 
+[  61,34s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[  61,35s]  init act begin : 32267
+[  68,05s] 
+[  68,05s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[  74,76s] 
+[  74,76s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[  74,88s] 
+[  74,88s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,00s] 
+[  75,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,11s] 
+[  75,11s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,23s] 
+[  75,23s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,35s] 
+[  75,35s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,46s] 
+[  75,46s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,66s] 
+[  75,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,70s] 
+[  75,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,82s] 
+[  75,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  75,93s] 
+[  75,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  76,05s] 
+[  76,05s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  76,05s] 
+[  76,05s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[  76,17s] 
+[  76,17s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,29s] 
+[  76,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,40s] 
+[  76,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,52s] 
+[  76,52s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,64s] 
+[  76,64s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,76s] 
+[  76,76s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,87s] 
+[  76,87s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  76,99s] 
+[  76,99s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,11s] 
+[  77,11s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,22s] 
+[  77,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,34s] 
+[  77,34s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,35s] 
+[  77,35s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[  77,46s] 
+[  77,46s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,58s] 
+[  77,58s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,70s] 
+[  77,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,81s] 
+[  77,81s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  77,94s] 
+[  77,94s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,05s] 
+[  78,06s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,16s] 
+[  78,16s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,28s] 
+[  78,28s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,40s] 
+[  78,40s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,51s] 
+[  78,51s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,63s] 
+[  78,63s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  78,64s] 
+[  78,64s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[  78,64s] 
+[  78,64s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[  78,65s] 
+[  78,65s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[  78,66s] 
+[  78,66s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[  78,66s] 
+[  78,66s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[  78,87s] 
+[  78,87s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[  79,07s] 
+[  79,07s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[  79,08s] 
+[  79,08s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[  79,08s] 
+[  79,08s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[  79,09s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[  84,11s] 
+[  84,11s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[  84,12s] Xgimi_Update_DevErrLog-StrConvert fail
+[  84,12s] 
+[  84,12s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[  84,12s]  init act begin : 55046
+[  90,83s] 
+[  90,83s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[  97,54s] 
+[  97,54s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[  97,66s] 
+[  97,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  97,78s] 
+[  97,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  97,89s] 
+[  97,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,01s] 
+[  98,01s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,14s] 
+[  98,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,24s] 
+[  98,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,36s] 
+[  98,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,47s] 
+[  98,47s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,59s] 
+[  98,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,71s] 
+[  98,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,83s] 
+[  98,83s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[  98,83s] 
+[  98,83s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[  98,95s] 
+[  98,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,07s] 
+[  99,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,18s] 
+[  99,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,30s] 
+[  99,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,42s] 
+[  99,42s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,53s] 
+[  99,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,65s] 
+[  99,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,77s] 
+[  99,77s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[  99,88s] 
+[  99,88s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,00s] 
+[ 100,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,12s] 
+[ 100,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,12s] 
+[ 100,12s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 100,24s] 
+[ 100,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,36s] 
+[ 100,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,48s] 
+[ 100,48s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,59s] 
+[ 100,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,71s] 
+[ 100,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,82s] 
+[ 100,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 100,94s] 
+[ 100,94s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 101,06s] 
+[ 101,06s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 101,18s] 
+[ 101,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 101,29s] 
+[ 101,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 101,41s] 
+[ 101,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 101,41s] 
+[ 101,41s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 101,42s] 
+[ 101,42s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 101,43s] 
+[ 101,43s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 101,43s] 
+[ 101,43s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 101,44s] 
+[ 101,44s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 101,65s] 
+[ 101,65s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 101,85s] 
+[ 101,85s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 101,86s] 
+[ 101,86s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 101,86s] 
+[ 101,86s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 101,87s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 106,89s] 
+[ 106,89s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 106,90s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 106,90s] 
+[ 106,90s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 106,90s]  init act begin : 77825
+[ 113,61s] 
+[ 113,61s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 120,32s] 
+[ 120,32s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 120,44s] 
+[ 120,44s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 120,55s] 
+[ 120,56s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 120,67s] 
+[ 120,67s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 120,79s] 
+[ 120,79s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 120,90s] 
+[ 120,90s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,02s] 
+[ 121,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,14s] 
+[ 121,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,25s] 
+[ 121,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,37s] 
+[ 121,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,49s] 
+[ 121,49s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,60s] 
+[ 121,60s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 121,61s] 
+[ 121,61s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 121,73s] 
+[ 121,73s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 121,85s] 
+[ 121,85s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 121,96s] 
+[ 121,96s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,08s] 
+[ 122,08s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,20s] 
+[ 122,20s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,31s] 
+[ 122,31s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,43s] 
+[ 122,43s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,55s] 
+[ 122,55s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,66s] 
+[ 122,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,78s] 
+[ 122,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,90s] 
+[ 122,90s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 122,90s] 
+[ 122,90s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 123,02s] 
+[ 123,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,14s] 
+[ 123,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,25s] 
+[ 123,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,37s] 
+[ 123,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,49s] 
+[ 123,49s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,60s] 
+[ 123,60s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,72s] 
+[ 123,72s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,84s] 
+[ 123,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 123,95s] 
+[ 123,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 124,07s] 
+[ 124,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 124,19s] 
+[ 124,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 124,19s] 
+[ 124,19s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 124,20s] 
+[ 124,20s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 124,21s] 
+[ 124,21s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 124,21s] 
+[ 124,21s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 124,22s] 
+[ 124,22s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 124,43s] 
+[ 124,43s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 124,63s] 
+[ 124,63s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 124,63s] 
+[ 124,63s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 124,64s] 
+[ 124,64s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 124,65s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 129,67s] 
+[ 129,67s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 129,67s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 129,68s] 
+[ 129,68s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 129,68s]  init act begin : 100605
+[ 136,39s] 
+[ 136,39s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 143,10s] 
+[ 143,10s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 143,22s] 
+[ 143,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,33s] 
+[ 143,33s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,45s] 
+[ 143,45s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,57s] 
+[ 143,57s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,68s] 
+[ 143,68s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,80s] 
+[ 143,80s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 143,92s] 
+[ 143,92s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 144,03s] 
+[ 144,03s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 144,15s] 
+[ 144,15s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 144,27s] 
+[ 144,27s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 144,38s] 
+[ 144,38s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 144,39s] 
+[ 144,39s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 144,53s] 
+[ 144,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 144,62s] 
+[ 144,62s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 144,74s] 
+[ 144,74s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 144,86s] 
+[ 144,86s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 144,98s] 
+[ 144,98s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,09s] 
+[ 145,09s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,21s] 
+[ 145,21s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,32s] 
+[ 145,32s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,45s] 
+[ 145,45s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,56s] 
+[ 145,56s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,68s] 
+[ 145,68s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,68s] 
+[ 145,68s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 145,80s] 
+[ 145,80s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 145,92s] 
+[ 145,92s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,03s] 
+[ 146,03s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,15s] 
+[ 146,15s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,27s] 
+[ 146,27s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,38s] 
+[ 146,38s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,50s] 
+[ 146,50s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,62s] 
+[ 146,62s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,73s] 
+[ 146,73s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,85s] 
+[ 146,85s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,97s] 
+[ 146,97s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 146,97s] 
+[ 146,97s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 146,98s] 
+[ 146,98s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 146,99s] 
+[ 146,99s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 146,99s] 
+[ 146,99s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 147,00s] 
+[ 147,00s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 147,20s] 
+[ 147,20s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 147,41s] 
+[ 147,41s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 147,41s] 
+[ 147,41s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 147,42s] 
+[ 147,42s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 147,44s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 152,47s] 
+[ 152,47s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 152,47s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 152,47s] 
+[ 152,47s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 152,47s]  init act begin : 123384
+[ 159,17s] 
+[ 159,17s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 165,88s] 
+[ 165,88s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 166,00s] 
+[ 166,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,11s] 
+[ 166,11s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,23s] 
+[ 166,23s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,35s] 
+[ 166,35s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,46s] 
+[ 166,46s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,58s] 
+[ 166,58s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,70s] 
+[ 166,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,81s] 
+[ 166,81s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 166,93s] 
+[ 166,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 167,05s] 
+[ 167,05s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 167,16s] 
+[ 167,16s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 167,17s] 
+[ 167,17s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 167,29s] 
+[ 167,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,40s] 
+[ 167,40s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,52s] 
+[ 167,52s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,64s] 
+[ 167,64s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,75s] 
+[ 167,75s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,87s] 
+[ 167,87s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 167,99s] 
+[ 167,99s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,10s] 
+[ 168,10s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,22s] 
+[ 168,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,34s] 
+[ 168,34s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,45s] 
+[ 168,45s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,46s] 
+[ 168,46s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 168,58s] 
+[ 168,58s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,76s] 
+[ 168,76s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,81s] 
+[ 168,81s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 168,93s] 
+[ 168,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,04s] 
+[ 169,04s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,16s] 
+[ 169,16s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,28s] 
+[ 169,28s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,40s] 
+[ 169,40s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,53s] 
+[ 169,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,63s] 
+[ 169,63s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,75s] 
+[ 169,75s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 169,75s] 
+[ 169,75s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 169,76s] 
+[ 169,76s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 169,77s] 
+[ 169,77s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 169,77s] 
+[ 169,77s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 169,78s] 
+[ 169,78s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 169,98s] 
+[ 169,98s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 170,19s] 
+[ 170,19s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 170,19s] 
+[ 170,19s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 170,20s] 
+[ 170,20s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 170,21s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 175,23s] 
+[ 175,23s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 175,23s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 175,24s] 
+[ 175,24s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 175,24s]  init act begin : 146163
+[ 181,95s] 
+[ 181,95s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 188,67s] 
+[ 188,67s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 188,79s] 
+[ 188,79s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 188,89s] 
+[ 188,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,01s] 
+[ 189,01s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,12s] 
+[ 189,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,24s] 
+[ 189,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,36s] 
+[ 189,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,47s] 
+[ 189,47s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,59s] 
+[ 189,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,71s] 
+[ 189,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,82s] 
+[ 189,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,94s] 
+[ 189,94s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 189,95s] 
+[ 189,95s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 190,07s] 
+[ 190,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,18s] 
+[ 190,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,30s] 
+[ 190,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,42s] 
+[ 190,42s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,53s] 
+[ 190,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,65s] 
+[ 190,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,77s] 
+[ 190,77s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 190,89s] 
+[ 190,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,05s] 
+[ 191,05s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,12s] 
+[ 191,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,23s] 
+[ 191,23s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,24s] 
+[ 191,24s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 191,36s] 
+[ 191,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,47s] 
+[ 191,47s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,59s] 
+[ 191,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,71s] 
+[ 191,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,82s] 
+[ 191,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 191,94s] 
+[ 191,94s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,06s] 
+[ 192,06s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,17s] 
+[ 192,17s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,29s] 
+[ 192,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,41s] 
+[ 192,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,52s] 
+[ 192,52s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 192,53s] 
+[ 192,53s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 192,54s] 
+[ 192,54s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 192,54s] 
+[ 192,54s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 192,55s] 
+[ 192,55s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 192,56s] 
+[ 192,56s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 192,78s] 
+[ 192,78s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 192,97s] 
+[ 192,97s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 192,97s] 
+[ 192,97s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 192,98s] 
+[ 192,98s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 192,99s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 198,01s] 
+[ 198,01s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 198,01s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 198,01s] 
+[ 198,01s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 198,02s]  init act begin : 168942
+[ 204,73s] 
+[ 204,73s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 211,44s] 
+[ 211,44s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 211,55s] 
+[ 211,55s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 211,67s] 
+[ 211,67s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 211,79s] 
+[ 211,79s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 211,90s] 
+[ 211,90s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,02s] 
+[ 212,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,14s] 
+[ 212,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,25s] 
+[ 212,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,37s] 
+[ 212,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,49s] 
+[ 212,49s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,60s] 
+[ 212,60s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,72s] 
+[ 212,72s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 212,73s] 
+[ 212,73s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 212,84s] 
+[ 212,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 212,96s] 
+[ 212,96s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,08s] 
+[ 213,08s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,19s] 
+[ 213,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,31s] 
+[ 213,31s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,43s] 
+[ 213,43s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,54s] 
+[ 213,54s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,67s] 
+[ 213,67s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,78s] 
+[ 213,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 213,89s] 
+[ 213,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,01s] 
+[ 214,01s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,02s] 
+[ 214,02s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 214,14s] 
+[ 214,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,25s] 
+[ 214,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,37s] 
+[ 214,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,49s] 
+[ 214,49s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,60s] 
+[ 214,60s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,72s] 
+[ 214,72s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,84s] 
+[ 214,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 214,95s] 
+[ 214,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 215,07s] 
+[ 215,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 215,24s] 
+[ 215,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 215,30s] 
+[ 215,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 215,31s] 
+[ 215,31s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 215,32s] 
+[ 215,32s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 215,32s] 
+[ 215,32s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 215,33s] 
+[ 215,33s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 215,33s] 
+[ 215,33s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 215,54s] 
+[ 215,54s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 215,75s] 
+[ 215,75s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 215,75s] 
+[ 215,75s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 215,76s] 
+[ 215,76s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 215,76s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 220,79s] 
+[ 220,79s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 220,79s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 220,79s] 
+[ 220,79s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 220,80s]  init act begin : 191722
+[ 224,25s] <00>UART_115200
+[ 230,57s] 
+[ 230,57s] AC_ON
+[ 230,57s] 01-2L-SM-10-20201028
+[ 230,57s] B44
+[ 230,58s] MIU0_DQS-OK
+[ 230,59s] BIST0-OK
+[ 230,68s] optee teeloader entry
+[ 230,88s] CusConfig
+[ 230,89s] eMMC_RPMB_Check_Program_Key
+[ 230,89s] *ree_opt=0000007B
+[ 230,90s] Auth reeloader...
+[ 230,90s] Decrypt reeloader...
+[ 230,90s] Check reeloader magic ID...
+[ 230,91s] Version check on reeloader...
+[ 230,91s] Auth CKB...
+[ 230,91s] Decrypt CKB...
+[ 230,92s] Check CKB magic ID...
+[ 230,92s] reeloader_addr=20100000
+[ 230,93s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 230,93s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 230,93s] INFO:    warmboot return address : 9dc01c00
+[ 230,94s] INFO:    BL3-1: Initializing runtime services
+[ 230,94s] NOTICE:  From args : boot_mbx = 20028084 
+[ 230,94s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 230,95s] INFO:    BL3-1: Initializing BL3-2
+[ 231,11s] [Ramlog] ramlog_init init success
+[ 231,12s] 
+[ 231,14s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 231,14s] INFO:    BL3-1: Next image address = 0x20100000
+[ 231,14s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 231,15s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 231,15s] INFO:    R1 0
+[ 231,15s] INFO:    R2 0
+[ 231,15s] INFO:    R3 0
+[ 231,16s] ree_entry
+[ 231,19s] U
+[ 231,20s] Relocation Offset is: 01700000
+[ 231,27s] [AT][MB][start ub][715]
+[ 231,27s] 
+[ 231,27s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 231,28s] 
+[ 231,28s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 231,29s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 231,30s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 231,31s] 
+[ 231,31s] eMMC HS400 5.1 200MHz
+[ 231,31s] eMMC 29.12 GB 
+[ 231,31s] eMMC used life: 0~10%
+[ 231,31s]  CID
+[ 231,31s]   0xXXXXXXXX
+[ 231,31s]   0xXXXXXXXX
+[ 231,32s]   0xXXXXXXXX
+[ 231,32s]   0xXXXXXXXX
+[ 231,32s] 
+[ 231,32s] uboot held at [282DDF60~29800000],size=015220A0
+[ 231,33s] Now running in RAM - U-Boot at: 28B00000
+[ 231,33s] DRAM : 2048MB
+[ 231,33s] SAR5=ON
+[ 231,33s] In:    serial
+[ 231,33s] Out:   serial
+[ 231,34s] Err:   serial
+[ 231,34s] Net:   No ethernet found.
+[ 231,34s] MAC:  <entfernt>
+[ 231,34s] [AT][MBoot][Driver Init][788]
+[ 231,35s] u32Size =65536 blk_cnt =128
+[ 231,35s] u32Size =65536 blk_cnt =128
+[ 231,35s] u32Size =512 blk_cnt =1
+[ 231,36s] u32Size =512 blk_cnt =1
+[ 231,36s] 
+[ 231,36s]  hdmiDbg is close. 
+[ 231,36s] End,speed type:1 
+[ 231,36s] u32Size =512 blk_cnt =1
+[ 231,37s] u32Size =512 blk_cnt =1
+[ 231,37s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 231,38s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 231,39s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 231,40s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 231,40s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 231,41s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 231,42s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 231,43s] Writing to MMC(0)... 128 blocks written: OK
+[ 231,51s] 128 blocks written: OK
+[ 231,51s] done
+[ 231,51s] GpioRegister
+[ 231,51s] GpioRegister m7642
+[ 231,52s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 231,52s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 231,53s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 231,54s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 231,54s] u32Size =65536 blk_cnt =128
+[ 231,54s] 
+[ 231,54s] [fan][SetFanWorkMode][33] fan type :1 
+[ 231,55s] 0:MCP_S_D3_2133_8G_4x
+[ 231,55s] 1:MCP_S_D3_2133_8G_4x
+[ 231,55s] DRAM Channel 0 Size = [2048MB]
+[ 231,56s] 
+[ 231,56s] Changelist:<09>24543697
+[ 231,56s] ============= set bootargs ===============
+[ 231,56s] Hit any key to stop autoboot:  0 
+[ 231,56s] set xgimibootreason normal to bootargs OK
+[ 231,58s] 128 blocks written: OK
+[ 231,58s] 128 blocks written: OK
+[ 231,59s] u32Size =512 blk_cnt =1
+[ 231,59s] u32Size =512 blk_cnt =1
+[ 231,59s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 231,60s] Writing to MMC(0)... 128 blocks written: OK
+[ 231,60s] 128 blocks written: OK
+[ 231,61s] done
+[ 231,61s] clearMusicModeFlag
+[ 231,61s] 128 blocks written: OK
+[ 231,61s] 128 blocks written: OK
+[ 231,62s] u32Size =512 blk_cnt =1
+[ 231,62s] u32Size =512 blk_cnt =1
+[ 231,62s] get keypad_detect_mode = 2
+[ 231,62s] u32Size =512 blk_cnt =1
+[ 231,63s] u32Size =512 blk_cnt =1
+[ 231,63s] get keypad_type = 7
+[ 231,63s] GetKeypadInstall
+[ 231,63s] key adc value:255
+[ 231,63s] sarKeyGetKeyCode key=255,hold=0
+[ 231,64s] HW MDrv_IIC_InitPort9: OK
+[ 231,64s] HW MDrv_IIC_InitPort9: OK
+[ 231,65s] xgimi_dri_mcu_mode:0 
+[ 231,66s] read_mcu_mode = 0
+[ 231,66s] mcuKeyGetKeyCode key=255,hold=0
+[ 231,66s] ==> do_mcu_control 
+[ 231,66s] UpdateSetAddr is: 0x2
+[ 231,66s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 231,67s] UpdateSetWakeGpioPin is: 0x25
+[ 231,67s] ota_upgrade_mode is<EF><BC><9A>1
+[ 231,67s] ota version num is<EF><BC><9A>
+[ 231,67s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 231,68s] 
+[ 231,68s] ============================> MCU: upgrade Begin <============================ 
+[ 231,69s] MCU:===========>en_upgrade_mode is 1
+[ 231,69s] ====================> MCU: read OTA file Begin 
+[ 231,69s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 231,70s] mmc change mount : xgimiconfig
+[ 231,72s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 231,73s] ====> MCU:fileLen = 11841
+[ 231,73s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 231,75s] 11841 bytes read
+[ 231,75s] MCU:===========>compare
+[ 231,76s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 231,76s] MCU:verify_checksum is 1835355
+[ 231,76s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 231,77s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 231,78s] ============> MCU: Congratulations ,usb update success ###############
+[ 231,78s] 
+[ 231,78s] ============================> MCU: upgrade End <============================ 
+[ 231,79s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 231,79s] Writing to MMC(0)... 128 blocks written: OK
+[ 231,80s] 128 blocks written: OK
+[ 231,80s] done
+[ 231,80s] enable dont overwrite function
+[ 231,81s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 231,82s] ENV_UPGRADE_COMPLETE =0 
+[ 231,82s] ENV_UPGRADE_MODE =<16> 
+[ 231,82s] Saving Environment to MMC...
+[ 231,82s] Writing to MMC(0)... 128 blocks written: OK
+[ 231,83s] 128 blocks written: OK
+[ 231,83s] done
+[ 231,83s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 231,84s] [QHB] prepare to CLEAR QHB
+[ 231,84s] AC on
+[ 231,85s] xgimi_read_fastpoweron_status:0 
+[ 231,85s] ==> if go to fast power on : 0 
+[ 231,86s] 
+[ 231,86s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 231,86s] [setLightStatus]:0
+[ 232,36s] resetWifiBtModule cost :500ms
+[ 232,37s] findUsbDevice: find mtk bt usb device from usb prot[2]
+[ 232,37s] Check USB port[2]:
+[ 232,37s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[ 232,38s] [USB] enable miu lower bound address subtraction
+[ 232,80s] scanning bus for devices... New Device 0
+[ 232,82s] 
+[ 232,82s] [USB] interface[0] conf:1 value E0: 
+[ 233,02s] 1 USB Device(s) found
+[ 233,02s] Found USB WIFI [MTK7668] in usb port 2
+[ 233,03s] LD_btmtk_usb_probe: =========================================
+[ 233,03s] LD_btmtk_usb_probe: Mediatek Bluetooth USB driver ver 3.0.19101701
+[ 233,04s] LD_btmtk_usb_probe: =========================================
+[ 233,04s] LD_btmtk_usb_probe: probe_counter = 1
+[ 233,05s] btmtk_usb_cap_init: patch name: mt7668_patch_e2_hdr.bin
+[ 233,05s] btmtk_usb_cap_init: woble setting file name is woble_setting_7668.bin
+[ 233,06s] mmc change mount : xgimiconfig
+[ 233,06s] mtk_patch_bin_patch: /public/BT/7668/bt.cfg
+[ 233,08s] Size of file "/public/BT/7668/bt.cfg" from mmc device 0 partition xgimiconfig: 1339 bytes
+[ 233,09s] Loading file "/public/BT/7668/bt.cfg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 233,11s] 1339 bytes read
+[ 233,12s] btmtk_usb_load_bt_cfg_item: bt_cfg_content->support_unify_woble = 1
+[ 233,12s] mmc change mount : xgimiconfig
+[ 233,12s] mtk_patch_bin_patch: /public/BT/7668/mt7668_patch_e2_hdr.bin
+[ 233,15s] Size of file "/public/BT/7668/mt7668_patch_e2_hdr.bin" from mmc device 0 partition xgimiconfig: 213054 bytes
+[ 233,16s] Loading file "/public/BT/7668/mt7668_patch_e2_hdr.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 233,18s] 213054 bytes read
+[ 233,21s] btmtk_usb_check_need_load_patch_7668: btmtk_usb_check_need_load_patch_7668: return len is 7
+[ 233,21s] btmtk_usb_load_rom_patch_7668: patch_status: 2, retry: 20
+[ 233,22s] btmtk_usb_load_rom_patch_7668: FW Version = 20200417120149f
+[ 233,22s] btmtk_usb_load_rom_patch_7668: build Time = 20200417120149f
+[ 233,23s] btmtk_usb_load_rom_patch_7668: platform = mp2_
+[ 233,23s] btmtk_usb_load_rom_patch_7668: HW/SW version = 1802
+[ 233,24s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of ILM
+[ 233,53s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 233,58s] btmtk_usb_send_wmt_reset_cmd: Check reset wmt result : OK
+[ 233,60s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of sysram3
+[ 233,64s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 233,64s] Ldbtusb_connect: usbbt probe success
+[ 233,65s] LD_btmtk_usb_SetWoble: 
+[ 233,75s] btmtk_usb_send_wmt_cmd: retry to get event(10)
+[ 233,85s] btmtk_usb_send_wmt_cmd: retry to get event(9)
+[ 233,96s] btmtk_usb_send_wmt_cmd: retry to get event(8)
+[ 234,06s] btmtk_usb_send_wmt_cmd: retry to get event(7)
+[ 234,17s] btmtk_usb_send_wmt_cmd: retry to get event(6)
+[ 234,27s] btmtk_usb_send_wmt_cmd: retry to get event(5)
+[ 234,38s] btmtk_usb_send_wmt_power_on_cmd_7668: OK
+[ 234,38s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,38s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,39s] btmtk_usb_send_hci_tci_set_sleep_cmd_7668: OK
+[ 234,39s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,41s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,41s] btmtk_usb_send_hci_reset_cmd: OK
+[ 234,42s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,42s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,42s] btmtk_usb_get_vendor_cap: OK
+[ 234,43s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,43s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,43s] btmtk_usb_send_read_bdaddr: ADDR: <mac-entfernt>
+[ 234,44s] mmc change mount : xgimiconfig
+[ 234,44s] mtk_patch_bin_patch: /public/BT/7668/woble_setting_7668.bin
+[ 234,47s] Size of file "/public/BT/7668/woble_setting_7668.bin" from mmc device 0 partition xgimiconfig: 1640 bytes
+[ 234,48s] Loading file "/public/BT/7668/woble_setting_7668.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 234,50s] 1640 bytes read
+[ 234,50s] btmtk_usb_load_woble_block_setting: APCF00: found & stored in 0
+[ 234,51s] btmtk_usb_load_woble_block_setting: APCF01: found & stored in 1
+[ 234,52s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC00: found & stored in 0
+[ 234,52s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC01: found & stored in 1
+[ 234,53s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION00: found & stored in 0
+[ 234,54s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION01: found & stored in 1
+[ 234,54s] btmtk_usb_load_woble_block_setting: RADIOOFF00: found & stored in 0
+[ 234,55s] btmtk_usb_load_woble_block_setting: WAKEUP_TYPE_LEGACY00: found & stored in 0
+[ 234,56s] btmtk_usb_load_woble_block_setting: RADIOOFF_COMPLETE_EVENT00: found & stored in 0
+[ 234,56s] btmtk_usb_set_apcf: Set APCF filter from woble_setting.bin
+[ 234,57s] btmtk_usb_set_apcf: Send woble_setting_apcf[0]  57 FD 27 06 00 5A 46 00 00 24 AF 72 35 F2 78 00 00 00 00 43 52 4B 54 4D FF FF 00 FF FF FF FF FF FF 00 00 00 00 FF FF FF FF FF
+[ 234,58s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,59s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,59s] btmtk_usb_set_apcf: Send woble_setting_apcf[1]  57 FD 0A 01 00 5A 20 00 20 00 01 80 00
+[ 234,60s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,60s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,60s] btmtk_usb_set_unify_woble: Send radio off C9 FC 34 01 20 02 00 01 02 01 00 02 40 5A 02 41 0F 05 24 20 04 32 00 09 26 C0 12 00 00 12 00 00 00 05 10 01 00 6B 00 04 42 09 01 02 0A 48 01 FF FF 00 00 10 00 00 80
+[ 234,62s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,63s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,63s] btmtk_usb_send_hci_cmd: got unknown event(6)
+[ 234,65s] btmtk_usb_send_hci_cmd: try get event again
+[ 234,65s] usb_bt_interrupt_msg: epType = 0x2
+[ 234,65s] usb_bt_interrupt_msg: ret = 0x0
+[ 234,66s] Ldbtusb_SetWoble: usb set woble end
+[ 234,66s] do_setMtkBT: ready to do usb_stop
+[ 234,66s] do_setMtkBT: stop usb port: 2
+[ 234,67s] [setSystemStatus]:1
+[ 234,67s] 
+[ 234,67s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x2 
+[ 234,68s] [setLightStatus]:1
+[ 234,69s] 
+[ 234,69s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0xF 
+[ 234,71s] xgimi_read_fastpoweron_status:0 
+[ 234,72s] ==> if go to fast power on : 0 
+[ 234,72s] argc = 2
+[ 234,72s] poweronoff = 0
+[ 234,72s] 
+[ 234,72s]  [Dlp_Debug]DLP:fun:<Dlp_PowerOnOff> | line:1554: --- Dlp_PowerOnOff 0
+[ 234,73s] mmc change mount : tvconfig
+[ 234,73s] Loading file "/config/PM.bin" at offset 0x0 from mmc device 0 partition tvconfig
+[ 234,76s] 40959 bytes read
+[ 234,77s] Wait for PM51 standby...........PM51 run ok...........<1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_Low 359<1B>[35m
+[ 234,88s] [MDrv_PM_Init_Key][909] Retry send MBX CMD(0x1) to PM51.
+[ 234,90s] Set Power Off Short
+[ 234,90s] CRC Check OPEN: 1
+[ 234,90s] [GPIO_WAKE_SETTING]
+[ 234,90s] WOW_GPIO_NUM        = 0
+[ 234,90s] WOBT_GPIO_NUM       = 13
+[ 234,90s] WOEWBS_GPIO_NUM     = 255
+[ 234,91s] 
+[ 234,91s] [PM_GPIO_WAKE_SETTING]
+[ 234,91s] WOW_PM_GPIO_NUM     = 17
+[ 234,91s] WOBT_PM_GPIO_NUM    = 7
+[ 234,91s] WOEWBS_PM_GPIO_NUM  = 0
+[ 234,91s] 
+[ 234,91s] BTW = FF
+[ 234,92s] 0x8709
+[ 234,92s] Power Down<00>UART_115200
+[ 241,78s] 
+[ 241,78s] AC_ON
+[ 241,78s] 01-2L-SM-10-20201028
+[ 241,78s] B44
+[ 241,80s] MIU0_DQS-OK
+[ 241,80s] BIST0-OK
+[ 241,89s] optee teeloader entry
+[ 242,10s] CusConfig
+[ 242,10s] eMMC_RPMB_Check_Program_Key
+[ 242,10s] *ree_opt=0000007B
+[ 242,11s] Auth reeloader...
+[ 242,11s] Decrypt reeloader...
+[ 242,12s] Check reeloader magic ID...
+[ 242,12s] Version check on reeloader...
+[ 242,12s] Auth CKB...
+[ 242,13s] Decrypt CKB...
+[ 242,13s] Check CKB magic ID...
+[ 242,13s] reeloader_addr=20100000
+[ 242,14s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 242,14s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 242,14s] INFO:    warmboot return address : 9dc01c00
+[ 242,15s] INFO:    BL3-1: Initializing runtime services
+[ 242,15s] NOTICE:  From args : boot_mbx = 20028084 
+[ 242,16s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 242,16s] INFO:    BL3-1: Initializing BL3-2
+[ 242,32s] [Ramlog] ramlog_init init success
+[ 242,33s] 
+[ 242,35s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 242,35s] INFO:    BL3-1: Next image address = 0x20100000
+[ 242,36s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 242,36s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 242,36s] INFO:    R1 0
+[ 242,36s] INFO:    R2 0
+[ 242,37s] INFO:    R3 0
+[ 242,37s] ree_entry
+[ 242,41s] U
+[ 242,41s] Relocation Offset is: 01700000
+[ 242,48s] [AT][MB][start ub][715]
+[ 242,48s] 
+[ 242,48s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 242,49s] 
+[ 242,49s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 242,50s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 242,51s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 242,52s] 
+[ 242,52s] eMMC HS400 5.1 200MHz
+[ 242,52s] eMMC 29.12 GB 
+[ 242,52s] eMMC used life: 0~10%
+[ 242,52s]  CID
+[ 242,52s]   0xXXXXXXXX
+[ 242,53s]   0xXXXXXXXX
+[ 242,53s]   0xXXXXXXXX
+[ 242,53s]   0xXXXXXXXX
+[ 242,53s] 
+[ 242,53s] uboot held at [282DDF60~29800000],size=015220A0
+[ 242,54s] Now running in RAM - U-Boot at: 28B00000
+[ 242,54s] DRAM : 2048MB
+[ 242,54s] SAR5=ON
+[ 242,54s] In:    serial
+[ 242,55s] Out:   serial
+[ 242,55s] Err:   serial
+[ 242,55s] Net:   No ethernet found.
+[ 242,55s] MAC:  <entfernt>
+[ 242,55s] [AT][MBoot][Driver Init][788]
+[ 242,56s] u32Size =65536 blk_cnt =128
+[ 242,56s] u32Size =65536 blk_cnt =128
+[ 242,57s] u32Size =512 blk_cnt =1
+[ 242,57s] u32Size =512 blk_cnt =1
+[ 242,57s] 
+[ 242,57s]  hdmiDbg is close. 
+[ 242,58s] End,speed type:1 
+[ 242,58s] u32Size =512 blk_cnt =1
+[ 242,58s] u32Size =512 blk_cnt =1
+[ 242,58s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 242,59s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 242,60s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 242,61s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 242,62s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 242,63s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 242,63s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 242,64s] Writing to MMC(0)... 128 blocks written: OK
+[ 242,64s] 128 blocks written: OK
+[ 242,65s] done
+[ 242,65s] GpioRegister
+[ 242,65s] GpioRegister m7642
+[ 242,65s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 242,66s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 242,67s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 242,67s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 242,67s] u32Size =65536 blk_cnt =128
+[ 242,68s] 
+[ 242,68s] [fan][SetFanWorkMode][33] fan type :1 
+[ 242,68s] 0:MCP_S_D3_2133_8G_4x
+[ 242,68s] 1:MCP_S_D3_2133_8G_4x
+[ 242,69s] DRAM Channel 0 Size = [2048MB]
+[ 242,69s] 
+[ 242,69s] Changelist:<09>24543697
+[ 242,69s] ============= set bootargs ===============
+[ 242,70s] Hit any key to stop autoboot:  0 
+[ 242,70s] set xgimibootreason normal to bootargs OK
+[ 242,71s] 128 blocks written: OK
+[ 242,71s] 128 blocks written: OK
+[ 242,72s] u32Size =512 blk_cnt =1
+[ 242,72s] u32Size =512 blk_cnt =1
+[ 242,72s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 242,73s] Writing to MMC(0)... 128 blocks written: OK
+[ 242,74s] 128 blocks written: OK
+[ 242,74s] done
+[ 242,74s] clearMusicModeFlag
+[ 242,74s] 128 blocks written: OK
+[ 242,75s] 128 blocks written: OK
+[ 242,75s] u32Size =512 blk_cnt =1
+[ 242,75s] u32Size =512 blk_cnt =1
+[ 242,75s] get keypad_detect_mode = 2
+[ 242,76s] u32Size =512 blk_cnt =1
+[ 242,76s] u32Size =512 blk_cnt =1
+[ 242,76s] get keypad_type = 7
+[ 242,77s] GetKeypadInstall
+[ 242,77s] key adc value:255
+[ 242,77s] sarKeyGetKeyCode key=255,hold=0
+[ 242,77s] HW MDrv_IIC_InitPort9: OK
+[ 242,77s] HW MDrv_IIC_InitPort9: OK
+[ 242,79s] xgimi_dri_mcu_mode:0 
+[ 242,79s] read_mcu_mode = 0
+[ 242,79s] mcuKeyGetKeyCode key=255,hold=0
+[ 242,79s] ==> do_mcu_control 
+[ 242,79s] UpdateSetAddr is: 0x2
+[ 242,80s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 242,80s] UpdateSetWakeGpioPin is: 0x25
+[ 242,80s] ota_upgrade_mode is<EF><BC><9A>1
+[ 242,80s] ota version num is<EF><BC><9A>
+[ 242,81s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 242,81s] 
+[ 242,81s] ============================> MCU: upgrade Begin <============================ 
+[ 242,82s] MCU:===========>en_upgrade_mode is 1
+[ 242,82s] ====================> MCU: read OTA file Begin 
+[ 242,83s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 242,84s] mmc change mount : xgimiconfig
+[ 242,85s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 242,86s] ====> MCU:fileLen = 11841
+[ 242,86s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 242,89s] 11841 bytes read
+[ 242,89s] MCU:===========>compare
+[ 242,89s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 242,89s] MCU:verify_checksum is 1835355
+[ 242,90s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 242,90s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 242,91s] ============> MCU: Congratulations ,usb update success ###############
+[ 242,92s] 
+[ 242,92s] ============================> MCU: upgrade End <============================ 
+[ 242,92s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 242,93s] enable dont overwrite function
+[ 242,93s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 242,94s] ENV_UPGRADE_COMPLETE =0 
+[ 242,94s] ENV_UPGRADE_MODE =null 
+[ 242,94s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 242,95s] [QHB] prepare to CLEAR QHB
+[ 242,95s] AC on
+[ 242,96s] xgimi_read_fastpoweron_status:0 
+[ 242,97s] ==> if go to fast power on : 0 
+[ 242,97s] 
+[ 242,97s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 242,97s] [setLightStatus]:0
+[ 243,48s] resetWifiBtModule cost :500ms
+[ 243,48s] findUsbDevice: find mtk bt usb device from usb prot[2]
+[ 243,48s] Check USB port[2]:
+[ 243,48s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[ 243,49s] [USB] enable miu lower bound address subtraction
+[ 243,91s] scanning bus for devices... New Device 0
+[ 243,93s] 
+[ 243,93s] [USB] interface[0] conf:1 value E0: 
+[ 244,13s] 1 USB Device(s) found
+[ 244,13s] Found USB WIFI [MTK7668] in usb port 2
+[ 244,14s] LD_btmtk_usb_probe: =========================================
+[ 244,14s] LD_btmtk_usb_probe: Mediatek Bluetooth USB driver ver 3.0.19101701
+[ 244,15s] LD_btmtk_usb_probe: =========================================
+[ 244,15s] LD_btmtk_usb_probe: probe_counter = 1
+[ 244,16s] btmtk_usb_cap_init: patch name: mt7668_patch_e2_hdr.bin
+[ 244,16s] btmtk_usb_cap_init: woble setting file name is woble_setting_7668.bin
+[ 244,17s] mmc change mount : xgimiconfig
+[ 244,17s] mtk_patch_bin_patch: /public/BT/7668/bt.cfg
+[ 244,19s] Size of file "/public/BT/7668/bt.cfg" from mmc device 0 partition xgimiconfig: 1339 bytes
+[ 244,20s] Loading file "/public/BT/7668/bt.cfg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 244,22s] 1339 bytes read
+[ 244,23s] btmtk_usb_load_bt_cfg_item: bt_cfg_content->support_unify_woble = 1
+[ 244,23s] mmc change mount : xgimiconfig
+[ 244,24s] mtk_patch_bin_patch: /public/BT/7668/mt7668_patch_e2_hdr.bin
+[ 244,26s] Size of file "/public/BT/7668/mt7668_patch_e2_hdr.bin" from mmc device 0 partition xgimiconfig: 213054 bytes
+[ 244,27s] Loading file "/public/BT/7668/mt7668_patch_e2_hdr.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 244,29s] 213054 bytes read
+[ 244,32s] btmtk_usb_check_need_load_patch_7668: btmtk_usb_check_need_load_patch_7668: return len is 7
+[ 244,32s] btmtk_usb_load_rom_patch_7668: patch_status: 2, retry: 20
+[ 244,33s] btmtk_usb_load_rom_patch_7668: FW Version = 20200417120149f
+[ 244,33s] btmtk_usb_load_rom_patch_7668: build Time = 20200417120149f
+[ 244,34s] btmtk_usb_load_rom_patch_7668: platform = mp2_
+[ 244,34s] btmtk_usb_load_rom_patch_7668: HW/SW version = 1802
+[ 244,35s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of ILM
+[ 244,64s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 244,69s] btmtk_usb_send_wmt_reset_cmd: Check reset wmt result : OK
+[ 244,71s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of sysram3
+[ 244,75s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 244,75s] Ldbtusb_connect: usbbt probe success
+[ 244,77s] LD_btmtk_usb_SetWoble: 
+[ 244,86s] btmtk_usb_send_wmt_cmd: retry to get event(10)
+[ 244,96s] btmtk_usb_send_wmt_cmd: retry to get event(9)
+[ 245,07s] btmtk_usb_send_wmt_cmd: retry to get event(8)
+[ 245,17s] btmtk_usb_send_wmt_cmd: retry to get event(7)
+[ 245,28s] btmtk_usb_send_wmt_cmd: retry to get event(6)
+[ 245,38s] btmtk_usb_send_wmt_cmd: retry to get event(5)
+[ 245,49s] btmtk_usb_send_wmt_power_on_cmd_7668: OK
+[ 245,49s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,49s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,50s] btmtk_usb_send_hci_tci_set_sleep_cmd_7668: OK
+[ 245,50s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,52s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,52s] btmtk_usb_send_hci_reset_cmd: OK
+[ 245,52s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,53s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,53s] btmtk_usb_get_vendor_cap: OK
+[ 245,53s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,54s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,54s] btmtk_usb_send_read_bdaddr: ADDR: <mac-entfernt>
+[ 245,55s] mmc change mount : xgimiconfig
+[ 245,55s] mtk_patch_bin_patch: /public/BT/7668/woble_setting_7668.bin
+[ 245,58s] Size of file "/public/BT/7668/woble_setting_7668.bin" from mmc device 0 partition xgimiconfig: 1640 bytes
+[ 245,59s] Loading file "/public/BT/7668/woble_setting_7668.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 245,61s] 1640 bytes read
+[ 245,62s] btmtk_usb_load_woble_block_setting: APCF00: found & stored in 0
+[ 245,62s] btmtk_usb_load_woble_block_setting: APCF01: found & stored in 1
+[ 245,62s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC00: found & stored in 0
+[ 245,63s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC01: found & stored in 1
+[ 245,64s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION00: found & stored in 0
+[ 245,64s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION01: found & stored in 1
+[ 245,65s] btmtk_usb_load_woble_block_setting: RADIOOFF00: found & stored in 0
+[ 245,66s] btmtk_usb_load_woble_block_setting: WAKEUP_TYPE_LEGACY00: found & stored in 0
+[ 245,67s] btmtk_usb_load_woble_block_setting: RADIOOFF_COMPLETE_EVENT00: found & stored in 0
+[ 245,67s] btmtk_usb_set_apcf: Set APCF filter from woble_setting.bin
+[ 245,68s] btmtk_usb_set_apcf: Send woble_setting_apcf[0]  57 FD 27 06 00 5A 46 00 00 24 AF 72 35 F2 78 00 00 00 00 43 52 4B 54 4D FF FF 00 FF FF FF FF FF FF 00 00 00 00 FF FF FF FF FF
+[ 245,69s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,70s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,70s] btmtk_usb_set_apcf: Send woble_setting_apcf[1]  57 FD 0A 01 00 5A 20 00 20 00 01 80 00
+[ 245,71s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,71s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,71s] btmtk_usb_set_unify_woble: Send radio off C9 FC 34 01 20 02 00 01 02 01 00 02 40 5A 02 41 0F 05 24 20 04 32 00 09 26 C0 12 00 00 12 00 00 00 05 10 01 00 6B 00 04 42 09 01 02 0A 48 01 FF FF 00 00 10 00 00 80
+[ 245,73s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,74s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,74s] btmtk_usb_send_hci_cmd: got unknown event(6)
+[ 245,75s] btmtk_usb_send_hci_cmd: try get event again
+[ 245,77s] usb_bt_interrupt_msg: epType = 0x2
+[ 245,77s] usb_bt_interrupt_msg: ret = 0x0
+[ 245,77s] Ldbtusb_SetWoble: usb set woble end
+[ 245,77s] do_setMtkBT: ready to do usb_stop
+[ 245,77s] do_setMtkBT: stop usb port: 2
+[ 245,77s] [setSystemStatus]:1
+[ 245,78s] 
+[ 245,78s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x2 
+[ 245,79s] [setLightStatus]:1
+[ 245,79s] 
+[ 245,79s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0xF 
+[ 245,82s] xgimi_read_fastpoweron_status:0 
+[ 245,82s] ==> if go to fast power on : 0 
+[ 245,83s] argc = 2
+[ 245,83s] poweronoff = 0
+[ 245,83s] 
+[ 245,83s]  [Dlp_Debug]DLP:fun:<Dlp_PowerOnOff> | line:1554: --- Dlp_PowerOnOff 0
+[ 245,84s] mmc change mount : tvconfig
+[ 245,84s] Loading file "/config/PM.bin" at offset 0x0 from mmc device 0 partition tvconfig
+[ 245,87s] 40959 bytes read
+[ 245,88s] Wait for PM51 standby...........PM51 run ok...........<1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_Low 359<1B>[35m
+[ 245,99s] [MDrv_PM_Init_Key][909] Retry send MBX CMD(0x1) to PM51.
+[ 246,00s] Set Power Off Short
+[ 246,00s] CRC Check OPEN: 1
+[ 246,00s] [GPIO_WAKE_SETTING]
+[ 246,02s] WOW_GPIO_NUM        = 0
+[ 246,02s] WOBT_GPIO_NUM       = 13
+[ 246,02s] WOEWBS_GPIO_NUM     = 255
+[ 246,02s] 
+[ 246,02s] [PM_GPIO_WAKE_SETTING]
+[ 246,02s] WOW_PM_GPIO_NUM     = 17
+[ 246,02s] WOBT_PM_GPIO_NUM    = 7
+[ 246,02s] WOEWBS_PM_GPIO_NUM  = 0
+[ 246,02s] 
+[ 246,02s] BTW = FF
+[ 246,02s] 0x8709
+[ 246,02s] Power Down<FF><00>UART_115200
+[ 252,67s] 
+[ 252,67s] AC_ON
+[ 252,67s] 01-2L-SM-10-20201028
+[ 252,68s] B44
+[ 252,69s] MIU0_DQS-OK
+[ 252,69s] BIST0-OK
+[ 252,79s] optee teeloader entry
+[ 252,99s] CusConfig
+[ 253,00s] eMMC_RPMB_Check_Program_Key
+[ 253,00s] *ree_opt=0000007B
+[ 253,01s] Auth reeloader...
+[ 253,02s] Decrypt reeloader...
+[ 253,02s] Check reeloader magic ID...
+[ 253,02s] Version check on reeloader...
+[ 253,02s] Auth CKB...
+[ 253,02s] Decrypt CKB...
+[ 253,02s] Check CKB magic ID...
+[ 253,03s] reeloader_addr=20100000
+[ 253,03s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 253,04s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 253,04s] INFO:    warmboot return address : 9dc01c00
+[ 253,04s] INFO:    BL3-1: Initializing runtime services
+[ 253,05s] NOTICE:  From args : boot_mbx = 20028084 
+[ 253,05s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 253,06s] INFO:    BL3-1: Initializing BL3-2
+[ 253,22s] [Ramlog] ramlog_init init success
+[ 253,22s] 
+[ 253,24s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 253,25s] INFO:    BL3-1: Next image address = 0x20100000
+[ 253,25s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 253,26s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 253,26s] INFO:    R1 0
+[ 253,26s] INFO:    R2 0
+[ 253,26s] INFO:    R3 0
+[ 253,26s] ree_entry
+[ 253,30s] U
+[ 253,30s] Relocation Offset is: 01700000
+[ 253,38s] [AT][MB][start ub][715]
+[ 253,38s] 
+[ 253,38s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 253,38s] 
+[ 253,39s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 253,40s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 253,41s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 253,41s] 
+[ 253,41s] eMMC HS400 5.1 200MHz
+[ 253,42s] eMMC 29.12 GB 
+[ 253,42s] eMMC used life: 0~10%
+[ 253,42s]  CID
+[ 253,42s]   0xXXXXXXXX
+[ 253,42s]   0xXXXXXXXX
+[ 253,42s]   0xXXXXXXXX
+[ 253,42s]   0xXXXXXXXX
+[ 253,43s] 
+[ 253,43s] uboot held at [282DDF60~29800000],size=015220A0
+[ 253,43s] Now running in RAM - U-Boot at: 28B00000
+[ 253,44s] DRAM : 2048MB
+[ 253,44s] SAR5=ON
+[ 253,44s] In:    serial
+[ 253,44s] Out:   serial
+[ 253,44s] Err:   serial
+[ 253,44s] Net:   No ethernet found.
+[ 253,45s] MAC:  <entfernt>
+[ 253,45s] [AT][MBoot][Driver Init][788]
+[ 253,45s] u32Size =65536 blk_cnt =128
+[ 253,46s] u32Size =65536 blk_cnt =128
+[ 253,46s] u32Size =512 blk_cnt =1
+[ 253,47s] u32Size =512 blk_cnt =1
+[ 253,48s] 
+[ 253,48s]  hdmiDbg is close. 
+[ 253,48s] End,speed type:1 
+[ 253,48s] u32Size =512 blk_cnt =1
+[ 253,48s] u32Size =512 blk_cnt =1
+[ 253,48s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 253,49s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 253,50s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 253,50s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 253,51s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 253,52s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 253,53s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 253,53s] Writing to MMC(0)... 128 blocks written: OK
+[ 253,54s] 128 blocks written: OK
+[ 253,54s] done
+[ 253,54s] GpioRegister
+[ 253,54s] GpioRegister m7642
+[ 253,55s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 253,55s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 253,56s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 253,56s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 253,57s] u32Size =65536 blk_cnt =128
+[ 253,57s] 
+[ 253,57s] [fan][SetFanWorkMode][33] fan type :1 
+[ 253,58s] 0:MCP_S_D3_2133_8G_4x
+[ 253,58s] 1:MCP_S_D3_2133_8G_4x
+[ 253,58s] DRAM Channel 0 Size = [2048MB]
+[ 253,59s] 
+[ 253,59s] Changelist:<09>24543697
+[ 253,59s] ============= set bootargs ===============
+[ 253,60s] Hit any key to stop autoboot:  0 
+[ 253,60s] set xgimibootreason normal to bootargs OK
+[ 253,60s] 128 blocks written: OK
+[ 253,60s] 128 blocks written: OK
+[ 253,61s] u32Size =512 blk_cnt =1
+[ 253,61s] u32Size =512 blk_cnt =1
+[ 253,61s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 253,62s] Writing to MMC(0)... 128 blocks written: OK
+[ 253,63s] 128 blocks written: OK
+[ 253,63s] done
+[ 253,63s] clearMusicModeFlag
+[ 253,63s] 128 blocks written: OK
+[ 253,64s] 128 blocks written: OK
+[ 253,64s] u32Size =512 blk_cnt =1
+[ 253,64s] u32Size =512 blk_cnt =1
+[ 253,64s] get keypad_detect_mode = 2
+[ 253,65s] u32Size =512 blk_cnt =1
+[ 253,65s] u32Size =512 blk_cnt =1
+[ 253,65s] get keypad_type = 7
+[ 253,66s] GetKeypadInstall
+[ 253,66s] key adc value:255
+[ 253,66s] sarKeyGetKeyCode key=255,hold=0
+[ 253,66s] HW MDrv_IIC_InitPort9: OK
+[ 253,66s] HW MDrv_IIC_InitPort9: OK
+[ 253,68s] xgimi_dri_mcu_mode:0 
+[ 253,68s] read_mcu_mode = 0
+[ 253,68s] mcuKeyGetKeyCode key=255,hold=0
+[ 253,68s] ==> do_mcu_control 
+[ 253,68s] UpdateSetAddr is: 0x2
+[ 253,69s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 253,69s] UpdateSetWakeGpioPin is: 0x25
+[ 253,69s] ota_upgrade_mode is<EF><BC><9A>1
+[ 253,69s] ota version num is<EF><BC><9A>
+[ 253,70s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 253,71s] 
+[ 253,71s] ============================> MCU: upgrade Begin <============================ 
+[ 253,71s] MCU:===========>en_upgrade_mode is 1
+[ 253,71s] ====================> MCU: read OTA file Begin 
+[ 253,72s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 253,72s] mmc change mount : xgimiconfig
+[ 253,74s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 253,75s] ====> MCU:fileLen = 11841
+[ 253,75s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 253,78s] 11841 bytes read
+[ 253,78s] MCU:===========>compare
+[ 253,78s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 253,78s] MCU:verify_checksum is 1835355
+[ 253,79s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 253,79s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 253,80s] ============> MCU: Congratulations ,usb update success ###############
+[ 253,81s] 
+[ 253,81s] ============================> MCU: upgrade End <============================ 
+[ 253,81s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 253,82s] enable dont overwrite function
+[ 253,82s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 253,83s] ENV_UPGRADE_COMPLETE =0 
+[ 253,83s] ENV_UPGRADE_MODE =null 
+[ 253,83s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 253,84s] [QHB] prepare to CLEAR QHB
+[ 253,84s] AC on
+[ 253,85s] xgimi_read_fastpoweron_status:0 
+[ 253,86s] ==> if go to fast power on : 0 
+[ 253,86s] 
+[ 253,86s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 253,87s] [setLightStatus]:0
+[ 254,37s] resetWifiBtModule cost :500ms
+[ 254,37s] findUsbDevice: find mtk bt usb device from usb prot[2]
+[ 254,37s] Check USB port[2]:
+[ 254,37s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[ 254,38s] [USB] enable miu lower bound address subtraction
+[ 254,80s] scanning bus for devices... New Device 0
+[ 254,82s] 
+[ 254,82s] [USB] interface[0] conf:1 value E0: 
+[ 255,02s] 1 USB Device(s) found
+[ 255,02s] Found USB WIFI [MTK7668] in usb port 2
+[ 255,03s] LD_btmtk_usb_probe: =========================================
+[ 255,03s] LD_btmtk_usb_probe: Mediatek Bluetooth USB driver ver 3.0.19101701
+[ 255,04s] LD_btmtk_usb_probe: =========================================
+[ 255,04s] LD_btmtk_usb_probe: probe_counter = 1
+[ 255,05s] btmtk_usb_cap_init: patch name: mt7668_patch_e2_hdr.bin
+[ 255,05s] btmtk_usb_cap_init: woble setting file name is woble_setting_7668.bin
+[ 255,06s] mmc change mount : xgimiconfig
+[ 255,06s] mtk_patch_bin_patch: /public/BT/7668/bt.cfg
+[ 255,08s] Size of file "/public/BT/7668/bt.cfg" from mmc device 0 partition xgimiconfig: 1339 bytes
+[ 255,09s] Loading file "/public/BT/7668/bt.cfg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 255,12s] 1339 bytes read
+[ 255,12s] btmtk_usb_load_bt_cfg_item: bt_cfg_content->support_unify_woble = 1
+[ 255,12s] mmc change mount : xgimiconfig
+[ 255,13s] mtk_patch_bin_patch: /public/BT/7668/mt7668_patch_e2_hdr.bin
+[ 255,15s] Size of file "/public/BT/7668/mt7668_patch_e2_hdr.bin" from mmc device 0 partition xgimiconfig: 213054 bytes
+[ 255,16s] Loading file "/public/BT/7668/mt7668_patch_e2_hdr.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 255,18s] 213054 bytes read
+[ 255,21s] btmtk_usb_check_need_load_patch_7668: btmtk_usb_check_need_load_patch_7668: return len is 7
+[ 255,21s] btmtk_usb_load_rom_patch_7668: patch_status: 2, retry: 20
+[ 255,22s] btmtk_usb_load_rom_patch_7668: FW Version = 20200417120149f
+[ 255,22s] btmtk_usb_load_rom_patch_7668: build Time = 20200417120149f
+[ 255,23s] btmtk_usb_load_rom_patch_7668: platform = mp2_
+[ 255,23s] btmtk_usb_load_rom_patch_7668: HW/SW version = 1802
+[ 255,24s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of ILM
+[ 255,53s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 255,58s] btmtk_usb_send_wmt_reset_cmd: Check reset wmt result : OK
+[ 255,60s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of sysram3
+[ 255,64s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 255,64s] Ldbtusb_connect: usbbt probe success
+[ 255,65s] LD_btmtk_usb_SetWoble: 
+[ 255,75s] btmtk_usb_send_wmt_cmd: retry to get event(10)
+[ 255,85s] btmtk_usb_send_wmt_cmd: retry to get event(9)
+[ 255,96s] btmtk_usb_send_wmt_cmd: retry to get event(8)
+[ 256,06s] btmtk_usb_send_wmt_cmd: retry to get event(7)
+[ 256,17s] btmtk_usb_send_wmt_cmd: retry to get event(6)
+[ 256,27s] btmtk_usb_send_wmt_cmd: retry to get event(5)
+[ 256,38s] btmtk_usb_send_wmt_power_on_cmd_7668: OK
+[ 256,38s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,38s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,39s] btmtk_usb_send_hci_tci_set_sleep_cmd_7668: OK
+[ 256,39s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,41s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,41s] btmtk_usb_send_hci_reset_cmd: OK
+[ 256,42s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,42s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,42s] btmtk_usb_get_vendor_cap: OK
+[ 256,43s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,43s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,43s] btmtk_usb_send_read_bdaddr: ADDR: <mac-entfernt>
+[ 256,44s] mmc change mount : xgimiconfig
+[ 256,44s] mtk_patch_bin_patch: /public/BT/7668/woble_setting_7668.bin
+[ 256,47s] Size of file "/public/BT/7668/woble_setting_7668.bin" from mmc device 0 partition xgimiconfig: 1640 bytes
+[ 256,47s] Loading file "/public/BT/7668/woble_setting_7668.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 256,50s] 1640 bytes read
+[ 256,50s] btmtk_usb_load_woble_block_setting: APCF00: found & stored in 0
+[ 256,51s] btmtk_usb_load_woble_block_setting: APCF01: found & stored in 1
+[ 256,51s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC00: found & stored in 0
+[ 256,52s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC01: found & stored in 1
+[ 256,53s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION00: found & stored in 0
+[ 256,54s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION01: found & stored in 1
+[ 256,54s] btmtk_usb_load_woble_block_setting: RADIOOFF00: found & stored in 0
+[ 256,55s] btmtk_usb_load_woble_block_setting: WAKEUP_TYPE_LEGACY00: found & stored in 0
+[ 256,55s] btmtk_usb_load_woble_block_setting: RADIOOFF_COMPLETE_EVENT00: found & stored in 0
+[ 256,56s] btmtk_usb_set_apcf: Set APCF filter from woble_setting.bin
+[ 256,57s] btmtk_usb_set_apcf: Send woble_setting_apcf[0]  57 FD 27 06 00 5A 46 00 00 24 AF 72 35 F2 78 00 00 00 00 43 52 4B 54 4D FF FF 00 FF FF FF FF FF FF 00 00 00 00 FF FF FF FF FF
+[ 256,58s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,59s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,59s] btmtk_usb_set_apcf: Send woble_setting_apcf[1]  57 FD 0A 01 00 5A 20 00 20 00 01 80 00
+[ 256,60s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,60s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,60s] btmtk_usb_set_unify_woble: Send radio off C9 FC 34 01 20 02 00 01 02 01 00 02 40 5A 02 41 0F 05 24 20 04 32 00 09 26 C0 12 00 00 12 00 00 00 05 10 01 00 6B 00 04 42 09 01 02 0A 48 01 FF FF 00 00 10 00 00 80
+[ 256,62s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,63s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,63s] btmtk_usb_send_hci_cmd: got unknown event(6)
+[ 256,64s] btmtk_usb_send_hci_cmd: try get event again
+[ 256,65s] usb_bt_interrupt_msg: epType = 0x2
+[ 256,65s] usb_bt_interrupt_msg: ret = 0x0
+[ 256,65s] Ldbtusb_SetWoble: usb set woble end
+[ 256,66s] do_setMtkBT: ready to do usb_stop
+[ 256,66s] do_setMtkBT: stop usb port: 2
+[ 256,66s] [setSystemStatus]:1
+[ 256,67s] 
+[ 256,67s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x2 
+[ 256,68s] [setLightStatus]:1
+[ 256,68s] 
+[ 256,68s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0xF 
+[ 256,71s] xgimi_read_fastpoweron_status:0 
+[ 256,71s] ==> if go to fast power on : 0 
+[ 256,72s] argc = 2
+[ 256,72s] poweronoff = 0
+[ 256,72s] 
+[ 256,72s]  [Dlp_Debug]DLP:fun:<Dlp_PowerOnOff> | line:1554: --- Dlp_PowerOnOff 0
+[ 256,73s] mmc change mount : tvconfig
+[ 256,73s] Loading file "/config/PM.bin" at offset 0x0 from mmc device 0 partition tvconfig
+[ 256,76s] 40959 bytes read
+[ 256,77s] Wait for PM51 standby...........PM51 run ok...........<1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_Low 359<1B>[35m
+[ 256,88s] [MDrv_PM_Init_Key][909] Retry send MBX CMD(0x1) to PM51.
+[ 256,89s] Set Power Off Short
+[ 256,89s] CRC Check OPEN: 1
+[ 256,90s] [GPIO_WAKE_SETTING]
+[ 256,90s] WOW_GPIO_NUM        = 0
+[ 256,90s] WOBT_GPIO_NUM       = 13
+[ 256,90s] WOEWBS_GPIO_NUM     = 255
+[ 256,91s] 
+[ 256,91s] [PM_GPIO_WAKE_SETTING]
+[ 256,91s] WOW_PM_GPIO_NUM     = 17
+[ 256,91s] WOBT_PM_GPIO_NUM    = 7
+[ 256,91s] WOEWBS_PM_GPIO_NUM  = 0
+[ 256,91s] 
+[ 256,91s] BTW = FF
+[ 256,91s] 0x8709
+[ 256,91s] Power Down<FF><00>UART_115200
+[ 261,97s] 
+[ 261,97s] AC_ON
+[ 261,97s] 01-2L-SM-10-20201028
+[ 261,97s] B44
+[ 261,99s] MIU0_DQS-OK
+[ 261,99s] BIST0-OK
+[ 262,09s] optee teeloader entry
+[ 262,29s] CusConfig
+[ 262,30s] eMMC_RPMB_Check_Program_Key
+[ 262,30s] *ree_opt=0000007B
+[ 262,30s] Auth reeloader...
+[ 262,31s] Decrypt reeloader...
+[ 262,31s] Check reeloader magic ID...
+[ 262,31s] Version check on reeloader...
+[ 262,32s] Auth CKB...
+[ 262,32s] Decrypt CKB...
+[ 262,32s] Check CKB magic ID...
+[ 262,32s] reeloader_addr=20100000
+[ 262,33s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 262,34s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 262,34s] INFO:    warmboot return address : 9dc01c00
+[ 262,34s] INFO:    BL3-1: Initializing runtime services
+[ 262,35s] NOTICE:  From args : boot_mbx = 20028084 
+[ 262,35s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 262,35s] INFO:    BL3-1: Initializing BL3-2
+[ 262,52s] [Ramlog] ramlog_init init success
+[ 262,52s] 
+[ 262,54s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 262,55s] INFO:    BL3-1: Next image address = 0x20100000
+[ 262,55s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 262,55s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 262,56s] INFO:    R1 0
+[ 262,56s] INFO:    R2 0
+[ 262,56s] INFO:    R3 0
+[ 262,56s] ree_entry
+[ 262,60s] U
+[ 262,60s] Relocation Offset is: 01700000
+[ 262,68s] [AT][MB][start ub][715]
+[ 262,68s] 
+[ 262,68s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 262,68s] 
+[ 262,69s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 262,70s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 262,70s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 262,71s] 
+[ 262,71s] eMMC HS400 5.1 200MHz
+[ 262,71s] eMMC 29.12 GB 
+[ 262,72s] eMMC used life: 0~10%
+[ 262,72s]  CID
+[ 262,72s]   0xXXXXXXXX
+[ 262,72s]   0xXXXXXXXX
+[ 262,72s]   0xXXXXXXXX
+[ 262,72s]   0xXXXXXXXX
+[ 262,73s] 
+[ 262,73s] uboot held at [282DDF60~29800000],size=015220A0
+[ 262,73s] Now running in RAM - U-Boot at: 28B00000
+[ 262,74s] DRAM : 2048MB
+[ 262,74s] SAR5=ON
+[ 262,74s] In:    serial
+[ 262,74s] Out:   serial
+[ 262,74s] Err:   serial
+[ 262,74s] Net:   No ethernet found.
+[ 262,75s] MAC:  <entfernt>
+[ 262,75s] [AT][MBoot][Driver Init][788]
+[ 262,75s] u32Size =65536 blk_cnt =128
+[ 262,76s] u32Size =65536 blk_cnt =128
+[ 262,76s] u32Size =512 blk_cnt =1
+[ 262,76s] u32Size =512 blk_cnt =1
+[ 262,77s] 
+[ 262,77s]  hdmiDbg is close. 
+[ 262,77s] End,speed type:1 
+[ 262,77s] u32Size =512 blk_cnt =1
+[ 262,77s] u32Size =512 blk_cnt =1
+[ 262,78s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 262,79s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 262,80s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 262,80s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 262,81s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 262,82s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 262,83s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 262,83s] Writing to MMC(0)... 128 blocks written: OK
+[ 262,84s] 128 blocks written: OK
+[ 262,84s] done
+[ 262,84s] GpioRegister
+[ 262,84s] GpioRegister m7642
+[ 262,84s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 262,85s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 262,86s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 262,86s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 262,87s] u32Size =65536 blk_cnt =128
+[ 262,87s] 
+[ 262,87s] [fan][SetFanWorkMode][33] fan type :1 
+[ 262,88s] 0:MCP_S_D3_2133_8G_4x
+[ 262,88s] 1:MCP_S_D3_2133_8G_4x
+[ 262,88s] DRAM Channel 0 Size = [2048MB]
+[ 262,88s] 
+[ 262,88s] Changelist:<09>24543697
+[ 262,89s] ============= set bootargs ===============
+[ 262,89s] Hit any key to stop autoboot:  0 
+[ 262,89s] set xgimibootreason normal to bootargs OK
+[ 262,90s] 128 blocks written: OK
+[ 262,91s] 128 blocks written: OK
+[ 262,91s] u32Size =512 blk_cnt =1
+[ 262,91s] u32Size =512 blk_cnt =1
+[ 262,92s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 262,92s] Writing to MMC(0)... 128 blocks written: OK
+[ 262,93s] 128 blocks written: OK
+[ 262,93s] done
+[ 262,93s] clearMusicModeFlag
+[ 262,94s] 128 blocks written: OK
+[ 262,94s] 128 blocks written: OK
+[ 262,94s] u32Size =512 blk_cnt =1
+[ 262,95s] u32Size =512 blk_cnt =1
+[ 262,95s] get keypad_detect_mode = 2
+[ 262,95s] u32Size =512 blk_cnt =1
+[ 262,95s] u32Size =512 blk_cnt =1
+[ 262,96s] get keypad_type = 7
+[ 262,96s] GetKeypadInstall
+[ 262,96s] key adc value:255
+[ 262,96s] sarKeyGetKeyCode key=255,hold=0
+[ 262,97s] HW MDrv_IIC_InitPort9: OK
+[ 262,97s] HW MDrv_IIC_InitPort9: OK
+[ 262,98s] xgimi_dri_mcu_mode:0 
+[ 262,98s] read_mcu_mode = 0
+[ 262,98s] mcuKeyGetKeyCode key=255,hold=0
+[ 262,99s] ==> do_mcu_control 
+[ 262,99s] UpdateSetAddr is: 0x2
+[ 262,99s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 262,99s] UpdateSetWakeGpioPin is: 0x25
+[ 263,00s] ota_upgrade_mode is<EF><BC><9A>1
+[ 263,00s] ota version num is<EF><BC><9A>
+[ 263,00s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 263,01s] 
+[ 263,01s] ============================> MCU: upgrade Begin <============================ 
+[ 263,01s] MCU:===========>en_upgrade_mode is 1
+[ 263,02s] ====================> MCU: read OTA file Begin 
+[ 263,02s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 263,03s] mmc change mount : xgimiconfig
+[ 263,04s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 263,05s] ====> MCU:fileLen = 11841
+[ 263,06s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 263,08s] 11841 bytes read
+[ 263,08s] MCU:===========>compare
+[ 263,08s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 263,09s] MCU:verify_checksum is 1835355
+[ 263,09s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 263,10s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 263,10s] ============> MCU: Congratulations ,usb update success ###############
+[ 263,11s] 
+[ 263,11s] ============================> MCU: upgrade End <============================ 
+[ 263,12s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 263,12s] enable dont overwrite function
+[ 263,13s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 263,13s] ENV_UPGRADE_COMPLETE =0 
+[ 263,13s] ENV_UPGRADE_MODE =null 
+[ 263,14s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 263,14s] [QHB] prepare to CLEAR QHB
+[ 263,15s] AC on
+[ 263,16s] xgimi_read_fastpoweron_status:0 
+[ 263,16s] ==> if go to fast power on : 0 
+[ 263,16s] 
+[ 263,16s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 263,17s] [setLightStatus]:0
+[ 264,03s] <00>UART_115200
+[ 274,07s] 
+[ 274,07s] AC_ON
+[ 274,07s] 01-2L-SM-10-20201028
+[ 274,08s] B44
+[ 274,09s] MIU0_DQS-OK
+[ 274,09s] BIST0-OK
+[ 274,19s] optee teeloader entry
+[ 274,39s] CusConfig
+[ 274,40s] eMMC_RPMB_Check_Program_Key
+[ 274,40s] *ree_opt=0000007B
+[ 274,40s] Auth reeloader...
+[ 274,41s] Decrypt reeloader...
+[ 274,41s] Check reeloader magic ID...
+[ 274,41s] Version check on reeloader...
+[ 274,42s] Auth CKB...
+[ 274,42s] Decrypt CKB...
+[ 274,42s] Check CKB magic ID...
+[ 274,43s] reeloader_addr=20100000
+[ 274,43s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 274,44s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 274,44s] INFO:    warmboot return address : 9dc01c00
+[ 274,44s] INFO:    BL3-1: Initializing runtime services
+[ 274,45s] NOTICE:  From args : boot_mbx = 20028084 
+[ 274,45s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 274,46s] INFO:    BL3-1: Initializing BL3-2
+[ 274,62s] [Ramlog] ramlog_init init success
+[ 274,62s] 
+[ 274,64s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 274,65s] INFO:    BL3-1: Next image address = 0x20100000
+[ 274,65s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 274,66s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 274,66s] INFO:    R1 0
+[ 274,66s] INFO:    R2 0
+[ 274,66s] INFO:    R3 0
+[ 274,66s] ree_entry
+[ 274,70s] U
+[ 274,70s] Relocation Offset is: 01700000
+[ 274,78s] [AT][MB][start ub][715]
+[ 274,78s] 
+[ 274,78s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 274,78s] 
+[ 274,79s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 274,80s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 274,81s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 274,81s] 
+[ 274,81s] eMMC HS400 5.1 200MHz
+[ 274,82s] eMMC 29.12 GB 
+[ 274,82s] eMMC used life: 0~10%
+[ 274,82s]  CID
+[ 274,82s]   0xXXXXXXXX
+[ 274,82s]   0xXXXXXXXX
+[ 274,82s]   0xXXXXXXXX
+[ 274,82s]   0xXXXXXXXX
+[ 274,83s] 
+[ 274,83s] uboot held at [282DDF60~29800000],size=015220A0
+[ 274,83s] Now running in RAM - U-Boot at: 28B00000
+[ 274,84s] DRAM : 2048MB
+[ 274,84s] SAR5=ON
+[ 274,84s] In:    serial
+[ 274,84s] Out:   serial
+[ 274,84s] Err:   serial
+[ 274,84s] Net:   No ethernet found.
+[ 274,85s] MAC:  <entfernt>
+[ 274,85s] [AT][MBoot][Driver Init][788]
+[ 274,85s] u32Size =65536 blk_cnt =128
+[ 274,86s] u32Size =65536 blk_cnt =128
+[ 274,86s] u32Size =512 blk_cnt =1
+[ 274,86s] u32Size =512 blk_cnt =1
+[ 274,87s] 
+[ 274,87s]  hdmiDbg is close. 
+[ 274,87s] End,speed type:1 
+[ 274,87s] u32Size =512 blk_cnt =1
+[ 274,88s] u32Size =512 blk_cnt =1
+[ 274,88s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 274,90s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 274,90s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 274,91s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 274,91s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 274,92s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 274,93s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 274,93s] Writing to MMC(0)... 128 blocks written: OK
+[ 275,05s] 128 blocks written: OK
+[ 275,05s] done
+[ 275,05s] GpioRegister
+[ 275,05s] GpioRegister m7642
+[ 275,06s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 275,06s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 275,07s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 275,08s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 275,08s] u32Size =65536 blk_cnt =128
+[ 275,08s] 
+[ 275,08s] [fan][SetFanWorkMode][33] fan type :1 
+[ 275,09s] 0:MCP_S_D3_2133_8G_4x
+[ 275,09s] 1:MCP_S_D3_2133_8G_4x
+[ 275,09s] DRAM Channel 0 Size = [2048MB]
+[ 275,10s] 
+[ 275,10s] Changelist:<09>24543697
+[ 275,10s] ============= set bootargs ===============
+[ 275,10s] Hit any key to stop autoboot:  0 
+[ 275,10s] set xgimibootreason normal to bootargs OK
+[ 275,12s] 128 blocks written: OK
+[ 275,12s] 128 blocks written: OK
+[ 275,12s] u32Size =512 blk_cnt =1
+[ 275,13s] u32Size =512 blk_cnt =1
+[ 275,13s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 275,14s] Writing to MMC(0)... 128 blocks written: OK
+[ 275,14s] 128 blocks written: OK
+[ 275,15s] done
+[ 275,15s] clearMusicModeFlag
+[ 275,15s] 128 blocks written: OK
+[ 275,15s] 128 blocks written: OK
+[ 275,16s] u32Size =512 blk_cnt =1
+[ 275,16s] u32Size =512 blk_cnt =1
+[ 275,16s] get keypad_detect_mode = 2
+[ 275,16s] u32Size =512 blk_cnt =1
+[ 275,17s] u32Size =512 blk_cnt =1
+[ 275,17s] get keypad_type = 7
+[ 275,17s] GetKeypadInstall
+[ 275,17s] key adc value:255
+[ 275,18s] sarKeyGetKeyCode key=255,hold=0
+[ 275,18s] HW MDrv_IIC_InitPort9: OK
+[ 275,18s] HW MDrv_IIC_InitPort9: OK
+[ 275,19s] xgimi_dri_mcu_mode:0 
+[ 275,20s] read_mcu_mode = 0
+[ 275,20s] mcuKeyGetKeyCode key=255,hold=0
+[ 275,20s] ==> do_mcu_control 
+[ 275,20s] UpdateSetAddr is: 0x2
+[ 275,20s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 275,21s] UpdateSetWakeGpioPin is: 0x25
+[ 275,21s] ota_upgrade_mode is<EF><BC><9A>1
+[ 275,21s] ota version num is<EF><BC><9A>
+[ 275,21s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 275,22s] 
+[ 275,22s] ============================> MCU: upgrade Begin <============================ 
+[ 275,23s] MCU:===========>en_upgrade_mode is 1
+[ 275,23s] ====================> MCU: read OTA file Begin 
+[ 275,23s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 275,24s] mmc change mount : xgimiconfig
+[ 275,26s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 275,27s] ====> MCU:fileLen = 11841
+[ 275,27s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 275,29s] 11841 bytes read
+[ 275,32s] MCU:===========>compare
+[ 275,32s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 275,32s] MCU:verify_checksum is 1835355
+[ 275,32s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 275,32s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 275,32s] ============> MCU: Congratulations ,usb update success ###############
+[ 275,34s] 
+[ 275,34s] ============================> MCU: upgrade End <============================ 
+[ 275,34s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 275,34s] enable dont overwrite function
+[ 275,34s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 275,34s] ENV_UPGRADE_COMPLETE =0 
+[ 275,35s] ENV_UPGRADE_MODE =null 
+[ 275,35s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 275,35s] [QHB] prepare to CLEAR QHB
+[ 275,36s] AC on
+[ 275,37s] xgimi_read_fastpoweron_status:0 
+[ 275,37s] ==> if go to fast power on : 0 
+[ 275,37s] 
+[ 275,37s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 275,38s] [setLightStatus]:0
+[ 275,88s] resetWifiBtModule cost :500ms
+[ 275,89s] findUsbDevice: find mtk bt usb device from usb prot[2]
+[ 275,89s] Check USB port[2]:
+[ 275,89s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[ 275,90s] [USB] enable miu lower bound address subtraction
+[ 276,32s] scanning bus for devices... New Device 0
+[ 276,33s] 
+[ 276,33s] [USB] interface[0] conf:1 value E0: 
+[ 276,54s] 1 USB Device(s) found
+[ 276,54s] Found USB WIFI [MTK7668] in usb port 2
+[ 276,54s] LD_btmtk_usb_probe: =========================================
+[ 276,55s] LD_btmtk_usb_probe: Mediatek Bluetooth USB driver ver 3.0.19101701
+[ 276,55s] LD_btmtk_usb_probe: =========================================
+[ 276,56s] LD_btmtk_usb_probe: probe_counter = 1
+[ 276,56s] btmtk_usb_cap_init: patch name: mt7668_patch_e2_hdr.bin
+[ 276,57s] btmtk_usb_cap_init: woble setting file name is woble_setting_7668.bin
+[ 276,57s] mmc change mount : xgimiconfig
+[ 276,58s] mtk_patch_bin_patch: /public/BT/7668/bt.cfg
+[ 276,60s] Size of file "/public/BT/7668/bt.cfg" from mmc device 0 partition xgimiconfig: 1339 bytes
+[ 276,61s] Loading file "/public/BT/7668/bt.cfg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 276,63s] 1339 bytes read
+[ 276,63s] btmtk_usb_load_bt_cfg_item: bt_cfg_content->support_unify_woble = 1
+[ 276,64s] mmc change mount : xgimiconfig
+[ 276,64s] mtk_patch_bin_patch: /public/BT/7668/mt7668_patch_e2_hdr.bin
+[ 276,66s] Size of file "/public/BT/7668/mt7668_patch_e2_hdr.bin" from mmc device 0 partition xgimiconfig: 213054 bytes
+[ 276,67s] Loading file "/public/BT/7668/mt7668_patch_e2_hdr.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 276,70s] 213054 bytes read
+[ 276,72s] btmtk_usb_check_need_load_patch_7668: btmtk_usb_check_need_load_patch_7668: return len is 7
+[ 276,73s] btmtk_usb_load_rom_patch_7668: patch_status: 2, retry: 20
+[ 276,74s] btmtk_usb_load_rom_patch_7668: FW Version = 20200417120149f
+[ 276,74s] btmtk_usb_load_rom_patch_7668: build Time = 20200417120149f
+[ 276,75s] btmtk_usb_load_rom_patch_7668: platform = mp2_
+[ 276,75s] btmtk_usb_load_rom_patch_7668: HW/SW version = 1802
+[ 276,76s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of ILM
+[ 277,05s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 277,10s] btmtk_usb_send_wmt_reset_cmd: Check reset wmt result : OK
+[ 277,12s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of sysram3
+[ 277,15s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 277,16s] Ldbtusb_connect: usbbt probe success
+[ 277,16s] LD_btmtk_usb_SetWoble: 
+[ 277,27s] btmtk_usb_send_wmt_cmd: retry to get event(10)
+[ 277,37s] btmtk_usb_send_wmt_cmd: retry to get event(9)
+[ 277,47s] btmtk_usb_send_wmt_cmd: retry to get event(8)
+[ 277,58s] btmtk_usb_send_wmt_cmd: retry to get event(7)
+[ 277,68s] btmtk_usb_send_wmt_cmd: retry to get event(6)
+[ 277,79s] btmtk_usb_send_wmt_cmd: retry to get event(5)
+[ 278,41s] <00>UART_115200
+[ 283,57s] 
+[ 283,57s] AC_ON
+[ 283,57s] 01-2L-SM-10-20201028
+[ 283,57s] B44
+[ 283,59s] MIU0_DQS-OK
+[ 283,59s] BIST0-OK
+[ 283,68s] optee teeloader entry
+[ 283,89s] CusConfig
+[ 283,89s] eMMC_RPMB_Check_Program_Key
+[ 283,90s] *ree_opt=0000007B
+[ 283,90s] Auth reeloader...
+[ 283,90s] Decrypt reeloader...
+[ 283,91s] Check reeloader magic ID...
+[ 283,91s] Version check on reeloader...
+[ 283,92s] Auth CKB...
+[ 283,92s] Decrypt CKB...
+[ 283,92s] Check CKB magic ID...
+[ 283,92s] reeloader_addr=20100000
+[ 283,93s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 283,93s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 283,94s] INFO:    warmboot return address : 9dc01c00
+[ 283,94s] INFO:    BL3-1: Initializing runtime services
+[ 283,94s] NOTICE:  From args : boot_mbx = 20028084 
+[ 283,95s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 283,95s] INFO:    BL3-1: Initializing BL3-2
+[ 284,12s] [Ramlog] ramlog_init init success
+[ 284,12s] 
+[ 284,14s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 284,14s] INFO:    BL3-1: Next image address = 0x20100000
+[ 284,15s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 284,15s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 284,16s] INFO:    R1 0
+[ 284,16s] INFO:    R2 0
+[ 284,16s] INFO:    R3 0
+[ 284,16s] ree_entry
+[ 284,20s] U
+[ 284,20s] Relocation Offset is: 01700000
+[ 284,27s] [AT][MB][start ub][715]
+[ 284,28s] 
+[ 284,28s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 284,28s] 
+[ 284,29s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 284,29s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 284,30s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 284,31s] 
+[ 284,31s] eMMC HS400 5.1 200MHz
+[ 284,31s] eMMC 29.12 GB 
+[ 284,31s] eMMC used life: 0~10%
+[ 284,32s]  CID
+[ 284,32s]   0xXXXXXXXX
+[ 284,32s]   0xXXXXXXXX
+[ 284,32s]   0xXXXXXXXX
+[ 284,32s]   0xXXXXXXXX
+[ 284,33s] 
+[ 284,33s] uboot held at [282DDF60~29800000],size=015220A0
+[ 284,33s] Now running in RAM - U-Boot at: 28B00000
+[ 284,33s] DRAM : 2048MB
+[ 284,34s] SAR5=ON
+[ 284,34s] In:    serial
+[ 284,34s] Out:   serial
+[ 284,34s] Err:   serial
+[ 284,34s] Net:   No ethernet found.
+[ 284,34s] MAC:  <entfernt>
+[ 284,35s] [AT][MBoot][Driver Init][788]
+[ 284,35s] u32Size =65536 blk_cnt =128
+[ 284,35s] u32Size =65536 blk_cnt =128
+[ 284,36s] u32Size =512 blk_cnt =1
+[ 284,36s] u32Size =512 blk_cnt =1
+[ 284,37s] 
+[ 284,37s]  hdmiDbg is close. 
+[ 284,37s] End,speed type:1 
+[ 284,37s] u32Size =512 blk_cnt =1
+[ 284,37s] u32Size =512 blk_cnt =1
+[ 284,37s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 284,38s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 284,40s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 284,40s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 284,41s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 284,42s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 284,42s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 284,43s] Writing to MMC(0)... 128 blocks written: OK
+[ 284,55s] 128 blocks written: OK
+[ 284,56s] done
+[ 284,56s] GpioRegister
+[ 284,56s] GpioRegister m7642
+[ 284,56s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 284,57s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 284,58s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 284,58s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 284,58s] u32Size =65536 blk_cnt =128
+[ 284,59s] 
+[ 284,59s] [fan][SetFanWorkMode][33] fan type :1 
+[ 284,59s] 0:MCP_S_D3_2133_8G_4x
+[ 284,60s] 1:MCP_S_D3_2133_8G_4x
+[ 284,60s] DRAM Channel 0 Size = [2048MB]
+[ 284,60s] 
+[ 284,60s] Changelist:<09>24543697
+[ 284,60s] ============= set bootargs ===============
+[ 284,61s] Hit any key to stop autoboot:  0 
+[ 284,62s] set xgimibootreason normal to bootargs OK
+[ 284,62s] 128 blocks written: OK
+[ 284,63s] 128 blocks written: OK
+[ 284,64s] u32Size =512 blk_cnt =1
+[ 284,64s] u32Size =512 blk_cnt =1
+[ 284,64s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 284,65s] Writing to MMC(0)... 128 blocks written: OK
+[ 284,66s] 128 blocks written: OK
+[ 284,66s] done
+[ 284,66s] clearMusicModeFlag
+[ 284,67s] 128 blocks written: OK
+[ 284,67s] 128 blocks written: OK
+[ 284,67s] u32Size =512 blk_cnt =1
+[ 284,68s] u32Size =512 blk_cnt =1
+[ 284,68s] get keypad_detect_mode = 2
+[ 284,68s] u32Size =512 blk_cnt =1
+[ 284,68s] u32Size =512 blk_cnt =1
+[ 284,69s] get keypad_type = 7
+[ 284,69s] GetKeypadInstall
+[ 284,69s] key adc value:255
+[ 284,69s] sarKeyGetKeyCode key=255,hold=0
+[ 284,69s] HW MDrv_IIC_InitPort9: OK
+[ 284,70s] HW MDrv_IIC_InitPort9: OK
+[ 284,71s] xgimi_dri_mcu_mode:0 
+[ 284,71s] read_mcu_mode = 0
+[ 284,71s] mcuKeyGetKeyCode key=255,hold=0
+[ 284,72s] ==> do_mcu_control 
+[ 284,72s] UpdateSetAddr is: 0x2
+[ 284,72s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 284,72s] UpdateSetWakeGpioPin is: 0x25
+[ 284,73s] ota_upgrade_mode is<EF><BC><9A>1
+[ 284,73s] ota version num is<EF><BC><9A>
+[ 284,73s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 284,74s] 
+[ 284,74s] ============================> MCU: upgrade Begin <============================ 
+[ 284,74s] MCU:===========>en_upgrade_mode is 1
+[ 284,75s] ====================> MCU: read OTA file Begin 
+[ 284,75s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 284,76s] mmc change mount : xgimiconfig
+[ 284,77s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 284,78s] ====> MCU:fileLen = 11841
+[ 284,78s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 284,81s] 11841 bytes read
+[ 284,81s] MCU:===========>compare
+[ 284,81s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 284,82s] MCU:verify_checksum is 1835355
+[ 284,82s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 284,82s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 284,83s] ============> MCU: Congratulations ,usb update success ###############
+[ 284,84s] 
+[ 284,84s] ============================> MCU: upgrade End <============================ 
+[ 284,85s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 284,85s] enable dont overwrite function
+[ 284,86s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 284,86s] ENV_UPGRADE_COMPLETE =0 
+[ 284,86s] ENV_UPGRADE_MODE =null 
+[ 284,87s] [QHB] PowerOnMode = 255, u4BootCtrl = 0x00000003, fgStateOn = 0
+[ 284,87s] [QHB] prepare to CLEAR QHB
+[ 284,87s] AC on
+[ 284,88s] xgimi_read_fastpoweron_status:0 
+[ 284,89s] ==> if go to fast power on : 0 
+[ 284,89s] 
+[ 284,89s]  ======>  [AMP_TI5825]  FUN:<AmpPowerOnOff> LINE:141 AmpPower_Off
+[ 284,90s] [setLightStatus]:0
+[ 285,40s] resetWifiBtModule cost :500ms
+[ 285,40s] findUsbDevice: find mtk bt usb device from usb prot[2]
+[ 285,41s] Check USB port[2]:
+[ 285,41s] [USB] config miu select [F0] [EF] [EF] ][EF]
+[ 285,41s] [USB] enable miu lower bound address subtraction
+[ 285,83s] scanning bus for devices... New Device 0
+[ 285,86s] 
+[ 285,86s] [USB] interface[0] conf:1 value E0: 
+[ 286,05s] 1 USB Device(s) found
+[ 286,06s] Found USB WIFI [MTK7668] in usb port 2
+[ 286,06s] LD_btmtk_usb_probe: =========================================
+[ 286,07s] LD_btmtk_usb_probe: Mediatek Bluetooth USB driver ver 3.0.19101701
+[ 286,07s] LD_btmtk_usb_probe: =========================================
+[ 286,08s] LD_btmtk_usb_probe: probe_counter = 1
+[ 286,08s] btmtk_usb_cap_init: patch name: mt7668_patch_e2_hdr.bin
+[ 286,08s] btmtk_usb_cap_init: woble setting file name is woble_setting_7668.bin
+[ 286,09s] mmc change mount : xgimiconfig
+[ 286,09s] mtk_patch_bin_patch: /public/BT/7668/bt.cfg
+[ 286,12s] Size of file "/public/BT/7668/bt.cfg" from mmc device 0 partition xgimiconfig: 1339 bytes
+[ 286,13s] Loading file "/public/BT/7668/bt.cfg" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 286,15s] 1339 bytes read
+[ 286,15s] btmtk_usb_load_bt_cfg_item: bt_cfg_content->support_unify_woble = 1
+[ 286,16s] mmc change mount : xgimiconfig
+[ 286,16s] mtk_patch_bin_patch: /public/BT/7668/mt7668_patch_e2_hdr.bin
+[ 286,18s] Size of file "/public/BT/7668/mt7668_patch_e2_hdr.bin" from mmc device 0 partition xgimiconfig: 213054 bytes
+[ 286,19s] Loading file "/public/BT/7668/mt7668_patch_e2_hdr.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 286,22s] 213054 bytes read
+[ 286,24s] btmtk_usb_check_need_load_patch_7668: btmtk_usb_check_need_load_patch_7668: return len is 7
+[ 286,25s] btmtk_usb_load_rom_patch_7668: patch_status: 2, retry: 20
+[ 286,25s] btmtk_usb_load_rom_patch_7668: FW Version = 20200417120149f
+[ 286,26s] btmtk_usb_load_rom_patch_7668: build Time = 20200417120149f
+[ 286,26s] btmtk_usb_load_rom_patch_7668: platform = mp2_
+[ 286,27s] btmtk_usb_load_rom_patch_7668: HW/SW version = 1802
+[ 286,27s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of ILM
+[ 286,57s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 286,61s] btmtk_usb_send_wmt_reset_cmd: Check reset wmt result : OK
+[ 286,64s] btmtk_usb_load_rom_patch_7668: btmtk_usb_load_rom_patch_7668: loading rom patch of sysram3
+[ 286,67s] btmtk_usb_load_partial_rom_patch_7668: loading rom patch... Done
+[ 286,68s] Ldbtusb_connect: usbbt probe success
+[ 286,69s] LD_btmtk_usb_SetWoble: 
+[ 286,78s] btmtk_usb_send_wmt_cmd: retry to get event(10)
+[ 286,89s] btmtk_usb_send_wmt_cmd: retry to get event(9)
+[ 286,99s] btmtk_usb_send_wmt_cmd: retry to get event(8)
+[ 287,10s] btmtk_usb_send_wmt_cmd: retry to get event(7)
+[ 287,20s] btmtk_usb_send_wmt_cmd: retry to get event(6)
+[ 287,30s] btmtk_usb_send_wmt_cmd: retry to get event(5)
+[ 287,41s] btmtk_usb_send_wmt_power_on_cmd_7668: OK
+[ 287,41s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,42s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,42s] btmtk_usb_send_hci_tci_set_sleep_cmd_7668: OK
+[ 287,42s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,44s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,45s] btmtk_usb_send_hci_reset_cmd: OK
+[ 287,45s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,45s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,46s] btmtk_usb_get_vendor_cap: OK
+[ 287,46s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,46s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,47s] btmtk_usb_send_read_bdaddr: ADDR: <mac-entfernt>
+[ 287,47s] mmc change mount : xgimiconfig
+[ 287,47s] mtk_patch_bin_patch: /public/BT/7668/woble_setting_7668.bin
+[ 287,50s] Size of file "/public/BT/7668/woble_setting_7668.bin" from mmc device 0 partition xgimiconfig: 1640 bytes
+[ 287,51s] Loading file "/public/BT/7668/woble_setting_7668.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 287,54s] 1640 bytes read
+[ 287,54s] btmtk_usb_load_woble_block_setting: APCF00: found & stored in 0
+[ 287,54s] btmtk_usb_load_woble_block_setting: APCF01: found & stored in 1
+[ 287,55s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC00: found & stored in 0
+[ 287,55s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC01: found & stored in 1
+[ 287,57s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION00: found & stored in 0
+[ 287,57s] btmtk_usb_load_woble_block_setting: APCF_ADD_MAC_LOCATION01: found & stored in 1
+[ 287,58s] btmtk_usb_load_woble_block_setting: RADIOOFF00: found & stored in 0
+[ 287,58s] btmtk_usb_load_woble_block_setting: WAKEUP_TYPE_LEGACY00: found & stored in 0
+[ 287,59s] btmtk_usb_load_woble_block_setting: RADIOOFF_COMPLETE_EVENT00: found & stored in 0
+[ 287,60s] btmtk_usb_set_apcf: Set APCF filter from woble_setting.bin
+[ 287,60s] btmtk_usb_set_apcf: Send woble_setting_apcf[0]  57 FD 27 06 00 5A 46 00 00 24 AF 72 35 F2 78 00 00 00 00 43 52 4B 54 4D FF FF 00 FF FF FF FF FF FF 00 00 00 00 FF FF FF FF FF
+[ 287,62s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,62s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,63s] btmtk_usb_set_apcf: Send woble_setting_apcf[1]  57 FD 0A 01 00 5A 20 00 20 00 01 80 00
+[ 287,63s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,63s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,64s] btmtk_usb_set_unify_woble: Send radio off C9 FC 34 01 20 02 00 01 02 01 00 02 40 5A 02 41 0F 05 24 20 04 32 00 09 26 C0 12 00 00 12 00 00 00 05 10 01 00 6B 00 04 42 09 01 02 0A 48 01 FF FF 00 00 10 00 00 80
+[ 287,65s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,66s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,66s] btmtk_usb_send_hci_cmd: got unknown event(6)
+[ 287,68s] btmtk_usb_send_hci_cmd: try get event again
+[ 287,68s] usb_bt_interrupt_msg: epType = 0x2
+[ 287,69s] usb_bt_interrupt_msg: ret = 0x0
+[ 287,69s] Ldbtusb_SetWoble: usb set woble end
+[ 287,69s] do_setMtkBT: ready to do usb_stop
+[ 287,70s] do_setMtkBT: stop usb port: 2
+[ 287,70s] [setSystemStatus]:1
+[ 287,70s] 
+[ 287,70s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x2 
+[ 287,72s] [setLightStatus]:1
+[ 287,72s] 
+[ 287,72s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0xF 
+[ 287,75s] xgimi_read_fastpoweron_status:0 
+[ 287,75s] ==> if go to fast power on : 0 
+[ 287,75s] argc = 2
+[ 287,75s] poweronoff = 0
+[ 287,76s] 
+[ 287,76s]  [Dlp_Debug]DLP:fun:<Dlp_PowerOnOff> | line:1554: --- Dlp_PowerOnOff 0
+[ 287,76s] mmc change mount : tvconfig
+[ 287,76s] Loading file "/config/PM.bin" at offset 0x0 from mmc device 0 partition tvconfig
+[ 287,79s] 40959 bytes read
+[ 287,80s] Wait for PM51 standby...........PM51 run ok...........<1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_Low 359<1B>[35m
+[ 287,91s] [MDrv_PM_Init_Key][909] Retry send MBX CMD(0x1) to PM51.
+[ 287,92s] Set Power Off Short
+[ 287,93s] CRC Check OPEN: 1
+[ 287,93s] [GPIO_WAKE_SETTING]
+[ 287,95s] WOW_GPIO_NUM        = 0
+[ 287,95s] WOBT_GPIO_NUM       = 13
+[ 287,95s] WOEWBS_GPIO_NUM     = 255
+[ 287,95s] 
+[ 287,95s] [PM_GPIO_WAKE_SETTING]
+[ 287,95s] WOW_PM_GPIO_NUM     = 17
+[ 287,95s] WOBT_PM_GPIO_NUM    = 7
+[ 287,95s] WOEWBS_PM_GPIO_NUM  = 0
+[ 287,95s] 
+[ 287,95s] BTW = FF
+[ 287,95s] 0x8709
+[ 287,95s] Power Down<FF><00>

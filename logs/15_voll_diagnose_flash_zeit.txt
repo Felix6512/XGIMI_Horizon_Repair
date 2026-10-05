@@ -1,0 +1,2041 @@
+[   0,01s] UART_115200
+[   0,02s] 
+[   0,02s] AC_ON
+[   0,02s] 01-2L-SM-10-20201028
+[   0,02s] B44
+[   0,02s] MIU0_DQS-OK
+[   0,02s] BIST0-OK
+[   0,02s] optee teeloader entry
+[   0,02s] CusConfig
+[   0,02s] eMMC_RPMB_Check_Program_Key
+[   0,02s] *ree_opt=0000007B
+[   0,02s] Auth reeloader...
+[   0,02s] Decrypt reeloader...
+[   0,02s] Check reeloader magic ID...
+[   0,02s] Version check on reeloader...
+[   0,02s] Auth CKB...
+[   0,02s] Decrypt CKB...
+[   0,02s] Check CKB magic ID...
+[   0,02s] reeloader_addr=20100000
+[   0,02s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[   0,02s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[   0,02s] INFO:    warmboot return address : 9dc01c00
+[   0,02s] INFO:    BL3-1: Initializing runtime services
+[   0,02s] NOTICE:  From args : boot_mbx = 20028084 
+[   0,02s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[   0,02s] INFO:    BL3-1: Initializing BL3-2
+[   0,02s] [Ramlog] ramlog_init init success
+[   0,02s] 
+[   0,02s] INFO:    BL3-1: Preparing f:
+[ 947,88s] >> setenv adb_enable_ini_path /tvconfig/config/adb/adb_enable.ini 
+[ 947,89s] 
+[ 947,89s] >> cri set resetAllCriDataToDefaultFlag 0 
+[ 947,91s] 128 blocks written: OK
+[ 947,91s] 128 blocks written: OK
+[ 947,91s] read resetAllCriDataToDefaultFlag = 0
+[ 947,91s] 
+[ 947,91s] >> cri set db_table 0 
+[ 947,91s] 128 blocks written: OK
+[ 947,91s] 128 blocks written: OK
+[ 947,91s] read db_table = 0
+[ 947,92s] 
+[ 947,92s] >> saveenv 
+[ 947,92s] Saving Environment to MMC...
+[ 947,92s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,93s] 128 blocks written: OK
+[ 947,93s] done
+[ 947,93s] 
+[ 947,93s] >> ac loglevel 7 
+[ 947,93s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,94s] 128 blocks written: OK
+[ 947,94s] done
+[ 947,94s] 
+[ 947,94s] >> ac cgroup.memory nokmem 
+[ 947,94s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,95s] 128 blocks written: OK
+[ 947,95s] done
+[ 947,95s] 
+[ 947,95s] >> ac utpa_str_fr 1 
+[ 947,96s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,96s] 128 blocks written: OK
+[ 947,97s] done
+[ 947,97s] 
+[ 947,97s] >> ac vmalloc 500M 
+[ 947,97s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,98s] 128 blocks written: OK
+[ 947,98s] done
+[ 947,98s] 
+[ 947,98s] >> setenv first_setup 0 
+[ 947,98s] 
+[ 947,98s] >> saveenv 
+[ 947,98s] Saving Environment to MMC...
+[ 947,98s] Writing to MMC(0)... 128 blocks written: OK
+[ 947,99s] 128 blocks written: OK
+[ 947,99s] done
+[ 948,00s] 
+[ 948,00s] >> setenv MstarUpgrade_complete 1 
+[ 948,00s] 
+[ 948,00s] >> setenv sync_mmap 1 
+[ 948,00s] 
+[ 948,00s] >> setenv db_table 0 
+[ 948,00s] 
+[ 948,00s] >> saveenv 
+[ 948,00s] Saving Environment to MMC...
+[ 948,01s] Writing to MMC(0)... 128 blocks written: OK
+[ 948,01s] 128 blocks written: OK
+[ 948,02s] done
+[ 948,02s] 
+[ 948,02s] >> printenv 
+[ 948,02s] 51OnRam=0
+[ 948,02s] CONFIG_PATH=/vendor/tvconfig/config
+[ 948,02s] EMAC_MEM_ADR=0x28500000
+[ 948,02s] EMAC_MEM_LEN=0x100000
+[ 948,03s] E_MMAP_ID_OPTEE_MEM_SHM_ADR=0x7F900000
+[ 948,03s] E_MMAP_ID_OPTEE_MEM_SHM_LEN=0x700000
+[ 948,03s] ForceUpgradePath=XGIMI_XGIMIGALILEO_XK03K.bin
+[ 948,04s] GOP_SET_MUX=1:0:2:3
+[ 948,04s] KERNEL_PROTECT=DRAM_SIZE1=0x80000000 DRAM_SIZE2=0x0
+[ 948,04s] MAP_TYPE=MI
+[ 948,04s] MIU0_GROUP_PRIORITY=1:0:2:3
+[ 948,05s] MIU0_GROUP_SELMIU=0000:0000:0000:0000:0000:0000
+[ 948,05s] MIU1_GROUP_PRIORITY=1:0:2:3
+[ 948,05s] MIU1_GROUP_SELMIU=4F6A:3FF0:0000:0000:0000:FE0F
+[ 948,06s] MI_AN_RECOVERY_BUF_ADR=0x28AA9000
+[ 948,06s] MI_AN_RECOVERY_BUF_LEN=0x7E9000
+[ 948,06s] MI_BOOTLOGO_BUF_ADR=0x33200000
+[ 948,07s] MI_BOOTLOGO_BUF_LEN=0x400000
+[ 948,07s] MI_DISPOUT_DEMURA_ADR=0x306D1000
+[ 948,07s] MI_DISPOUT_DEMURA_LEN=0x0
+[ 948,07s] MI_DISP_AUTO_DOWNLOAD_ADR=0x32ED1000
+[ 948,08s] MI_DISP_AUTO_DOWNLOAD_LEN=0x256000
+[ 948,08s] MI_DISP_FRC_R2_ADR=0x2D4F0000
+[ 948,08s] MI_DISP_FRC_R2_LEN=0x100000
+[ 948,08s] MI_GOP_GWIN_RB_ADR=0x28600000
+[ 948,09s] MI_GOP_GWIN_RB_LEN=0x0
+[ 948,09s] MI_JPD_INTER_BUF_ADR=0x9C50000
+[ 948,10s] MI_JPD_INTER_BUF_LEN=0x19000
+[ 948,10s] MI_JPD_OUT_ADR=0x9800000
+[ 948,10s] MI_JPD_OUT_LEN=0x400000
+[ 948,10s] MI_JPD_READ_BUF_ADR=0x9C00000
+[ 948,10s] MI_JPD_READ_BUF_LEN=0x50000
+[ 948,10s] MI_KERNEL_POOL1_ADR=0x200000
+[ 948,11s] MI_KERNEL_POOL1_LEN=0x28300000
+[ 948,11s] MI_KERNEL_POOL2_ADR=0x33600000
+[ 948,11s] MI_KERNEL_POOL2_LEN=0x4A600000
+[ 948,12s] MI_MAD_ADV_BUF_ADR=0x2D600000
+[ 948,12s] MI_MAD_ADV_BUF_LEN=0x1D70000
+[ 948,12s] MI_MAD_DEC_BUF_ADR=0x2F370000
+[ 948,12s] MI_MAD_DEC_BUF_LEN=0x0
+[ 948,13s] MI_MAD_SE_BUF_ADR=0x2F370000
+[ 948,13s] MI_MAD_SE_BUF_LEN=0x0
+[ 948,13s] MI_MAP_PARTITION=tvconfig
+[ 948,13s] MI_MAP_PATH=config/MMAP_MI.h
+[ 948,14s] MI_MBOOT_MEM_USAGE_ADR=0x7400000
+[ 948,14s] MI_MBOOT_MEM_USAGE_LEN=0x2400000
+[ 948,15s] MI_MENULOAD_BUF_ADR=0x304C7000
+[ 948,15s] MI_MENULOAD_BUF_LEN=0x20000
+[ 948,15s] MI_PM51_MEM_ADR=0x2F780000
+[ 948,15s] MI_PM51_MEM_LEN=0x10000
+[ 948,15s] MI_TSP_SECT_BUF_ADR=0x30010000
+[ 948,15s] MI_TSP_SECT_BUF_LEN=0xC0000
+[ 948,16s] MI_VDEC_AEON_ADR=0x2F7A0000
+[ 948,16s] MI_VDEC_AEON_LEN=0x540000
+[ 948,16s] MI_VDEC_FRAME_BUF_ADR=0xD800000
+[ 948,16s] MI_VDEC_FRAME_BUF_LEN=0x0
+[ 948,17s] MUSB-02.05=CL565126(Aug 19 2022 - 13:49:20)
+[ 948,17s] MstarUpgrade_complete=1
+[ 948,17s] OtaUpgradePath=XGIMI_XGIMIGALILEO_XK03K_FULL_V
+[ 948,18s] UARTOnOff=on
+[ 948,18s] USBUpgrade_complete=1
+[ 948,18s] UpgradeImage=XGIMI_XGIMIGALILEO_XK03K.bin
+[ 948,18s] WDT_ENABLE=1
+[ 948,18s] XgimiModelName=AG222
+[ 948,19s] _BootlogoFile=/tvconfig/bootlogo.jpg
+[ 948,19s] adb_enable=0
+[ 948,19s] adb_enable_ini_path=/tvconfig/config/adb/adb_enable.ini
+[ 948,20s] boot_ctrl=0x3
+[ 948,20s] bootargs=console=ttyS0,115200 androidboot.console=ttyS0 init=/init root=/dev/ram rw rootwait CORE_DUMP_PATH=/data/core_dump.%%p.gz KDebug=1 delaylogo=true security=selinux platform=sn SD_CONFIG=2 tee_mode=optee pm_path=/tvconfig/config/PM.bin loop.max_part=7 loglevel=7 cgroup.memory=nokmem utpa_str_fr=1 vmalloc=500M
+[ 948,22s] bootcmd=mmc read.p 0x23000000 dtb 0x100000; mmc read.p 0x25000000 boot 0x1400000; bootm 0x25000000
+[ 948,23s] bootlogo_gopidx=2
+[ 948,23s] bt_usb_port=2
+[ 948,23s] burnmode_poweron=false
+[ 948,24s] close_log=no
+[ 948,24s] customer_ini_path=/tvconfig/config/model/Customer_1.ini
+[ 948,24s] db_table=0
+[ 948,24s] dc_poweroff=0
+[ 948,25s] devicestate=lock
+[ 948,25s] factory_poweron_mode=secondary
+[ 948,25s] filesize=9710C
+[ 948,25s] first_bootup=1
+[ 948,25s] first_setup=0
+[ 948,25s] force_upgrade=0x40
+[ 948,26s] info_exchange=ubifile
+[ 948,26s] macaddr=<entfernt>
+[ 948,26s] mboot_default_env=0
+[ 948,26s] mmcrelwr=2
+[ 948,26s] mmcslcmode=0
+[ 948,26s] music_vol=0x14
+[ 948,26s] partno=1
+[ 948,27s] recoverycmd=mmc read.p 0x23000000 dtb 0x100000; mmc read.p 0x25000000 recovery 0x1C00000; bootm 0x25000000
+[ 948,27s] rtpm=1
+[ 948,28s] serialno=<entfernt>
+[ 948,28s] stderr=serial
+[ 948,28s] stdin=serial
+[ 948,28s] stdout=serial
+[ 948,28s] str_crc=2
+[ 948,28s] sync_mmap=1
+[ 948,28s] trape_offset_filename=/data/vendor/trapezoid/trapezoidcorrect_points_offset.ini
+[ 948,29s] trapezoid_ini_filename=/mnt/vendor/xgimiconfig/AG222/kstAdjust/trapezoidcorrect.ini
+[ 948,30s] upgrade_factorydb=TRUE
+[ 948,30s] upgrade_mode=usb
+[ 948,30s] upgrade_status=ongoing
+[ 948,30s] verify=n
+[ 948,31s] xgimi_sync_mpool=0
+[ 948,31s] 
+[ 948,31s] Environment size: 3480/65532 bytes
+[ 948,31s] AP upgrade OK!~
+[ 948,31s] All Upgrade File Had Finished !!
+[ 948,31s] Writing to MMC(0)... 128 blocks written: OK
+[ 948,32s] 128 blocks written: OK
+[ 948,32s] done
+[ 948,32s] 
+[ 948,32s] 
+[ 948,32s] -- Upgrade Succeed
+[ 948,33s] 
+[ 948,33s] ==> if go to fast power on 
+[ 948,33s] u32Size =512 blk_cnt =1
+[ 948,33s] u32Size =512 blk_cnt =1
+[ 948,33s] mmc change mount : xgimiconfig
+[ 948,35s] Size of file "AG222/env/CustomerEnvTbl.xml" from mmc device 0 partition xgimiconfig: 5435 bytes
+[ 948,36s] Loading file "AG222/env/CustomerEnvTbl.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 948,38s] 5435 bytes read
+[ 948,40s] 
+[ 948,40s] burn_default the old recoveryInfo ==1-0-324-10-XK03H-2.6.139
+[ 948,40s] burn_default the new info = 1-0-324-10-XK03H-2.6.139 
+[ 948,41s] 128 blocks written: OK
+[ 948,41s] 128 blocks written: OK
+[ 948,41s] 
+[ 948,41s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:641: --- standard wpcR = 121 wpcG = 182 wpcB = 182
+[ 948,42s] 128 blocks written: OK
+[ 948,43s] 128 blocks written: OK
+[ 948,43s] 128 blocks written: OK
+[ 948,44s] 128 blocks written: OK
+[ 948,44s] 128 blocks written: OK
+[ 948,45s] 128 blocks written: OK
+[ 948,45s] 
+[ 948,45s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:660: --- bright wpcR = 121 wpcG = 182 wpcB = 182
+[ 948,46s] 128 blocks written: OK
+[ 948,46s] 128 blocks written: OK
+[ 948,47s] 128 blocks written: OK
+[ 948,47s] 128 blocks written: OK
+[ 948,47s] 128 blocks written: OK
+[ 948,48s] 128 blocks written: OK
+[ 948,48s] 
+[ 948,48s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:679: --- eye wpcR = 121 wpcG = 182 wpcB = 182
+[ 948,49s] 128 blocks written: OK
+[ 948,50s] 128 blocks written: OK
+[ 948,50s] 128 blocks written: OK
+[ 948,50s] 128 blocks written: OK
+[ 948,51s] 128 blocks written: OK
+[ 948,51s] 128 blocks written: OK
+[ 948,52s] 128 blocks written: OK
+[ 948,52s] 128 blocks written: OK
+[ 948,52s] read resetAllCriDataToDefaultFlag = 0
+[ 948,53s] 
+[ 948,53s] [AT][MB][start do_reset] 
+[ 948,63s] do_reset: Using RIU_MAP: 0x1F000000, at 63
+[ 948,81s] UART_115200
+[ 948,81s] 
+[ 948,81s] AC_ON
+[ 948,81s] 01-2L-SM-10-20201028
+[ 948,82s] B44
+[ 948,83s] MIU0_DQS-OK
+[ 948,83s] BIST0-OK
+[ 948,95s] optee teeloader entry
+[ 949,15s] CusConfig
+[ 949,16s] eMMC_RPMB_Check_Program_Key
+[ 949,16s] *ree_opt=0000007B
+[ 949,17s] Auth reeloader...
+[ 949,17s] Decrypt reeloader...
+[ 949,17s] Check reeloader magic ID...
+[ 949,18s] Version check on reeloader...
+[ 949,18s] Auth CKB...
+[ 949,18s] Decrypt CKB...
+[ 949,18s] Check CKB magic ID...
+[ 949,19s] reeloader_addr=20100000
+[ 949,19s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[ 949,20s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[ 949,20s] INFO:    warmboot return address : 9dc01c00
+[ 949,20s] INFO:    BL3-1: Initializing runtime services
+[ 949,21s] NOTICE:  From args : boot_mbx = 20028084 
+[ 949,21s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[ 949,22s] INFO:    BL3-1: Initializing BL3-2
+[ 949,38s] [Ramlog] ramlog_init init success
+[ 949,38s] 
+[ 949,40s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[ 949,41s] INFO:    BL3-1: Next image address = 0x20100000
+[ 949,41s] INFO:    BL3-1: Next image spsr = 0x1d3
+[ 949,42s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[ 949,42s] INFO:    R1 0
+[ 949,42s] INFO:    R2 0
+[ 949,42s] INFO:    R3 0
+[ 949,42s] ree_entry
+[ 949,46s] U
+[ 949,47s] Relocation Offset is: 01700000
+[ 949,54s] [AT][MB][start ub][738]
+[ 949,54s] 
+[ 949,54s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[ 949,55s] 
+[ 949,55s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[ 949,56s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[ 949,57s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[ 949,57s] 
+[ 949,57s] eMMC HS400 5.1 200MHz
+[ 949,58s] eMMC 29.12 GB 
+[ 949,58s] eMMC used life: 0~10%
+[ 949,58s]  CID
+[ 949,58s]   0xXXXXXXXX
+[ 949,58s]   0xXXXXXXXX
+[ 949,58s]   0xXXXXXXXX
+[ 949,58s]   0xXXXXXXXX
+[ 949,59s] 
+[ 949,59s] uboot held at [282DDF60~29800000],size=015220A0
+[ 949,60s] Now running in RAM - U-Boot at: 28B00000
+[ 949,60s] DRAM : 2048MB
+[ 949,60s] Writing to MMC(0)... 128 blocks written: OK
+[ 949,69s] 128 blocks written: OK
+[ 949,70s] done
+[ 949,70s] SAR5=ON
+[ 949,70s] In:    serial
+[ 949,70s] Out:   serial
+[ 949,70s] Err:   serial
+[ 949,70s] Net:   No ethernet found.
+[ 949,70s] MAC:  <entfernt>
+[ 949,71s] [AT][MBoot][Driver Init][903]
+[ 949,72s] u32Size =65536 blk_cnt =128
+[ 949,72s] u32Size =65536 blk_cnt =128
+[ 949,72s] u32Size =512 blk_cnt =1
+[ 949,72s] u32Size =512 blk_cnt =1
+[ 949,72s] 
+[ 949,72s]  hdmiDbg is close. 
+[ 949,73s] End,speed type:1 
+[ 949,73s] u32Size =512 blk_cnt =1
+[ 949,73s] u32Size =512 blk_cnt =1
+[ 949,73s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:46: --- sys ini path =[/mnt/vendor/xgimiconfig/%s/mtk_sys.ini]
+[ 949,74s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:56: --- cmdbuf[xgimi_set_bootargs CFG_SYS_INI /mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 949,75s] do_SetBootargs:[CFG_SYS_INI][/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini]
+[ 949,76s] Writing to MMC(0)... 128 blocks written: OK
+[ 949,77s] 128 blocks written: OK
+[ 949,77s] done
+[ 949,77s] set [CFG_SYS_INI=/mnt/vendor/xgimiconfig/AG222/mtk_sys.ini] to bootargs OK
+[ 949,78s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:63: --- cmdbuf[xgimi_set_bootargs androidboot.xgimi.modelname AG222]
+[ 949,79s] do_SetBootargs:[androidboot.xgimi.modelname][AG222]
+[ 949,79s] Writing to MMC(0)... 128 blocks written: OK
+[ 949,80s] 128 blocks written: OK
+[ 949,80s] done
+[ 949,80s] set [androidboot.xgimi.modelname=AG222] to bootargs OK
+[ 949,80s] Writing to MMC(0)... 128 blocks written: OK
+[ 949,81s] 128 blocks written: OK
+[ 949,81s] done
+[ 949,81s] GpioRegister
+[ 949,82s] GpioRegister m7642
+[ 949,82s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:78: --- otg mode is switched to host
+[ 949,82s] [Misc_Debug]:fun:<UpdateXgimiBootargs> | line:90: --- cmdbuf[xgimi_set_bootargs USB_OTG_SOFTWARE_ID host]
+[ 949,84s] do_SetBootargs:[USB_OTG_SOFTWARE_ID][host]
+[ 949,84s] Writing to MMC(0)... 128 blocks written: OK
+[ 949,84s] 128 blocks written: OK
+[ 949,85s] done
+[ 949,85s] set [USB_OTG_SOFTWARE_ID=host] to bootargs OK
+[ 949,85s] u32Size =512 blk_cnt =1
+[ 949,85s] u32Size =512 blk_cnt =1
+[ 949,86s] u32Size =512 blk_cnt =1
+[ 949,86s] u32Size =512 blk_cnt =1
+[ 949,86s] [SYSInfo_Debug]:fun:<getSystemIni> | line:159: --- get system ini mode name:[AG222], ini path:[/xgimiconfig/AG222/system.ini]
+[ 949,88s] mmc change mount : xgimiconfig
+[ 949,89s] Size of file "/AG222/system.ini" from mmc device 0 partition xgimiconfig: 3833 bytes
+[ 949,90s] Loading file "/AG222/system.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 949,93s] 3833 bytes read
+[ 949,93s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:332: --- sizeof( xgimiconfig ini script ) ----> 3833 bytes
+[ 949,94s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:343: --- g_sysInfo.BatteryIsExist = 0
+[ 949,95s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:348: ---  get dlp ini [/mnt/vendor/xgimiconfig/AG222/dlp/dlp.ini]
+[ 949,96s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:356: ---  get current ini [/mnt/vendor/xgimiconfig/AG222/dlp/current.ini]
+[ 949,97s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:365: ---  get kstAdjust ini [/mnt/vendor/xgimiconfig/AG222/kstAdjust/kstAdjust.ini]
+[ 949,98s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:374: ---  get st_tempCtlInfo path [/mnt/vendor/xgimiconfig/AG222/tempCtrlCfg/]
+[ 949,99s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:383: ---  get st_tofInfo path [/mnt/vendor/xgimiconfig/AG222/Tof/Tof.ini]
+[ 950,00s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:392: ---  get keypad ini [/mnt/vendor/xgimiconfig/AG222/keypad/keypad.ini]
+[ 950,01s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:401: ---  get battery ini [/mnt/vendor/xgimiconfig/AG222/battery/battery.ini]
+[ 950,02s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:411: ---  get lamplight ini [/mnt/vendor/xgimiconfig/AG222/lamplight/lamplight.ini]
+[ 950,03s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:419: ---  get door ini [/mnt/vendor/xgimiconfig/AG222/door/door.ini]
+[ 950,04s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:426: ---  get xgimi logo en 0
+[ 950,05s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:430: ---  get Lt9211 ini 0
+[ 950,05s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:433: ---  get mtk frc4k en 0
+[ 950,06s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:438: ---  get st_ampInfo path [/mnt/vendor/xgimiconfig/AG222/amp/amp.ini]
+[ 950,07s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:446: ---  get st_audioInfo path [/mnt/vendor/xgimiconfig/AG222/audio/audio.ini]
+[ 950,08s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:453: --- xgimiHashKey: get SupportHashkeyMode: 0
+[ 950,09s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:457: ---  get XgimiBootMode[0]
+[ 950,10s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:461: ---  get XgimiIotIsExist[0]
+[ 950,11s] Size of file "/AG222/dlp/dlp.ini" from mmc device 0 partition xgimiconfig: 4144 bytes
+[ 950,12s] Loading file "/AG222/dlp/dlp.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 950,14s] 4144 bytes read
+[ 950,14s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:186: --- PdlpInfo.dlpType = 12
+[ 950,15s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:188: --- PdlpInfo.Mpl360Type = 0
+[ 950,16s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:190: --- PdlpInfo.dlpMirror = 0
+[ 950,16s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:198: --- PdlpInfo.dlpStandardLook = 0 dlpHighLightLook = 1 dlp3DLook = 9
+[ 950,17s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:205: --- PdlpInfo.dlp2dPanelType = 1 dlp3dPanelType = 3
+[ 950,18s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:239: --- PdlpInfo.dlpRMax = 121 dlpGMax = 182 dlpBMax = 182 dlpCMax = 255 dlpBpPwmMax = 72
+[ 950,19s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:242: --- PdlpInfo.dlpRMin = 23 dlpGMin = 23 dlpBMin = 23 dlpCMin = 0 dlpBpPwmMin = 0
+[ 950,21s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:245: --- PdlpInfo.dlpRBattery = 23 dlpGBattery = 23 dlpBBattery = 23 dlpBpPwmBattery = 0
+[ 950,22s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:249: --- PdlpInfo.dlpRectifyMiddle = 50
+[ 950,22s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:261: --- PdlpInfo.ProjectModeEnable = 1 RectifyEnable = 0 BrightnessEnable = 1 ResolutionEnable = 0
+[ 950,24s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:265: --- PdlpInfo.ExternLedEnable = 1
+[ 950,24s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:269: --- PdlpInfo.InitDoneStatus = 0
+[ 950,25s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:275: --- PdlpInfo.dlpRgbPwmEn = 0
+[ 950,26s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:279: --- PdlpInfo.DlpPad3000 = 0
+[ 950,27s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:283: --- PdlpInfo.DlpPatchEn = 0
+[ 950,27s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:287: --- PdlpInfo.WpcInLookOrDuty = 0
+[ 950,28s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:291: --- PdlpInfo.DlpPatchEn = 0
+[ 950,28s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:295: --- PdlpInfo.DlpApiVer2Enable = 1
+[ 950,29s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:299: --- PdlpInfo.DlpBatteryApiVer2 = 0
+[ 950,30s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:302: --- PdlpInfo.hidePerformanceMode = 1
+[ 950,31s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:305: --- PdlpInfo.DlpVb1Adjust = 0
+[ 950,31s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:308: --- PdlpInfo.DropCurrentEn = 0
+[ 950,32s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:312: --- PdlpInfo.WpcVersion = 1
+[ 950,33s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:315: --- PdlpInfo.MiscVar = 0x0
+[ 950,33s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:318: --- DDD dlpBrightModeData size:560
+[ 950,34s] pIniString :{ <09>121,182,182,0,0,72,5,<09>121,182,182,0,1,72,5,<09>121,182,182,0,0,72,5,<09>23,  23, 23,0,0,  0,0,<09>60,  60, 60,0,0,72,0,<09>100,100,100,0,0,72,0,<09>  0,  0,  0,0,0,72,0,<09>121,182,182,0,0,72,0,<09>23,  23, 23,0,0,  0,0,<09>118,118,95,0,0,72,5,<09>141,141,113,0,0,72,5,<09>165,165,132,0,0,72,5,<09>189,189,151,0,0,72,5,<09>212,212,170,0,0,72,5,<09>118,118, 95,0,0,72,5,<09>121, 182,182,0,2,72,0,<09>121, 182,182,0,4,72,0,<09>121, 182,182,0,3,72,0,<09>121, 182,182,0,1,72,0,}
+[ 950,38s] ini str :{121,182,182,0,0,72,5,121,182,182,0,1,72,5,121,182,182,0,0,72,5,23,23,23,0,0,0,0,60,60,60,0,0,72,0,100,100,100,0,0,72,0,0,0,0,0,0,72,0,121,182,182,0,0,72,0,23,23,23,0,0,0,0,118,118,95,0,0,72,5,141,141,113,0,0,72,5,165,165,132,0,0,72,5,189,189,151,0,0,72,5,212,212,170,0,0,72,5,118,118,95,0,0,72,5,121,182,182,0,2,72,0,121,182,182,0,4,72,0,121,182,182,0,3,72,0,121,182,182,0,1,72,0,}
+[ 950,41s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:322: --- DDD stStandardLevel size:308
+[ 950,42s] pIniString :
+[ 950,42s] ini str :
+[ 950,42s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:326: --- DDD stUserBatteryLevel size:308
+[ 950,43s] pIniString :
+[ 950,43s] ini str :
+[ 950,43s] [SYSInfo_Debug]:fun:<LoadDlpInfoData> | line:330: --- DDD DlpLumensCut size:560
+[ 950,44s] pIniString :
+[ 950,44s] ini str :
+[ 950,44s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:477: ---  LoadDlpInfoData success
+[ 950,46s] Size of file "/AG222/dlp/current.ini" from mmc device 0 partition xgimiconfig: 2738 bytes
+[ 950,47s] Loading file "/AG222/dlp/current.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 950,49s] 2738 bytes read
+[ 950,49s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:74: --- PcurrentInfo.coldmodeNormalT = -1
+[ 950,50s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:76: --- PcurrentInfo.coldmodeHighT = -1
+[ 950,51s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:78: --- PcurrentInfo.standardmodeNormalT = -1
+[ 950,51s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:80: --- PcurrentInfo.standardmodeHighT = -1
+[ 950,52s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:82: --- PcurrentInfo.performancemodeNormalT = -1
+[ 950,53s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:84: --- PcurrentInfo.performancemodeHighT = -1
+[ 950,54s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:86: --- PcurrentInfo.protecteyemodeNormalT = -1
+[ 950,55s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:88: --- PcurrentInfo.protecteyemodeHighT = -1
+[ 950,56s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:90: --- lightnessmodemodeNormalT = -1
+[ 950,56s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:92: --- lightnessmodemodeHighT = -1
+[ 950,57s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:95: ---  get stStandardmodeNormalC ini success
+[ 950,58s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:0 stStandardmodeNormalC[23 23 23 0]
+[ 950,59s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:1 stStandardmodeNormalC[32 32 50 0]
+[ 950,60s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:2 stStandardmodeNormalC[34 45 60 1]
+[ 950,61s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:3 stStandardmodeNormalC[40 60 70 2]
+[ 950,62s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:4 stStandardmodeNormalC[44 77 82 3]
+[ 950,63s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:5 stStandardmodeNormalC[50 95 100 4]
+[ 950,64s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:6 stStandardmodeNormalC[55 115 107 5]
+[ 950,65s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:7 stStandardmodeNormalC[62 124 122 20]
+[ 950,66s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:8 stStandardmodeNormalC[71 140 140 40]
+[ 950,67s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:9 stStandardmodeNormalC[80 156 156 60]
+[ 950,69s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:101: --- [LoadCurrentInfoData:101]i:10 stStandardmodeNormalC[121 182 182 72]
+[ 950,70s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:107: ---  get stStandardmodeHighC ini failed
+[ 950,70s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:0 stStandardmodeHighC[0 0 0 0]
+[ 950,71s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:1 stStandardmodeHighC[0 0 0 0]
+[ 950,73s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:2 stStandardmodeHighC[0 0 0 0]
+[ 950,73s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:3 stStandardmodeHighC[0 0 0 0]
+[ 950,74s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:4 stStandardmodeHighC[0 0 0 0]
+[ 950,75s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:5 stStandardmodeHighC[0 0 0 0]
+[ 950,76s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:6 stStandardmodeHighC[0 0 0 0]
+[ 950,77s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:7 stStandardmodeHighC[0 0 0 0]
+[ 950,78s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:8 stStandardmodeHighC[0 0 0 0]
+[ 950,79s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:9 stStandardmodeHighC[0 0 0 0]
+[ 950,80s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:111: --- [LoadCurrentInfoData:111]i:10 stStandardmodeHighC[0 0 0 0]
+[ 950,81s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:115: ---  get stColdmodeNormalC ini success
+[ 950,82s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:0 stColdmodeNormalC[23 23 23 0]
+[ 950,83s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:1 stColdmodeNormalC[32 32 47 0]
+[ 950,84s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:2 stColdmodeNormalC[32 45 54 1]
+[ 950,85s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:3 stColdmodeNormalC[33 60 65 2]
+[ 950,86s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:4 stColdmodeNormalC[35 77 77 3]
+[ 950,87s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:5 stColdmodeNormalC[38 95 85 4]
+[ 950,88s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:6 stColdmodeNormalC[40 115 97 5]
+[ 950,89s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:7 stColdmodeNormalC[45 124 110 20]
+[ 950,90s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:8 stColdmodeNormalC[50 140 125 40]
+[ 950,91s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:9 stColdmodeNormalC[55 156 140 60]
+[ 950,92s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:121: --- [LoadCurrentInfoData:121]i:10 stColdmodeNormalC[121 182 182 72]
+[ 950,93s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:127: ---  get stColdmodeHighC ini failed
+[ 950,94s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:132: ---  get stPerformancemodeNormalC ini success
+[ 950,95s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:141: ---  get stPerformancemodeHighC ini failed
+[ 950,96s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:146: ---  get stProtecteyemodeNormalC ini success
+[ 950,97s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:155: ---  get stProtecteyemodeHighC ini failed
+[ 950,98s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:162: ---  get stLightnessmodeNormalC ini failed
+[ 950,98s] [SYSInfo_Debug]:fun:<LoadCurrentInfoData> | line:168: ---  get stLightnessmodeNormalC ini failed
+[ 950,99s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:486: ---  LoadDlpInfoData success
+[ 951,01s] Size of file "/AG222/kstAdjust/kstAdjust.ini" from mmc device 0 partition xgimiconfig: 827 bytes
+[ 951,02s] Loading file "/AG222/kstAdjust/kstAdjust.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,05s] 827 bytes read
+[ 951,05s] [SYSInfo_Debug]:fun:<LoadKstAdjustInfoData> | line:92: --- PkstAdjustInfo->kstAdjustType = 3
+[ 951,06s] [SYSInfo_Debug]:fun:<LoadKstAdjustInfoData> | line:98: --- PkstAdjustInfo->kstAdjust2dPanelType = 1 kstAdjust3dPanelType = 3
+[ 951,07s] [SYSInfo_Debug]:fun:<LoadKstAdjustInfoData> | line:108: --- PkstAdjustInfo->autokstEn = 0
+[ 951,07s] [SYSInfo_Debug]:fun:<LoadKstAdjustInfoData> | line:110: --- PkstAdjustInfo->kstAdjustSignalType = 2
+[ 951,08s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:495: ---  LoadKstAdjustInfoData success
+[ 951,09s] LoadFanData = /AG222/tempCtrlCfg/tempctrl.xml
+[ 951,11s] Size of file "/AG222/tempCtrlCfg/tempctrl.xml" from mmc device 0 partition xgimiconfig: 4583 bytes
+[ 951,13s] Loading file "/AG222/tempCtrlCfg/tempctrl.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,15s] 4583 bytes read
+[ 951,16s] LoadSpdTbl = /AG222/tempCtrlCfg/fan_speed_table.xml
+[ 951,18s] Size of file "/AG222/tempCtrlCfg/fan_speed_table.xml" from mmc device 0 partition xgimiconfig: 6590 bytes
+[ 951,19s] Loading file "/AG222/tempCtrlCfg/fan_speed_table.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,22s] 6590 bytes read
+[ 951,22s] ===initFanSpeed:72
+[ 951,22s] LoadTempData = /AG222/tempCtrlCfg/tempctrl.xml
+[ 951,25s] Size of file "/AG222/tempCtrlCfg/tempctrl.xml" from mmc device 0 partition xgimiconfig: 4583 bytes
+[ 951,26s] Loading file "/AG222/tempCtrlCfg/tempctrl.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,29s] 4583 bytes read
+[ 951,29s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:504: ---  LoadTempInfoData success
+[ 951,31s] Size of file "/AG222/Tof/Tof.ini" from mmc device 0 partition xgimiconfig: 363 bytes
+[ 951,32s] Loading file "/AG222/Tof/Tof.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,33s] 363 bytes read
+[ 951,33s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:96: --- PTofInfo.TofType = 3
+[ 951,34s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:101: --- PTofInfo.DistanceMode = 2
+[ 951,35s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:105: --- PTofInfo.InterMeasMs = 50
+[ 951,36s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:110: --- PTofInfo.TofbudgetInms = 3
+[ 951,36s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:116: ---  get tof func para A0 is 0 
+[ 951,37s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:124: ---  get tof func para A1 is 0
+[ 951,38s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:132: ---  get tof func para A2 is 0
+[ 951,39s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:140: ---  get tof func para A3 is 0
+[ 951,39s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:148: ---  get tof func para A4 is 0
+[ 951,40s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:156: ---  get tof func para A5 is 0
+[ 951,40s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:164: ---  get tof func para A6 is 0
+[ 951,41s] [SYSInfo_Debug]:fun:<LoadTofInfoData> | line:172: ---  get tof func para A7 is 0 
+[ 951,42s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:513: ---  LoadTofInfoData success
+[ 951,44s] Size of file "/AG222/keypad/keypad.ini" from mmc device 0 partition xgimiconfig: 1387 bytes
+[ 951,45s] Loading file "/AG222/keypad/keypad.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,47s] 1387 bytes read
+[ 951,47s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:108: --- PKeypadInfo.keypadType = 7
+[ 951,48s] 128 blocks written: OK
+[ 951,48s] 128 blocks written: OK
+[ 951,49s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:119: --- PKeypadInfo.mcuType = 0
+[ 951,51s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:125: --- PKeypadInfo.version_num = 8
+[ 951,51s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:132: --- PKeypadInfo.keypadDetectmode = 2
+[ 951,51s] 128 blocks written: OK
+[ 951,51s] 128 blocks written: OK
+[ 951,52s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:144: --- PKeypadInfo.wake_up_sounder_source = 12
+[ 951,53s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:151: --- PKeypadInfo.enter_update_time = 6000
+[ 951,53s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:158: --- PKeypadInfo.enter_sound_enable = 0
+[ 951,54s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:165: --- PKeypadInfo.enter_sounder_time = 2000
+[ 951,55s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:172: --- PKeypadInfo.enter_sounder_enable = 0
+[ 951,56s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:178: --- PKeypadInfo.ota_update_enable = 1
+[ 951,56s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:185: --- PKeypadInfo.ota_update_pattern = 1
+[ 951,57s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:192: --- PKeypadInfo.update_app_entry_addr = 0xB00
+[ 951,58s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:199: --- PKeypadInfo.mcu_model = 1
+[ 951,59s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:203: --- PKeypadInfo.fan_bumber = 0
+[ 951,60s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:211: ---  get ota update version ini [0.1.6]
+[ 951,60s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:225: ---  get usb update file path ini [xgimi_mcu_upgrade/mcu_xgimi_upgrade_mp.bin]
+[ 951,61s] [SYSInfo_Debug]:fun:<LoadKyepadInfoData> | line:238: ---  get ota update file path ini [/xgimiconfig/AG222/keypad/mcu_ota_keypad.bin]
+[ 951,63s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:522: ---  LoadKeypadInfoData success
+[ 951,64s] ** File not found /mnt/vendor/xgimiconfig/AG222/battery/battery.ini
+[ 951,65s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 951,66s] ** File not found /mnt/vendor/xgimiconfig/AG222/battery/battery.ini
+[ 951,67s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 951,67s] No enough buffer or path fail(/mnt/vendor/xgimiconfig/AG222/battery/battery.ini) :
+[ 951,68s] [src/MsUtility.c] [loadscript]
+[ 951,69s] ** File not found /vendor/xgimiconfig/AG222/battery/battery.ini
+[ 951,70s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 951,71s] ** File not found /vendor/xgimiconfig/AG222/battery/battery.ini
+[ 951,72s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 951,72s] No enough buffer or path fail(/vendor/xgimiconfig/AG222/battery/battery.ini) :
+[ 951,73s] [src/MsUtility.c] [loadscript]
+[ 951,74s] ** File not found /xgimiconfig/AG222/battery/battery.ini
+[ 951,74s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 951,76s] ** File not found /xgimiconfig/AG222/battery/battery.ini
+[ 951,77s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 951,78s] No enough buffer or path fail(/xgimiconfig/AG222/battery/battery.ini) :
+[ 951,78s] [src/MsUtility.c] [loadscript]
+[ 951,79s] Size of file "/AG222/battery/battery.ini" from mmc device 0 partition xgimiconfig: 117 bytes
+[ 951,80s] Loading file "/AG222/battery/battery.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 951,82s] 117 bytes read
+[ 951,82s] [SYSInfo_Debug]:fun:<LoadBatteryInfoData> | line:109: --- PBatteryInfo.type = 4
+[ 951,83s] [SYSInfo_Debug]:fun:<LoadBatteryInfoData> | line:114: --- PBatteryInfo.voltageLowDischargeCurveLen = 200
+[ 951,83s] [SYSInfo_Debug]:fun:<LoadBatteryInfoData> | line:117: --- PBatteryInfo.u8LowPowerPercent = 30
+[ 951,84s] [SYSInfo_Debug]:fun:<LoadBatteryInfoData> | line:120: --- pIni->Profile_GetU32array is not null.
+[ 951,85s] pIniString :
+[ 951,86s] ini str :
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,86s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,87s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,88s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,89s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,90s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,91s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,92s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,93s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,94s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,95s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,96s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,97s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,98s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 951,99s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,00s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,01s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,02s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,03s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,04s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,05s] --curve: 0
+[ 952,06s] --curve: 0
+[ 952,06s] --curve: 0
+[ 952,06s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:529: ---  LoadBatteryInfoData success
+[ 952,08s] Size of file "/AG222/lamplight/lamplight.ini" from mmc device 0 partition xgimiconfig: 142 bytes
+[ 952,09s] Loading file "/AG222/lamplight/lamplight.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,11s] 142 bytes read
+[ 952,11s] [SYSInfo_Debug]:fun:<LoadLamplightInfoData> | line:301: --- PLamplightInfo.LamplightType = 1
+[ 952,12s] [SYSInfo_Debug]:fun:<LoadLamplightInfoData> | line:311: ---  get usb update file path ini [xgimi_mcu_upgrade/mcu_xgimi_upgrade.bin]
+[ 952,15s] [SYSInfo_Debug]:fun:<LoadLamplightInfoData> | line:323: ---  get ota update file path ini [/xgimiconfig/keypad/mcu_ota_lamplight.bin]
+[ 952,15s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:538: ---  LoadLamplightInfoData success
+[ 952,16s] Size of file "/AG222/door/door.ini" from mmc device 0 partition xgimiconfig: 1626 bytes
+[ 952,17s] Loading file "/AG222/door/door.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,19s] 1626 bytes read
+[ 952,20s] [SYSInfo_Debug]:fun:<LoadDoorInfoData> | line:111: --- PdoorInfo.doorControlEn = 0
+[ 952,20s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:547: ---  LoadDoorInfoData success
+[ 952,22s] Size of file "/AG222/amp/amp.ini" from mmc device 0 partition xgimiconfig: 933 bytes
+[ 952,23s] Loading file "/AG222/amp/amp.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,25s] 933 bytes read
+[ 952,25s] [SYSInfo_Debug]:fun:<LoadAmpInfoData> | line:64: --- PAmpInfo.enType = 1
+[ 952,25s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:556: ---  LoadAmpInfoData success
+[ 952,27s] Size of file "/AG222/audio/audio.ini" from mmc device 0 partition xgimiconfig: 141 bytes
+[ 952,28s] Loading file "/AG222/audio/audio.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,30s] 141 bytes read
+[ 952,30s] 
+[ 952,30s]  [SysInfo_Debug] PAudioInfo.supportCM4 = 0
+[ 952,30s] 
+[ 952,30s]  [SysInfo_Debug] PAudioInfo.enableCM4 = 0
+[ 952,31s] [SYSInfo_Debug]:fun:<LoadSysIniData> | line:564: ---  LoadAudioInfoData success
+[ 952,32s] 128 blocks written: OK
+[ 952,32s] 128 blocks written: OK
+[ 952,33s] 128 blocks written: OK
+[ 952,33s] writeDBPool
+[ 952,33s] u32Size =512 blk_cnt =1
+[ 952,33s] u32Size =512 blk_cnt =1
+[ 952,34s] mmc change mount : xgimiconfig
+[ 952,35s] Size of file "AG222/env/CustomerEnvTbl.xml" from mmc device 0 partition xgimiconfig: 5435 bytes
+[ 952,40s] Loading file "AG222/env/CustomerEnvTbl.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,40s] 5435 bytes read
+[ 952,40s] 128 blocks written: OK
+[ 952,40s] 128 blocks written: OK
+[ 952,40s] 
+[ 952,40s] [fan][SetFanWorkMode][33] fan type :1 
+[ 952,40s] mmc change mount : xgimiconfig
+[ 952,40s] u32Size =512 blk_cnt =1
+[ 952,40s] u32Size =512 blk_cnt =1
+[ 952,41s] mmc change mount : xgimiconfig
+[ 952,42s] ** File not found /vendor/xgimiconfig/AG222/mtk_Customer.ini
+[ 952,42s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,44s] ** File not found /vendor/xgimiconfig/AG222/mtk_Customer.ini
+[ 952,45s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,45s] No enough buffer or path fail(/vendor/xgimiconfig/AG222/mtk_Customer.ini) :
+[ 952,45s] [src/MsUtility.c] [loadscript]
+[ 952,46s] filter /cusdata or /config, and find file again!!
+[ 952,47s] ** File not found /xgimiconfig/AG222/mtk_Customer.ini
+[ 952,47s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,49s] ** File not found /xgimiconfig/AG222/mtk_Customer.ini
+[ 952,49s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,50s] No enough buffer or path fail(/xgimiconfig/AG222/mtk_Customer.ini) :
+[ 952,51s] [src/MsUtility.c] [loadscript]
+[ 952,51s] filter /cusdata or /config, and find file again!!
+[ 952,53s] Size of file "/AG222/mtk_Customer.ini" from mmc device 0 partition xgimiconfig: 23918 bytes
+[ 952,54s] Loading file "/AG222/mtk_Customer.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 952,56s] 23918 bytes read
+[ 952,58s] sizeof( model ini script ) --------> 23918 bytes
+[ 952,58s] Half panel.ini path --> /mnt/vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,58s] ** File not found /mnt/vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,59s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,61s] ** File not found /mnt/vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,61s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,61s] No enough buffer or path fail(/mnt/vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini) :
+[ 952,64s] [src/MsUtility.c] [loadscript]
+[ 952,64s] filter /vendor /cusdata or /config, and find file again!!
+[ 952,64s] ** File not found /vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,65s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,66s] ** File not found /vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,66s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,67s] No enough buffer or path fail(/vendor/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini) :
+[ 952,68s] [src/MsUtility.c] [loadscript]
+[ 952,68s] filter /vendor/cusdata or /config, and find file again!!
+[ 952,69s] ** File not found /xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,70s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,71s] ** File not found /xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,73s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,73s] No enough buffer or path fail(/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini) :
+[ 952,73s] [src/MsUtility.c] [loadscript]
+[ 952,73s] Full panel.ini  path --> /xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 952,74s] Half board.ini path --> /vendor/tvconfig/config/board.ini
+[ 952,74s] Full board.ini  path --> /vendor/tvconfig/config/board.ini
+[ 952,75s] Can't get audio_amp_config.ini from /AG222/mtk_Customer.ini
+[ 952,75s] swing_level -> [340]
+[ 952,76s] MIRROR_OSD is  --> False
+[ 952,76s] MIRROR_VIDEO -> [340]
+[ 952,76s] MIRROR_VIDEO is  [True] or [False], other value can not be parsed
+[ 952,76s] mmc change mount : tvconfig
+[ 952,78s] ** File not found /vendor/tvconfig/config/module/Customer_Module.ini
+[ 952,79s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,80s] ** File not found /vendor/tvconfig/config/module/Customer_Module.ini
+[ 952,81s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,81s] No enough buffer or path fail(/vendor/tvconfig/config/module/Customer_Module.ini) :
+[ 952,82s] [src/MsUtility.c] [loadscript]
+[ 952,82s] filter /vendor/cusdata or /config, and find file again!!
+[ 952,84s] ** File not found /tvconfig/config/module/Customer_Module.ini
+[ 952,84s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 952,86s] ** File not found /tvconfig/config/module/Customer_Module.ini
+[ 952,87s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 952,88s] No enough buffer or path fail(/tvconfig/config/module/Customer_Module.ini) :
+[ 952,88s] [src/MsUtility.c] [loadscript]
+[ 952,88s] filter /vendor /cusdata or /config, and find file again!!
+[ 952,92s] Size of file "/config/module/Customer_Module.ini" from mmc device 0 partition tvconfig: 2326 bytes
+[ 952,93s] Loading file "/config/module/Customer_Module.ini" at offset 0x0 from mmc device 0 partition tvconfig
+[ 952,97s] 2326 bytes read
+[ 952,97s] sizeof( module ini script ) --------> 2326 bytes
+[ 952,99s] mmc change mount : tvconfig
+[ 953,00s] Size of file "/config/customer/boot.ini" from mmc device 0 partition tvconfig: 369 bytes
+[ 953,03s] Size of file "/config/customer/boot.ini" from mmc device 0 partition tvconfig: 369 bytes
+[ 953,04s] Loading file "/config/customer/boot.ini" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,07s] 369 bytes read
+[ 953,08s] sizeof( boot ini script ) --------> 369 bytes
+[ 953,08s] gMusicPath --> /boot0.mp3
+[ 953,08s] gLogoPath --> /boot0.jpg
+[ 953,08s] m_u32MusicVol -> [0x14]
+[ 953,09s] Size of file "/apollo/boot_cfg.ini" from mmc device 0 partition tvconfig: 105 bytes
+[ 953,10s] Loading file "/apollo/boot_cfg.ini" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,12s] 105 bytes read
+[ 953,12s] /apollo/boot_cfg.ini(105 byptes):boot_cfg:boot_ctrl -> 3
+[ 953,13s] set env boot_ctrl to [0x3]
+[ 953,13s] mmc change mount : tvconfig
+[ 953,13s] mmc change mount : tvconfig
+[ 953,15s] Size of file "bootlogo.jpg" from mmc device 0 partition tvconfig: 45346 bytes
+[ 953,16s] Size of file "/boot0.mp3" from mmc device 0 partition tvconfig: 49363 bytes
+[ 953,18s] ** File not found 282DBD54
+[ 953,18s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,20s] ** File not found 282DBD54
+[ 953,20s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,21s] get tcon_size fail...>>>:0
+[ 953,22s] ** File not found 282DBD54
+[ 953,22s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,24s] ** File not found 282DBD54
+[ 953,24s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,25s] gRGBWPath=
+[ 953,25s] gstDbtable.dbdata[E_DB_RGBW].Size=0x0
+[ 953,26s] ** File not found 282DBD54
+[ 953,26s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,28s] ** File not found 282DBD54
+[ 953,28s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,29s] g3DLUTBinPath=
+[ 953,29s] gstDbtable.dbdata[E_DB_3DLUT].Size=0x0
+[ 953,29s] MPOOL size : 0x300000
+[ 953,30s] mmc change mount : tvconfig
+[ 953,31s] Size of file "bootlogo.jpg" from mmc device 0 partition tvconfig: 45346 bytes
+[ 953,32s] Loading file "bootlogo.jpg" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,33s] 45346 bytes read
+[ 953,34s] mmc change mount : tvconfig
+[ 953,35s] Size of file "/boot0.mp3" from mmc device 0 partition tvconfig: 49363 bytes
+[ 953,35s] Loading file "/boot0.mp3" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,37s] 49363 bytes read
+[ 953,37s] mmc change mount : xgimiconfig
+[ 953,38s] ** File not found /xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 953,39s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,40s] ** File not found /xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini
+[ 953,41s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,43s] No enough buffer or path fail(/xgimiconfig/AG222/panel/xgimi_1080p_lvds.ini) :
+[ 953,43s] [src/MsUtility.c] [loadscript]
+[ 953,43s] filter /cusdata or /config, and find file again!!
+[ 953,44s] Size of file "/AG222/panel/xgimi_1080p_lvds.ini" from mmc device 0 partition xgimiconfig: 32887 bytes
+[ 953,47s] Loading file "/AG222/panel/xgimi_1080p_lvds.ini" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 953,48s] 32887 bytes read
+[ 953,48s] sizeof( panel ini script ) --------> 32887 bytes
+[ 953,50s] u32PeriodPWM = 255 
+[ 953,50s] u32DutyPWM = 0x4D
+[ 953,50s] mmc change mount : tvconfig
+[ 953,50s] ** File not found /vendor/tvconfig/config/board.ini
+[ 953,53s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,53s] ** File not found /vendor/tvconfig/config/board.ini
+[ 953,53s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,54s] No enough buffer or path fail(/vendor/tvconfig/config/board.ini) :
+[ 953,54s] [src/MsUtility.c] [loadscript]
+[ 953,54s] filter /vendor /config, and find file again!!
+[ 953,56s] ** File not found /tvconfig/config/board.ini
+[ 953,56s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,58s] ** File not found /tvconfig/config/board.ini
+[ 953,58s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,59s] No enough buffer or path fail(/tvconfig/config/board.ini) :
+[ 953,60s] [src/MsUtility.c] [loadscript]
+[ 953,60s] filter /vendor /vendor /config, and find file again!!
+[ 953,62s] Size of file "/config/board.ini" from mmc device 0 partition tvconfig: 76283 bytes
+[ 953,66s] Loading file "/config/board.ini" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,66s] 76283 bytes read
+[ 953,66s] sizeof( board ini script ) --------> 76283 bytes
+[ 953,68s] mmc change mount : tvconfig
+[ 953,71s] Size of file "/config/dfbrc.ini" from mmc device 0 partition tvconfig: 1494 bytes
+[ 953,72s] Loading file "/config/dfbrc.ini" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,75s] 1494 bytes read
+[ 953,75s] sizeof( dfb ini script ) --------> 1494 bytes
+[ 953,75s] logo -> [1]
+[ 953,75s] mmc change mount : tvconfig
+[ 953,77s] ** File not found 282DC574
+[ 953,79s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,79s] ** File not found 282DC574
+[ 953,80s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,80s] Loading file "0" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,81s] ** File not found 0 **
+[ 953,81s] <1B>[0;31m[ERROR] vfs_read:477: <1B>[0mext4load mmc fail, try again!
+[ 953,83s] Loading file "0" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,84s] ** File not found 0 **
+[ 953,84s] <1B>[0;31m[ERROR] vfs_read:481: <1B>[0mext4load mmc fail
+[ 953,84s] mmc change mount : tvconfig
+[ 953,86s] ** File not found 282DC574
+[ 953,86s] <1B>[0;31m[ERROR] vfs_getsize:420: <1B>[0mext4filesize mmc fail, try again! 
+[ 953,88s] ** File not found 282DC574
+[ 953,88s] <1B>[0;31m[ERROR] vfs_getsize:424: <1B>[0mext4filesize mmc fail
+[ 953,88s] <1B>[0;31m[ERROR] Load_3DLUTBinToFlash:5474: <1B>[0mvfs_getsize error:  !
+[ 953,90s] 187 blocks written: OK
+[ 953,90s] Writing to MMC(0)... 128 blocks written: OK
+[ 953,91s] 128 blocks written: OK
+[ 953,91s] done
+[ 953,91s] Writing to MMC(0)... 128 blocks written: OK
+[ 953,91s] 128 blocks written: OK
+[ 953,91s] done
+[ 953,91s] mmc change mount : tvconfig
+[ 953,93s] Size of file "/config/MMAP_MI.h" from mmc device 0 partition tvconfig: 45183 bytes
+[ 953,94s] Loading file "/config/MMAP_MI.h" at offset 0x0 from mmc device 0 partition tvconfig
+[ 953,97s] 45183 bytes read
+[ 954,28s] no miu_setting information in mmap.ini
+[ 954,29s] no miu_setting information in mmap.ini
+[ 954,29s] No E_LX_MEM3_ADR information 
+[ 954,31s] No E_LX_MEM4_ADR information 
+[ 954,31s] <1B>[0;31m[ERROR] _get_new_map_format_from_env:553: <1B>[0mget GMAC_MEM_ADR fail
+[ 954,31s] <1B>[0;31m[ERROR] get_map_ID:514: <1B>[0mMap ID maping to [40] a null pointer !!
+[ 954,31s] <1B>[0;31m[ERROR] _get_new_map_format_from_env:547: <1B>[0mOne of the parameters is a null pointer
+[ 954,32s] Saving Environment to MMC...
+[ 954,32s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,38s] 128 blocks written: OK
+[ 954,38s] done
+[ 954,38s] 0:MCP_S_D3_2133_8G_4x
+[ 954,38s] 1:MCP_S_D3_2133_8G_4x
+[ 954,38s] DRAM Channel 0 Size = [2048MB]
+[ 954,38s] 
+[ 954,38s] Changelist:<09>24543697
+[ 954,38s] Remove partition userdata success!
+[ 954,38s] ** Bad Signature on 0:41: expected 0x5840, got 0x0000
+[ 954,38s] Add new partition userdata success!
+[ 954,38s] 4 blocks written: OK
+[ 954,38s]  OK!~
+[ 954,38s] ============= set bootargs ===============
+[ 954,38s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,39s] 128 blocks written: OK
+[ 954,39s] done
+[ 954,39s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,40s] 128 blocks written: OK
+[ 954,40s] done
+[ 954,40s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,41s] 128 blocks written: OK
+[ 954,41s] done
+[ 954,41s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,42s] 128 blocks written: OK
+[ 954,42s] done
+[ 954,42s] Hit any key to stop autoboot:  0 
+[ 954,42s] ==> if go to fast power on 
+[ 954,42s] u32Size =512 blk_cnt =1
+[ 954,43s] u32Size =512 blk_cnt =1
+[ 954,43s] mmc change mount : xgimiconfig
+[ 954,45s] Size of file "AG222/env/CustomerEnvTbl.xml" from mmc device 0 partition xgimiconfig: 5435 bytes
+[ 954,46s] Loading file "AG222/env/CustomerEnvTbl.xml" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 954,48s] 5435 bytes read
+[ 954,49s] 
+[ 954,49s] burn_default the old recoveryInfo ==1-0-324-10-XK03H-2.6.139
+[ 954,50s] burn_default the new info = 1-0-324-10-XK03H-2.6.139 
+[ 954,50s] 128 blocks written: OK
+[ 954,51s] 128 blocks written: OK
+[ 954,51s] 
+[ 954,51s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:641: --- standard wpcR = 121 wpcG = 182 wpcB = 182
+[ 954,52s] 128 blocks written: OK
+[ 954,52s] 128 blocks written: OK
+[ 954,53s] 128 blocks written: OK
+[ 954,53s] 128 blocks written: OK
+[ 954,54s] 128 blocks written: OK
+[ 954,54s] 128 blocks written: OK
+[ 954,54s] 
+[ 954,54s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:660: --- bright wpcR = 121 wpcG = 182 wpcB = 182
+[ 954,55s] 128 blocks written: OK
+[ 954,56s] 128 blocks written: OK
+[ 954,57s] 128 blocks written: OK
+[ 954,57s] 128 blocks written: OK
+[ 954,57s] 128 blocks written: OK
+[ 954,57s] 128 blocks written: OK
+[ 954,58s] 
+[ 954,58s]  [Dlp_Debug]DLP:fun:<syncDlpWpcToCurrent_V1> | line:679: --- eye wpcR = 121 wpcG = 182 wpcB = 182
+[ 954,59s] 128 blocks written: OK
+[ 954,59s] 128 blocks written: OK
+[ 954,59s] 128 blocks written: OK
+[ 954,60s] 128 blocks written: OK
+[ 954,60s] 128 blocks written: OK
+[ 954,62s] 128 blocks written: OK
+[ 954,62s] 128 blocks written: OK
+[ 954,62s] 128 blocks written: OK
+[ 954,62s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,63s] 128 blocks written: OK
+[ 954,63s] done
+[ 954,63s] set xgimibootreason normal to bootargs OK
+[ 954,65s] 128 blocks written: OK
+[ 954,66s] 128 blocks written: OK
+[ 954,66s] u32Size =512 blk_cnt =1
+[ 954,66s] u32Size =512 blk_cnt =1
+[ 954,68s] [SYSInfo_Debug]:fun:<GetXgimiLogoIsEnable> | line:746: ---  GetXgimiLogoIsEnable[0]
+[ 954,68s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,68s] 128 blocks written: OK
+[ 954,68s] done
+[ 954,68s] clearMusicModeFlag
+[ 954,68s] 128 blocks written: OK
+[ 954,68s] 128 blocks written: OK
+[ 954,69s] u32Size =512 blk_cnt =1
+[ 954,69s] u32Size =512 blk_cnt =1
+[ 954,69s] get keypad_detect_mode = 2
+[ 954,70s] u32Size =512 blk_cnt =1
+[ 954,70s] u32Size =512 blk_cnt =1
+[ 954,70s] get keypad_type = 7
+[ 954,70s] GetKeypadInstall
+[ 954,70s] key adc value:255
+[ 954,71s] sarKeyGetKeyCode key=255,hold=0
+[ 954,71s] HW MDrv_IIC_InitPort9: OK
+[ 954,71s] HW MDrv_IIC_InitPort9: OK
+[ 954,72s] xgimi_dri_mcu_mode:0 
+[ 954,73s] read_mcu_mode = 0
+[ 954,73s] mcuKeyGetKeyCode key=255,hold=0
+[ 954,73s] ==> do_mcu_control 
+[ 954,73s] UpdateSetAddr is: 0x2
+[ 954,73s] UpdateSetAppEntryAddr is<EF><BC><9A>0xB00
+[ 954,74s] UpdateSetWakeGpioPin is: 0x25
+[ 954,74s] ota_upgrade_mode is<EF><BC><9A>1
+[ 954,74s] ota version num is<EF><BC><9A>
+[ 954,74s] UpdateSetFilePath is: /xgimiconfig/AG222/keypad/mcu_ota_keypad.bin
+[ 954,75s] 
+[ 954,75s] ============================> MCU: upgrade Begin <============================ 
+[ 954,76s] MCU:===========>en_upgrade_mode is 1
+[ 954,76s] ====================> MCU: read OTA file Begin 
+[ 954,76s]  file[drivers/Mcu/device_mcu_atmel_Upgrade.c] fun[xgimi_read_ota_file] 
+[ 954,77s] mmc change mount : xgimiconfig
+[ 954,79s] Size of file "AG222/keypad/mcu_ota_keypad.bin" from mmc device 0 partition xgimiconfig: 11841 bytes
+[ 954,80s] ====> MCU:fileLen = 11841
+[ 954,80s] Loading file "AG222/keypad/mcu_ota_keypad.bin" at offset 0x0 from mmc device 0 partition xgimiconfig
+[ 954,82s] 11841 bytes read
+[ 954,82s] MCU:===========>compare
+[ 954,84s] MCU:m_mcu_checksumbuf[0] = 91,m_mcu_checksumbuf[1] = 1
+[ 954,84s] MCU:verify_checksum is 1835355
+[ 954,84s] MCU:m_ota_checksumbuf[0] = 91,m_ota_checksumbuf[1] = 1
+[ 954,84s] ============> MCU: Warning update files is same as old files.skip up ###############
+[ 954,85s] ============> MCU: Congratulations ,usb update success ###############
+[ 954,85s] 
+[ 954,85s] ============================> MCU: upgrade End <============================ 
+[ 954,86s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,87s] 128 blocks written: OK
+[ 954,87s] done
+[ 954,87s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = enforcing<1B>[0m
+[ 954,88s] enable dont overwrite function
+[ 954,88s] Boot Check: Reboot by WDT --------
+[ 954,89s] <1B>[33;1mXGIMI KEYPAD FLOW!!!!!!!!!!!!<1B>[0m
+[ 954,89s] [SYSInfo_Debug]:fun:<GetMtkFrc4KIsEnable> | line:756: ---  GetMtkFrc4KIsEnable[0]
+[ 954,90s] Writing to MMC(0)... 128 blocks written: OK
+[ 954,90s] 128 blocks written: OK
+[ 954,91s] done
+[ 954,94s] [QHB] normal boot mode
+[ 954,95s] Active Standby Mode FALSE =====
+[ 954,95s] <1B>[35m UTOPIA ASSERT: 0, /worktmp/build/7370/RGS504231_mediatek_REL_Disty.1/code/vendor/mediatek/proprietary_tv/apollo/linux_core/misdk/../../linux_core/misdk/utopia/UTPA2-700.0.x/build/../../mxlib/hal/GENERAL/gpio/halGPIO.c HAL_Gpio_Set_High 281<1B>[35m
+[ 954,97s] 
+[ 954,97s] MsDrv_PNL_Init:Bypass SetDivison 
+[ 954,97s] MDrv_PNL_Init u32PnlRiuBaseAddr = tx
+[ 954,98s] MDrv_PNL_Init u32PMRiuBaseAddr = tx
+[ 954,98s] MDrv_PNL_Init g_ptr_XCExtendRiuBaseAddr = 1F600000
+[ 954,99s] [MApi_XC_MLG_GetStatus, 3025]No instance existed, please get an instance by calling MApi_XC_Init() first
+[ 955,00s] MHal_PNL_Check_VBY1_Handshake_Status FALSE[msReadEfuse][3730]u32Result=tx, after mask u32Result=tx
+[ 955,01s] MHal_PNL_Check_VBY1_Handshake_Status FALSEEN_DEMURA_MULTI_NOT OK 
+[ 955,02s] <1B>[0;31m[ERROR] MApi_Demura_Init:300: <1B>[0mmulti_vendor input is not valid, init fail
+[ 955,03s] GM_DISP m_ePanelLinkType:24 
+[ 955,03s] [AT][MB][panel_pre_init][6233]
+[ 955,04s] Wait for PM51 standby DRAM ...........PM51 run ok...........Writing to MMC(0)... 128 blocks written: OK
+[ 955,07s] 128 blocks written: OK
+[ 955,07s] done
+[ 955,07s] Writing to MMC(0)... 128 blocks written: OK
+[ 955,08s] 128 blocks written: OK
+[ 955,08s] done
+[ 955,08s] <1B>[33;1m[Platform_gmSys_SElinuxOnOff]selinux = permissive<1B>[0m
+[ 955,09s] do_xgimi_Boot2Kernel start
+[ 955,09s] isMusicMode:0
+[ 955,09s] bMusicMode:0
+[ 955,09s] [setSystemStatus]:2
+[ 955,10s] 
+[ 955,10s]  ======> [mcu drv] fun:<drv_sys_type_sync> line:354 soc sync to mcu: 0x3 
+[ 955,11s] [setLightStatus]:2
+[ 955,11s] 
+[ 955,11s]  ======> [mcu drv] fun:<drv_led_type_sync> line:395 led type to mcu: 0x6 
+[ 955,13s] u32Size =512 blk_cnt =1
+[ 955,14s] u32Size =512 blk_cnt =1
+[ 955,14s] Writing to MMC(0)... 128 blocks written: OK
+[ 955,15s] 128 blocks written: OK
+[ 955,15s] done
+[ 955,15s] do nothing in mboot !
+[ 955,15s] The battery doesn't exist
+[ 955,15s] Writing to MMC(0)... 128 blocks written: OK
+[ 955,16s] 128 blocks written: OK
+[ 955,16s] done
+[ 955,16s] displayInit begin
+[ 955,16s] 
+[ 955,16s]  [Ichips_Err]ICHIPS:fun:<kstAdjustInit> | line:30: --- PkstAdjustInfo->kstAdjustType:3
+[ 955,17s] 
+[ 955,17s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceID> | line:46: --- Ichips reset
+[ 955,18s] get C382 spi cs kst type:3
+[ 955,25s] HWSPI: Platform_HWSPI_Init not implement
+[ 955,25s] HWSPI: init success
+[ 955,26s] 
+[ 955,26s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceIDC788> | line:4559: --- C788 u8IchipsID = 28
+[ 955,26s] 
+[ 955,26s]  [Ichips_Debug]ICHIPS:fun:<getIchipsDeviceID> | line:56: --- Ichips is C788
+[ 955,27s] 
+[ 955,27s]  [Ichips_Debug]ICHIPS:fun:<ichipsInit> | line:108: --- en_ichipsType = 0x1C en_panelType=1 en_signalType=2
+[ 955,28s] 
+[ 955,28s]  [Ichips_Debug]ICHIPS:fun:<ipc788ResetCoor> | line:4730: --- @#T hspc = 1920
+[ 955,29s] 
+[ 955,29s]  [Ichips_Debug]ICHIPS:fun:<ipc788ResetCoor> | line:4731: --- @#T vspc = 1080
+[ 955,29s] ichips data crc check fail
+[ 955,30s] 
+[ 955,30s]  [Ichips_Debug]ICHIPS:fun:<loadKstData> | line:4513: --- ichips read env data finish
+[ 955,32s] 
+[ 955,32s]  [Ichips_Debug]ICHIPS:fun:<ichipsInitSignalLVDS_TTL> | line:3615: --- Signal is LVDS_TTL
+[ 955,41s] 
+[ 955,41s]  [Ichips_Debug]ICHIPS:fun:<ichipsInitPanelFHD> | line:3420: --- panel is ENUM_ICHIPS_PANEL_FHD
+[ 955,53s] 
+[ 955,53s]  [Ichips_Debug]ICHIPS:fun:<calcHomography> | line:4438: --- 
+[ 955,53s] kst788 ------ ichips_788---------------->wplgct=35
+[ 955,53s] 
+[ 955,53s]  [Ichips_Debug]ICHIPS:fun:<calcHomography> | line:4438: --- 
+[ 955,53s] kst788 ------ ichips_788---------------->wplgct=33
+[ 955,54s] u32Size =512 blk_cnt =1
+[ 955,54s] u32Size =512 blk_cnt =1
+[ 955,58s] 
+[ 955,58s]  [Dlp_Debug]DLP:fun:<RegisterDlp> | line:224: --- DLP DlpType:12
+[ 955,66s] 
+[ 955,66s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 955,79s] 
+[ 955,79s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 955,92s] 
+[ 955,92s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,02s] 
+[ 956,02s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,13s] 
+[ 956,13s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,24s] 
+[ 956,24s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,36s] 
+[ 956,36s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,48s] 
+[ 956,48s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,59s] 
+[ 956,59s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,70s] 
+[ 956,70s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,82s] 
+[ 956,82s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 956,94s] 
+[ 956,94s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,05s] 
+[ 957,05s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,17s] 
+[ 957,17s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,28s] 
+[ 957,28s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,40s] 
+[ 957,40s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,51s] 
+[ 957,51s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,63s] 
+[ 957,63s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,74s] 
+[ 957,74s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,86s] 
+[ 957,86s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 957,98s] 
+[ 957,98s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,09s] 
+[ 958,09s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,21s] 
+[ 958,21s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,32s] 
+[ 958,32s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,44s] 
+[ 958,44s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,56s] 
+[ 958,56s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,67s] 
+[ 958,67s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,79s] 
+[ 958,79s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 958,90s] 
+[ 958,90s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,02s] 
+[ 959,02s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,13s] 
+[ 959,13s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,25s] 
+[ 959,25s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,37s] 
+[ 959,37s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,49s] 
+[ 959,49s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,61s] 
+[ 959,61s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,71s] 
+[ 959,71s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,83s] 
+[ 959,83s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 959,94s] 
+[ 959,94s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,06s] 
+[ 960,06s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,18s] 
+[ 960,18s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,29s] 
+[ 960,29s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,41s] 
+[ 960,41s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,52s] 
+[ 960,52s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,64s] 
+[ 960,64s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,75s] 
+[ 960,75s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,87s] 
+[ 960,87s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 960,99s] 
+[ 960,99s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,13s] 
+[ 961,13s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,22s] 
+[ 961,22s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,33s] 
+[ 961,33s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,45s] 
+[ 961,45s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,45s] 
+[ 961,45s]  [Dlp_Err]DLP:fun:<ReadDlpIIC> | line:1575: --- DLP IIC Read Failed
+[ 961,67s] 
+[ 961,67s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,79s] 
+[ 961,79s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 961,90s] 
+[ 961,90s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,02s] 
+[ 962,02s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,13s] 
+[ 962,13s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,25s] 
+[ 962,25s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,37s] 
+[ 962,37s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,48s] 
+[ 962,48s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,60s] 
+[ 962,60s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,71s] 
+[ 962,71s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,83s] 
+[ 962,83s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 962,95s] 
+[ 962,95s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,06s] 
+[ 963,06s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,18s] 
+[ 963,18s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,29s] 
+[ 963,29s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,41s] 
+[ 963,41s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,52s] 
+[ 963,52s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,64s] 
+[ 963,64s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,76s] 
+[ 963,76s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,87s] 
+[ 963,87s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 963,99s] 
+[ 963,99s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,10s] 
+[ 964,10s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,22s] 
+[ 964,22s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,33s] 
+[ 964,33s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,45s] 
+[ 964,45s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,57s] 
+[ 964,57s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,68s] 
+[ 964,68s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,80s] 
+[ 964,80s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 964,91s] 
+[ 964,91s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,03s] 
+[ 965,03s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,14s] 
+[ 965,14s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,26s] 
+[ 965,26s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,38s] 
+[ 965,38s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,49s] 
+[ 965,49s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,61s] 
+[ 965,61s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,72s] 
+[ 965,72s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,84s] 
+[ 965,84s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 965,96s] 
+[ 965,96s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,07s] 
+[ 966,07s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,19s] 
+[ 966,19s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,30s] 
+[ 966,30s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,42s] 
+[ 966,42s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,54s] 
+[ 966,54s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,65s] 
+[ 966,65s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,77s] 
+[ 966,77s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 966,88s] 
+[ 966,88s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,00s] 
+[ 967,00s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,11s] 
+[ 967,11s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,23s] 
+[ 967,23s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,34s] 
+[ 967,34s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,46s] 
+[ 967,46s]  [Dlp_Debug]DLP:fun:<ReadDlpIIC> | line:1570: --- read 0xD4  retry
+[ 967,47s] 
+[ 967,47s]  [Dlp_Err]DLP:fun:<ReadDlpIIC> | line:1575: --- DLP IIC Read Failed
+[ 967,47s] 
+[ 967,47s]  [Dlp_Err]DLP:fun:<GetDlpDeviceid> | line:1596: --- read flash vsersion fail
+[ 967,48s] 
+[ 967,48s]  [Dlp_Debug]DLP:fun:<RegisterDlp> | line:252: --- DLP deviceid:255
+[ 967,49s] 
+[ 967,49s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 967,49s] 
+[ 967,49s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 967,50s] 
+[ 967,50s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 967,51s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 972,52s] 
+[ 972,52s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 972,53s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 972,53s] 
+[ 972,53s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 972,54s]  init act begin : 23731
+[ 979,24s] 
+[ 979,24s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 985,95s] 
+[ 985,95s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[ 986,07s] 
+[ 986,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,19s] 
+[ 986,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,30s] 
+[ 986,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,42s] 
+[ 986,42s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,54s] 
+[ 986,54s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,65s] 
+[ 986,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,77s] 
+[ 986,77s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 986,89s] 
+[ 986,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 987,00s] 
+[ 987,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 987,12s] 
+[ 987,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 987,24s] 
+[ 987,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[ 987,24s] 
+[ 987,24s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 987,36s] 
+[ 987,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 987,48s] 
+[ 987,48s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 987,59s] 
+[ 987,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 987,71s] 
+[ 987,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 987,83s] 
+[ 987,83s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 987,95s] 
+[ 987,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,06s] 
+[ 988,06s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,18s] 
+[ 988,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,29s] 
+[ 988,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,41s] 
+[ 988,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,53s] 
+[ 988,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,53s] 
+[ 988,53s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 988,65s] 
+[ 988,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,77s] 
+[ 988,77s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 988,89s] 
+[ 988,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,00s] 
+[ 989,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,12s] 
+[ 989,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,23s] 
+[ 989,23s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,36s] 
+[ 989,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,47s] 
+[ 989,47s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,59s] 
+[ 989,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,70s] 
+[ 989,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,82s] 
+[ 989,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[ 989,83s] 
+[ 989,83s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[ 989,83s] 
+[ 989,83s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[ 989,84s] 
+[ 989,84s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[ 989,85s] 
+[ 989,85s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[ 989,85s] 
+[ 989,85s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[ 990,06s] 
+[ 990,06s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[ 990,26s] 
+[ 990,26s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[ 990,27s] 
+[ 990,27s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[ 990,28s] 
+[ 990,28s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[ 990,28s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[ 995,30s] 
+[ 995,30s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[ 995,30s] Xgimi_Update_DevErrLog-StrConvert fail
+[ 995,31s] 
+[ 995,31s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[ 995,31s]  init act begin : 46507
+[1002,02s] 
+[1002,02s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1008,73s] 
+[1008,73s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1008,84s] 
+[1008,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1008,96s] 
+[1008,96s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,08s] 
+[1009,08s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,20s] 
+[1009,20s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,31s] 
+[1009,31s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,43s] 
+[1009,43s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,55s] 
+[1009,55s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,66s] 
+[1009,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,78s] 
+[1009,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1009,89s] 
+[1009,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1010,01s] 
+[1010,01s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1010,02s] 
+[1010,02s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1010,14s] 
+[1010,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,25s] 
+[1010,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,37s] 
+[1010,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,49s] 
+[1010,49s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,60s] 
+[1010,60s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,72s] 
+[1010,72s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,84s] 
+[1010,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1010,95s] 
+[1010,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,07s] 
+[1011,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,19s] 
+[1011,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,30s] 
+[1011,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,31s] 
+[1011,31s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1011,43s] 
+[1011,43s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,54s] 
+[1011,54s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,66s] 
+[1011,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,78s] 
+[1011,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1011,89s] 
+[1011,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,01s] 
+[1012,01s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,13s] 
+[1012,13s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,24s] 
+[1012,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,36s] 
+[1012,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,48s] 
+[1012,48s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,59s] 
+[1012,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1012,60s] 
+[1012,60s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1012,61s] 
+[1012,61s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[1012,62s] 
+[1012,62s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[1012,62s] 
+[1012,62s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[1012,63s] 
+[1012,63s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[1012,83s] 
+[1012,83s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[1013,04s] 
+[1013,04s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[1013,04s] 
+[1013,04s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[1013,05s] 
+[1013,05s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[1013,06s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[1018,08s] 
+[1018,08s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[1018,08s] Xgimi_Update_DevErrLog-StrConvert fail
+[1018,08s] 
+[1018,08s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[1018,09s]  init act begin : 69283
+[1024,79s] 
+[1024,79s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1031,50s] 
+[1031,50s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1031,62s] 
+[1031,62s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1031,74s] 
+[1031,74s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1031,85s] 
+[1031,85s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1031,97s] 
+[1031,97s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,09s] 
+[1032,09s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,20s] 
+[1032,20s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,32s] 
+[1032,32s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,44s] 
+[1032,44s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,56s] 
+[1032,56s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,67s] 
+[1032,67s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,79s] 
+[1032,79s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1032,79s] 
+[1032,79s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1032,93s] 
+[1032,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,03s] 
+[1033,03s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,15s] 
+[1033,15s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,26s] 
+[1033,26s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,38s] 
+[1033,38s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,50s] 
+[1033,50s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,61s] 
+[1033,61s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,73s] 
+[1033,73s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,85s] 
+[1033,85s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1033,96s] 
+[1033,96s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,08s] 
+[1034,08s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,09s] 
+[1034,09s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1034,20s] 
+[1034,20s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,32s] 
+[1034,32s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,44s] 
+[1034,44s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,55s] 
+[1034,55s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,67s] 
+[1034,67s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,79s] 
+[1034,79s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1034,90s] 
+[1034,90s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1035,02s] 
+[1035,02s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1035,14s] 
+[1035,14s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1035,25s] 
+[1035,25s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1035,37s] 
+[1035,37s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1035,38s] 
+[1035,38s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1035,38s] 
+[1035,39s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[1035,39s] 
+[1035,39s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[1035,40s] 
+[1035,40s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[1035,40s] 
+[1035,40s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[1035,63s] 
+[1035,63s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[1035,81s] 
+[1035,81s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[1035,82s] 
+[1035,82s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[1035,82s] 
+[1035,82s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[1035,83s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[1040,85s] 
+[1040,85s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[1040,86s] Xgimi_Update_DevErrLog-StrConvert fail
+[1040,86s] 
+[1040,86s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[1040,86s]  init act begin : 92060
+[1047,57s] 
+[1047,57s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1054,28s] 
+[1054,28s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1054,40s] 
+[1054,40s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1054,52s] 
+[1054,52s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1054,63s] 
+[1054,63s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1054,75s] 
+[1054,75s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1054,86s] 
+[1054,86s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1054,98s] 
+[1054,98s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,10s] 
+[1055,10s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,22s] 
+[1055,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,34s] 
+[1055,34s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,45s] 
+[1055,45s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,57s] 
+[1055,57s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1055,57s] 
+[1055,57s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1055,69s] 
+[1055,69s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1055,86s] 
+[1055,86s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1055,93s] 
+[1055,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,04s] 
+[1056,04s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,16s] 
+[1056,16s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,27s] 
+[1056,27s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,39s] 
+[1056,39s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,50s] 
+[1056,51s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,62s] 
+[1056,62s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,74s] 
+[1056,74s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,86s] 
+[1056,86s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1056,86s] 
+[1056,86s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1056,98s] 
+[1056,98s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,10s] 
+[1057,10s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,21s] 
+[1057,21s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,33s] 
+[1057,33s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,45s] 
+[1057,45s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,56s] 
+[1057,56s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,68s] 
+[1057,68s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,80s] 
+[1057,80s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1057,91s] 
+[1057,91s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1058,03s] 
+[1058,03s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1058,19s] 
+[1058,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1058,19s] 
+[1058,19s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1058,19s] 
+[1058,19s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[1058,19s] 
+[1058,19s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[1058,19s] 
+[1058,19s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[1058,19s] 
+[1058,19s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[1058,38s] 
+[1058,38s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[1058,59s] 
+[1058,59s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[1058,60s] 
+[1058,60s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[1058,60s] 
+[1058,60s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[1058,61s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[1063,63s] 
+[1063,63s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[1063,63s] Xgimi_Update_DevErrLog-StrConvert fail
+[1063,64s] 
+[1063,64s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[1063,64s]  init act begin : 114836
+[1070,35s] 
+[1070,35s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1077,06s] 
+[1077,06s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1077,17s] 
+[1077,17s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,29s] 
+[1077,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,41s] 
+[1077,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,52s] 
+[1077,52s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,64s] 
+[1077,64s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,76s] 
+[1077,76s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,87s] 
+[1077,87s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1077,99s] 
+[1077,99s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1078,11s] 
+[1078,11s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1078,22s] 
+[1078,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1078,34s] 
+[1078,34s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1078,35s] 
+[1078,35s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1078,46s] 
+[1078,46s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1078,58s] 
+[1078,58s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1078,70s] 
+[1078,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1078,82s] 
+[1078,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1078,93s] 
+[1078,93s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,05s] 
+[1079,05s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,16s] 
+[1079,16s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,28s] 
+[1079,28s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,40s] 
+[1079,40s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,51s] 
+[1079,51s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,63s] 
+[1079,63s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,64s] 
+[1079,64s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1079,76s] 
+[1079,76s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1079,89s] 
+[1079,89s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,00s] 
+[1080,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,11s] 
+[1080,11s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,22s] 
+[1080,22s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,34s] 
+[1080,34s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,46s] 
+[1080,46s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,57s] 
+[1080,57s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,69s] 
+[1080,69s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,81s] 
+[1080,81s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,92s] 
+[1080,92s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1080,93s] 
+[1080,93s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1080,94s] 
+[1080,94s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[1080,94s] 
+[1080,94s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[1080,95s] 
+[1080,95s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[1080,96s] 
+[1080,96s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[1081,16s] 
+[1081,16s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[1081,37s] 
+[1081,37s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[1081,37s] 
+[1081,37s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[1081,38s] 
+[1081,38s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[1081,39s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[1086,40s] 
+[1086,40s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[1086,41s] Xgimi_Update_DevErrLog-StrConvert fail
+[1086,41s] 
+[1086,41s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[1086,42s]  init act begin : 137613
+[1093,12s] 
+[1093,12s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1099,83s] 
+[1099,83s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1099,95s] 
+[1099,95s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,07s] 
+[1100,07s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,18s] 
+[1100,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,30s] 
+[1100,30s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,42s] 
+[1100,42s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,53s] 
+[1100,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,65s] 
+[1100,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,77s] 
+[1100,77s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1100,88s] 
+[1100,88s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1101,00s] 
+[1101,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1101,12s] 
+[1101,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1101,12s] 
+[1101,12s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1101,24s] 
+[1101,24s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,36s] 
+[1101,36s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,48s] 
+[1101,48s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,59s] 
+[1101,59s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,71s] 
+[1101,71s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,82s] 
+[1101,82s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1101,94s] 
+[1101,94s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,06s] 
+[1102,06s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,18s] 
+[1102,18s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,29s] 
+[1102,29s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,41s] 
+[1102,41s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,42s] 
+[1102,42s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1102,53s] 
+[1102,53s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,65s] 
+[1102,65s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,76s] 
+[1102,76s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1102,88s] 
+[1102,88s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,00s] 
+[1103,00s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,12s] 
+[1103,12s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,23s] 
+[1103,23s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,35s] 
+[1103,35s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,47s] 
+[1103,47s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,58s] 
+[1103,58s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,70s] 
+[1103,70s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE4  retry
+[1103,71s] 
+[1103,71s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:130: --- DLP3439 IIC Read Failed
+[1103,71s] 
+[1103,71s]  [Dlp_Err]DLP:fun:<dlp_init_act_para> | line:1079: --- oem tag invalid
+[1103,72s] 
+[1103,72s]  [Dlp_Debug]DLP:fun:<Init> | line:353: --- DLP3439 init end!
+[1103,72s] 
+[1103,72s]  [Dlp_Warning]DLP:fun:<DlpFunInit> | line:1407: --- pDlp Init timeout
+[1103,73s] 
+[1103,73s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:249: --- Power_Off
+[1103,94s] 
+[1103,94s]  [Dlp_Debug]DLP:fun:<PowerOnOff> | line:246: --- Power_On
+[1104,14s] 
+[1104,14s]  [Dlp_Debug]DLP:fun:<DlpFunInit> | line:1392: --- memc 120 0
+[1104,15s] 
+[1104,15s]  [Dlp_Debug]DLP:fun:<Init> | line:304: --- DLP3439 init begin!
+[1104,15s] 
+[1104,15s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:273: --- getOverlapStatus sw_config1=0 sw_config2=0\n
+[1104,17s]  [Dlp_Debug]DLP:fun:<getOverlapStatus> | line:281: --- NO OverLapOnOff
+[1109,18s] 
+[1109,18s]  [Dlp_Debug]DLP:fun:<Init> | line:345: --- Host IRQ check fail
+[1109,18s] Xgimi_Update_DevErrLog-StrConvert fail
+[1109,19s] 
+[1109,19s]  [Dlp_Debug]DLP:fun:<dlp_init_act_para> | line:1072: --- 
+[1109,19s]  init act begin : 160389
+[1115,90s] 
+[1115,90s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1122,61s] 
+[1122,61s]  [Dlp_Err]DLP:fun:<XGIMI_DLP3439_IIC_Write> | line:172: --- DLP3439 IIC Write Failed
+[1122,73s] 
+[1122,73s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1122,84s] 
+[1122,84s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1122,96s] 
+[1122,96s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,08s] 
+[1123,08s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,19s] 
+[1123,19s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,31s] 
+[1123,31s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,43s] 
+[1123,43s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,54s] 
+[1123,54s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,66s] 
+[1123,66s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1123,78s] 
+[1123,78s]  [Dlp_Debug]DLP:fun:<XGIMI_DLP3439_IIC_READ> | line:125: --- read 0xE3  retry
+[1124,11s] <00>

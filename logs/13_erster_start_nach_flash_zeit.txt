@@ -1,0 +1,55 @@
+[  87,47s] <00>UART_115200
+[  98,93s] 
+[  98,93s] AC_ON
+[  98,93s] 01-2L-SM-10-20201028
+[  98,93s] B44
+[  98,94s] MIU0_DQS-OK
+[  98,95s] BIST0-OK
+[  99,04s] optee teeloader entry
+[  99,24s] CusConfig
+[  99,24s] eMMC_RPMB_Check_Program_Key
+[  99,25s] *ree_opt=0000007B
+[  99,25s] Auth reeloader...
+[  99,26s] Decrypt reeloader...
+[  99,26s] Check reeloader magic ID...
+[  99,26s] Version check on reeloader...
+[  99,27s] Auth CKB...
+[  99,27s] Decrypt CKB...
+[  99,27s] Check CKB magic ID...
+[  99,27s] reeloader_addr=20100000
+[  99,28s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[  99,28s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[  99,29s] INFO:    warmboot return address : 9dc01c00
+[  99,29s] INFO:    BL3-1: Initializing runtime services
+[  99,29s] NOTICE:  From args : boot_mbx = 20028084 
+[  99,30s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[  99,30s] INFO:    BL3-1: Initializing BL3-2
+[  99,47s] [Ramlog] ramlog_init init success
+[  99,47s] 
+[  99,49s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[  99,50s] INFO:    BL3-1: Next image address = 0x20100000
+[  99,50s] INFO:    BL3-1: Next image spsr = 0x1d3
+[  99,50s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[  99,52s] INFO:    R1 0
+[  99,52s] INFO:    R2 0
+[  99,52s] INFO:    R3 0
+[  99,52s] ree_entry
+[  99,55s] U
+[  99,55s] Relocation Offset is: 01700000
+[  99,62s] [AT][MB][start ub][710]
+[  99,63s] 
+[  99,63s] U-Boot 2011.06 (Aug 19 2022 - 13:50:00) 
+[  99,63s] 
+[  99,64s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[  99,64s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[  99,65s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[  99,66s] 
+[  99,66s] eMMC HS400 5.1 200MHz
+[  99,66s] eMMC 29.12 GB 
+[  99,66s] eMMC used life: 0~10%
+[  99,67s]  CID
+[  99,67s]   0xXXXXXXXX
+[  99,67s]   0xXXXXXXXX
+[  99,67s]   0xXXXXXXXX
+[  99,67s]   0xXXXXXXXX
+[ 101,32s] 

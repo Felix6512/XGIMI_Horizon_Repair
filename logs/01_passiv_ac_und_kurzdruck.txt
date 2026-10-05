@@ -1,0 +1,148 @@
+UART_115200
+
+
+AC_ON
+01-2L-SM-10-20201028
+
+B44
+
+MIU0_DQS-OK
+
+BIST0-OK
+
+optee teeloader entry
+CusConfig
+eMMC_RPMB_Check_Program_Key
+*ree_opt=0000007B
+Auth reeloader...
+Decrypt reeloader...
+Check reeloader magic ID...
+Version check on reeloader...
+Auth CKB...
+Decrypt CKB...
+Check CKB magic ID...
+reeloader_addr=20100000
+NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+INFO:    warmboot return address : 9dc01c00
+INFO:    BL3-1: Initializing runtime services
+NOTICE:  From args : boot_mbx = 20028084 
+INFO:    [0;32;31m [Booting] mstar_send_magic_ATF 479 [m
+INFO:    BL3-1: Initializing BL3-2
+[Ramlog] ramlog_init init success
+
+INFO:    BL3-1: Preparing for EL3 exit to normal world
+INFO:    BL3-1: Next image address = 0x20100000
+INFO:    BL3-1: Next image spsr = 0x1d3
+INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+INFO:    R1 0
+INFO:    R2 0
+INFO:    R3 0
+ree_entry
+U
+Relocation Offset is: 01700000
+[AT][MB][start ub][719]
+
+U-Boot 2011.06 (Oct 21 2022 - 21:17:20) 
+
+[Utopia][SYS]: [35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0[m
+[Utopia][SYS]: [35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...[m
+[Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+
+eMMC HS400 5.1 200MHz
+eMMC 29.12 GB 
+eMMC used life: 0~10%
+ CID
+  0xXXXXXXXX
+  0xXXXXXXXX
+  0xXXXXXXXX
+  0xXXXXXXXX
+
+CRC Check OPEN: 1
+
+[GPIO_WAKE_SETTING]
+
+WOW_GPIO_NUM        = 0
+
+WOBT_GPIO_NUM       = 13
+
+WOEWBS_GPIO_NUM     = 255
+
+
+
+[PM_GPIO_WAKE_SETTING]
+
+WOW_PM_GPIO_NUM     = 17
+
+WOBT_PM_GPIO_NUM    = 7
+
+WOEWBS_PM_GPIO_NUM  = 0
+
+
+
+BTW = FF
+
+0x8709
+
+Power Down
+
+ÿUART_115200
+
+
+AC_ON
+01-2L-SM-10-20201028
+
+B44
+
+MIU0_DQS-OK
+
+BIST0-OK
+
+optee teeloader entry
+CusConfig
+eMMC_RPMB_Check_Program_Key
+*ree_opt=0000007B
+Auth reeloader...
+Decrypt reeloader...
+Check reeloader magic ID...
+Version check on reeloader...
+Auth CKB...
+Decrypt CKB...
+Check CKB magic ID...
+reeloader_addr=20100000
+NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+INFO:    warmboot return address : 9dc01c00
+INFO:    BL3-1: Initializing runtime services
+NOTICE:  From args : boot_mbx = 20028084 
+INFO:    [0;32;31m [Booting] mstar_send_magic_ATF 479 [m
+INFO:    BL3-1: Initializing BL3-2
+[Ramlog] ramlog_init init success
+
+INFO:    BL3-1: Preparing for EL3 exit to normal world
+INFO:    BL3-1: Next image address = 0x20100000
+INFO:    BL3-1: Next image spsr = 0x1d3
+INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+INFO:    R1 0
+INFO:    R2 0
+INFO:    R3 0
+ree_entry
+U
+Relocation Offset is: 01700000
+[AT][MB][start ub][719]
+
+U-Boot 2011.06 (Oct 21 2022 - 21:17:20) 
+
+[Utopia][SYS]: [35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0[m
+[Utopia][SYS]: [35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...[m
+[Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+
+eMMC HS400 5.1 200MHz
+eMMC 29.12 GB 
+eMMC used life: 0~10%
+ CID
+  0xXXXXXXXX
+  0xXXXXXXXX
+  0xXXXXXXXX
+  0xXXXXXXXX
+

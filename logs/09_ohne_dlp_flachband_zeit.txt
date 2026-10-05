@@ -1,0 +1,192 @@
+[   0,01s] <00>UART_115200
+[  22,77s] 
+[  22,77s] AC_ON
+[  22,77s] 01-2L-SM-10-20201028
+[  22,77s] B44
+[  22,79s] MIU0_DQS-OK
+[  22,79s] BIST0-OK
+[  22,88s] optee teeloader entry
+[  23,08s] CusConfig
+[  23,09s] eMMC_RPMB_Check_Program_Key
+[  23,09s] *ree_opt=0000007B
+[  23,10s] Auth reeloader...
+[  23,10s] Decrypt reeloader...
+[  23,10s] Check reeloader magic ID...
+[  23,11s] Version check on reeloader...
+[  23,11s] Auth CKB...
+[  23,11s] Decrypt CKB...
+[  23,12s] Check CKB magic ID...
+[  23,12s] reeloader_addr=20100000
+[  23,12s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[  23,13s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[  23,13s] INFO:    warmboot return address : 9dc01c00
+[  23,14s] INFO:    BL3-1: Initializing runtime services
+[  23,14s] NOTICE:  From args : boot_mbx = 20028084 
+[  23,14s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[  23,15s] INFO:    BL3-1: Initializing BL3-2
+[  23,31s] [Ramlog] ramlog_init init success
+[  23,32s] 
+[  23,33s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[  23,34s] INFO:    BL3-1: Next image address = 0x20100000
+[  23,34s] INFO:    BL3-1: Next image spsr = 0x1d3
+[  23,35s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[  23,35s] INFO:    R1 0
+[  23,35s] INFO:    R2 0
+[  23,35s] INFO:    R3 0
+[  23,36s] ree_entry
+[  23,39s] U
+[  23,40s] Relocation Offset is: 01700000
+[  23,47s] [AT][MB][start ub][713]
+[  23,47s] 
+[  23,47s] U-Boot 2011.06 (Oct 21 2022 - 21:17:20) 
+[  23,48s] 
+[  23,48s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[  23,49s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[  23,50s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[  23,50s] 
+[  23,50s] eMMC HS400 5.1 200MHz
+[  23,51s] eMMC 29.12 GB 
+[  23,51s] eMMC used life: 0~10%
+[  23,51s]  CID
+[  23,51s]   0xXXXXXXXX
+[  23,51s]   0xXXXXXXXX
+[  23,51s]   0xXXXXXXXX
+[  23,52s]   0xXXXXXXXX
+[  23,55s] 
+[  26,30s] CRC Check OPEN: 1
+[  26,30s] [GPIO_WAKE_SETTING]
+[  26,30s] WOW_GPIO_NUM        = 0
+[  26,30s] WOBT_GPIO_NUM       = 13
+[  26,31s] WOEWBS_GPIO_NUM     = 255
+[  26,31s] 
+[  26,31s] [PM_GPIO_WAKE_SETTING]
+[  26,31s] WOW_PM_GPIO_NUM     = 17
+[  26,31s] WOBT_PM_GPIO_NUM    = 7
+[  26,32s] WOEWBS_PM_GPIO_NUM  = 0
+[  26,32s] 
+[  26,32s] BTW = FF
+[  26,32s] 0x8709
+[  26,32s] Power Down<FF>UART_115200
+[  33,02s] 
+[  33,02s] AC_ON
+[  33,02s] 01-2L-SM-10-20201028
+[  33,03s] B44
+[  33,04s] MIU0_DQS-OK
+[  33,04s] BIST0-OK
+[  33,14s] optee teeloader entry
+[  33,34s] CusConfig
+[  33,35s] eMMC_RPMB_Check_Program_Key
+[  33,35s] *ree_opt=0000007B
+[  33,36s] Auth reeloader...
+[  33,36s] Decrypt reeloader...
+[  33,36s] Check reeloader magic ID...
+[  33,37s] Version check on reeloader...
+[  33,37s] Auth CKB...
+[  33,37s] Decrypt CKB...
+[  33,37s] Check CKB magic ID...
+[  33,38s] reeloader_addr=20100000
+[  33,38s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[  33,39s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[  33,39s] INFO:    warmboot return address : 9dc01c00
+[  33,39s] INFO:    BL3-1: Initializing runtime services
+[  33,40s] NOTICE:  From args : boot_mbx = 20028084 
+[  33,40s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[  33,41s] INFO:    BL3-1: Initializing BL3-2
+[  33,57s] [Ramlog] ramlog_init init success
+[  33,57s] 
+[  33,59s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[  33,60s] INFO:    BL3-1: Next image address = 0x20100000
+[  33,60s] INFO:    BL3-1: Next image spsr = 0x1d3
+[  33,61s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[  33,61s] INFO:    R1 0
+[  33,61s] INFO:    R2 0
+[  33,61s] INFO:    R3 0
+[  33,61s] ree_entry
+[  33,65s] U
+[  33,65s] Relocation Offset is: 01700000
+[  33,73s] [AT][MB][start ub][716]
+[  33,73s] 
+[  33,73s] U-Boot 2011.06 (Oct 21 2022 - 21:17:20) 
+[  33,73s] 
+[  33,74s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[  33,75s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[  33,76s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[  33,76s] 
+[  33,76s] eMMC HS400 5.1 200MHz
+[  33,77s] eMMC 29.12 GB 
+[  33,77s] eMMC used life: 0~10%
+[  33,77s]  CID
+[  33,77s]   0xXXXXXXXX
+[  33,77s]   0xXXXXXXXX
+[  33,77s]   0xXXXXXXXX
+[  33,77s]   0xXXXXXXXX
+[  33,80s] 
+[  93,98s] UART_115200
+[  93,98s] 
+[  93,98s] AC_ON
+[  93,98s] 01-2L-SM-10-20201028
+[  93,99s] B44
+[  94,00s] MIU0_DQS-OK
+[  94,00s] BIST0-OK
+[  94,10s] optee teeloader entry
+[  94,30s] CusConfig
+[  94,30s] eMMC_RPMB_Check_Program_Key
+[  94,31s] *ree_opt=0000007B
+[  94,31s] Auth reeloader...
+[  94,32s] Decrypt reeloader...
+[  94,32s] Check reeloader magic ID...
+[  94,32s] Version check on reeloader...
+[  94,33s] Auth CKB...
+[  94,33s] Decrypt CKB...
+[  94,33s] Check CKB magic ID...
+[  94,33s] reeloader_addr=20100000
+[  94,34s] NOTICE:  BL3-1: v1.1(debug):8ad6fdab
+[  94,34s] NOTICE:  BL3-1: Built : 14:48:41, Jun 28 2022
+[  94,35s] INFO:    warmboot return address : 9dc01c00
+[  94,35s] INFO:    BL3-1: Initializing runtime services
+[  94,35s] NOTICE:  From args : boot_mbx = 20028084 
+[  94,36s] INFO:    <1B>[0;32;31m [Booting] mstar_send_magic_ATF 479 <1B>[m
+[  94,36s] INFO:    BL3-1: Initializing BL3-2
+[  94,53s] [Ramlog] ramlog_init init success
+[  94,53s] 
+[  94,55s] INFO:    BL3-1: Preparing for EL3 exit to normal world
+[  94,56s] INFO:    BL3-1: Next image address = 0x20100000
+[  94,56s] INFO:    BL3-1: Next image spsr = 0x1d3
+[  94,56s] INFO:    BIN1_32bit mode Jun 28 2022 14:48:41
+[  94,57s] INFO:    R1 0
+[  94,57s] INFO:    R2 0
+[  94,57s] INFO:    R3 0
+[  94,57s] ree_entry
+[  94,61s] U
+[  94,61s] Relocation Offset is: 01700000
+[  94,69s] [AT][MB][start ub][713]
+[  94,69s] 
+[  94,69s] U-Boot 2011.06 (Oct 21 2022 - 21:17:20) 
+[  94,69s] 
+[  94,70s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3587, current resource pri_shm content is: 0<1B>[m
+[  94,71s] [Utopia][SYS]: <1B>[35mFunction = SYSOpen, Line = 3606, [SYS INFO] OPEN INSTANCE...<1B>[m
+[  94,71s] [Utopia][MIU]: [MIU INFO] miu openUboot Relocation:  152 MiB
+[  94,72s] 
+[  94,72s] eMMC HS400 5.1 200MHz
+[  94,72s] eMMC 29.12 GB 
+[  94,72s] eMMC used life: 0~10%
+[  94,73s]  CID
+[  94,73s]   0xXXXXXXXX
+[  94,73s]   0xXXXXXXXX
+[  94,73s]   0xXXXXXXXX
+[  94,73s]   0xXXXXXXXX
+[  94,80s] 
+[  97,55s] CRC Check OPEN: 1
+[  97,55s] [GPIO_WAKE_SETTING]
+[  97,55s] WOW_GPIO_NUM        = 0
+[  97,56s] WOBT_GPIO_NUM       = 13
+[  97,56s] WOEWBS_GPIO_NUM     = 255
+[  97,56s] 
+[  97,56s] [PM_GPIO_WAKE_SETTING]
+[  97,56s] WOW_PM_GPIO_NUM     = 17
+[  97,56s] WOBT_PM_GPIO_NUM    = 7
+[  97,57s] WOEWBS_PM_GPIO_NUM  = 0
+[  97,57s] 
+[  97,57s] BTW = FF
+[  97,57s] 0x8709
+[  97,57s] Power Down
