@@ -52,6 +52,8 @@ Serie, `DLP IIC Read Failed`, `Host IRQ check fail`, dann `Power_Off` / `Power_O
 
 ## Der Weg dorthin (Kurzform)
 
+Die vollständige Reihenfolge aller Versuche, auch der Sackgassen, steht in der [Chronik](docs/chronik.md).
+
 1. **Serielle Konsole finden.** Auf dem Mainboard sitzt ein vierpoliger Stecker mit der Beschriftung `Debug`
    (Platzhalter `J26`, Bauteilname `J5`). 115200 Baud, 8N1, 3,3 V-Pegel. Empfangen ging sofort,
    Senden zum Gerät hat der Bootloader nie angenommen (Ursache nicht geklärt).
